@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: babb497317135244da8d06883b2c4e81
+timeCreated: 1508547250
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Iskoola Pota
+  fontNames:
+  - Iskoola Pota
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5520d820757efc84cbc5ecd8027791a4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

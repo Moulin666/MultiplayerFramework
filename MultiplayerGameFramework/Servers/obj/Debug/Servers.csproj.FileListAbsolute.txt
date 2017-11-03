@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\Projects\MMOProject\MultiplayerGameFramework\Servers\obj\Debug\Servers.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\Projects\MMOProject\PhotonSDK\deploy\TestServer\TestServer.config
+C:\Users\admin\Desktop\Projects\MMOProject\PhotonSDK\deploy\TestServer\Servers.dll.config
+C:\Users\admin\Desktop\Projects\MMOProject\PhotonSDK\deploy\TestServer\Servers.dll
+C:\Users\admin\Desktop\Projects\MMOProject\PhotonSDK\deploy\TestServer\Servers.pdb
+C:\Users\admin\Desktop\Projects\MMOProject\MultiplayerGameFramework\Servers\obj\Debug\Servers.dll
+C:\Users\admin\Desktop\Projects\MMOProject\MultiplayerGameFramework\Servers\obj\Debug\Servers.pdb
+C:\Users\admin\Desktop\Projects\MMOProject\PhotonSDK\deploy\TestServer\log4net.config

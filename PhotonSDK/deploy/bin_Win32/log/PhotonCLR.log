@@ -1,0 +1,6 @@
+2017-11-01 22:28:11,941 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2017-11-01 22:28:11,954 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2017-11-01 22:28:11,956 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2017-11-01 22:28:11,991 [ 1] ERROR PhotonHostRuntime.PhotonDomainManager - Failed to get PhotonLicensing instance: Не удалось загрузить файл или сборку "PhotonLicensing, Version=4.1.28.2936, Culture=neutral, PublicKeyToken=02c301b61b060c4d" либо одну из их зависимостей. Операция не поддерживается. (Исключение из HRESULT: 0x80131515)
+2017-11-01 22:28:11,992 [ 1] ERROR PhotonHostRuntime.PhotonDomainManager - ERROR: failed to load PhotonLicensing.dll. Going to shutdown.
+2017-11-01 22:28:11,993 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'

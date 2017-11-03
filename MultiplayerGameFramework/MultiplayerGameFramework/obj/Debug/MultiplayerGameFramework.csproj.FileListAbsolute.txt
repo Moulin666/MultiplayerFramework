@@ -1,0 +1,5 @@
+C:\Users\admin\Desktop\Projects\MMOProject\MultiplayerGameFramework\MultiplayerGameFramework\bin\Debug\MultiplayerGameFramework.dll
+C:\Users\admin\Desktop\Projects\MMOProject\MultiplayerGameFramework\MultiplayerGameFramework\bin\Debug\MultiplayerGameFramework.pdb
+C:\Users\admin\Desktop\Projects\MMOProject\MultiplayerGameFramework\MultiplayerGameFramework\obj\Debug\MultiplayerGameFramework.dll
+C:\Users\admin\Desktop\Projects\MMOProject\MultiplayerGameFramework\MultiplayerGameFramework\obj\Debug\MultiplayerGameFramework.pdb
+C:\Users\admin\Desktop\Projects\MMOProject\MultiplayerGameFramework\MultiplayerGameFramework\obj\Debug\MultiplayerGameFramework.csprojResolveAssemblyReference.cache
