@@ -5,6 +5,10 @@ using System.Linq;
 
 namespace MultiplayerGameFramework.Implementation.Messaging
 {
+	/// <summary>
+	/// List of handlers for the server.
+	/// </summary>
+	/// <typeparam name="T"></typeparam>
 	public class ServerHandlerList : IHandlerList<IServerPeer>
 	{
 		private readonly IDefaultRequestHandler<IServerPeer> _defaultRequestHandler;
@@ -20,6 +24,13 @@ namespace MultiplayerGameFramework.Implementation.Messaging
 		private readonly List<IHandler<IServerPeer>> _eventSubCodeHandlerList;
 		private readonly List<IHandler<IServerPeer>> _eventCodeHandlerList;
 
+		/// <summary>
+		/// Base constructor.
+		/// </summary>
+		/// <param name="handlers">All handlers for storing.</param>
+		/// <param name="defaultRequestHandler"></param>
+		/// <param name="defaultResponseHandler"></param>
+		/// <param name="defaultEventHandler"></param>
 		public ServerHandlerList(IEnumerable<IHandler<IServerPeer>> handlers,
 			IDefaultRequestHandler<IServerPeer> defaultRequestHandler,
 			IDefaultResponseHandler<IServerPeer> defaultResponseHandler,
@@ -44,6 +55,11 @@ namespace MultiplayerGameFramework.Implementation.Messaging
 			}
 		}
 
+		/// <summary>
+		/// Register new handler.
+		/// </summary>
+		/// <param name="handler">IHandler for register.</param>
+		/// <returns>Register state.</returns>
 		public bool RegisterHandler(IHandler<IServerPeer> handler)
 		{
 			var registered = false;
@@ -93,6 +109,12 @@ namespace MultiplayerGameFramework.Implementation.Messaging
 			return registered;
 		}
 
+		/// <summary>
+		/// Handle message.
+		/// </summary>
+		/// <param name="message">Message from client.</param>
+		/// <param name="peer">Client.</param>
+		/// <returns>Handle state.</returns>
 		public bool HandleMessage(IMessage message, IServerPeer peer)
 		{
 			var handled = false;

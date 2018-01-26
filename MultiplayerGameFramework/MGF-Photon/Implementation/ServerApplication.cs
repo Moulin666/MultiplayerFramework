@@ -29,10 +29,30 @@ namespace MGF_Photon.Implementation
 		private readonly IConnectionCollection<IClientPeer> _clientCollection;
 		private readonly IEnumerable<IAfterServerRegistration> _afterServerRegistrationEvents;
 
+		/// <summary>
+		/// Sub code for the server. GameCommon.SubCode.
+		/// </summary>
 		public byte SubCodeParameterCode { get { return ServerConfiguration.SubCodeParameterCode; } }
+		/// <summary>
+		/// Path to the server.
+		/// </summary>
 		public string BinaryPath { get { return Server.BinaryPath; } }
+		/// <summary>
+		/// Application Name from configuration.
+		/// </summary>
 		public string ApplicationName { get { return Server.ApplicationName; } }
 
+		/// <summary>
+		/// Base constructor.
+		/// </summary>
+		/// <param name="serverConfiguration"></param>
+		/// <param name="log"></param>
+		/// <param name="server"></param>
+		/// <param name="peerInfo"></param>
+		/// <param name="backgroundThreads"></param>
+		/// <param name="serverCollection"></param>
+		/// <param name="clientCollection"></param>
+		/// <param name="afterServerRegistrationEvents"></param>
 		public ServerApplication(ServerConfiguration serverConfiguration,
 			ILogger log,
 			PhotonApplication server,
@@ -52,6 +72,9 @@ namespace MGF_Photon.Implementation
 			_afterServerRegistrationEvents = afterServerRegistrationEvents;
 		}
 
+		/// <summary>
+		/// Setup server.
+		/// </summary>
 		public void Setup()
 		{
 			// Start Background Threads
@@ -69,6 +92,9 @@ namespace MGF_Photon.Implementation
 			}
 		}
 
+		/// <summary>
+		/// TearDown server.
+		/// </summary>
 		public void TearDown()
 		{
 			// Disconnect clients
@@ -98,10 +124,20 @@ namespace MGF_Photon.Implementation
 			}
 		}
 
+		/// <summary>
+		/// Failed connection.
+		/// </summary>
+		/// <param name="errorCode">Code with error.</param>
+		/// <param name="errorMessage">Error message.</param>
+		/// <param name="state">State object.</param>
 		public void OnServerConnectionFailed(int errorCode, string errorMessage, object state)
 		{
 		}
 
+		/// <summary>
+		/// Do somthing after server registration
+		/// </summary>
+		/// <param name="serverPeer">Server Peer.</param>
 		public void AfterServerRegistration(IServerPeer serverPeer)
 		{
 			foreach(var afterServerRegistration in _afterServerRegistrationEvents)
@@ -110,6 +146,10 @@ namespace MGF_Photon.Implementation
 			}
 		}
 
+		/// <summary>
+		/// Do connect to the peer.
+		/// </summary>
+		/// <param name="peerInfo">MGF.Implementation.PeerInfo.</param>
 		public void ConnectToPeer(PeerInfo peerInfo)
 		{
 			var outbound = new OutboundPhotonPeer(Server, peerInfo);
@@ -120,6 +160,10 @@ namespace MGF_Photon.Implementation
 			}
 		}
 
+		/// <summary>
+		/// Do reconnect to the peer.
+		/// </summary>
+		/// <param name="peerInfo">MGF.Implementation.PeerInfo.</param>
 		public void ReconnectToPeer(PeerInfo peerInfo)
 		{
 			peerInfo.NumTries++;
@@ -129,6 +173,10 @@ namespace MGF_Photon.Implementation
 			}
 		}
 
+		/// <summary>
+		/// Do register server.
+		/// </summary>
+		/// <param name="peer">MGF.Implementation.Server.PhotonServerPeer</param>
 		public void Register(PhotonServerPeer peer)
 		{
 			var registerSubServerOperation = new RegisterSubServerData()

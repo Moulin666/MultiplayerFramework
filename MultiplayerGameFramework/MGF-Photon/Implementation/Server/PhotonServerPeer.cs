@@ -16,11 +16,17 @@ namespace MGF_Photon.Implementation.Server
 	{
 		private readonly Dictionary<Type, IServerData> _serverData = new Dictionary<Type, IServerData>();
 
+		/// <summary>
+		/// Server now registered?
+		/// </summary>
 		public bool Registered { get; set; }
 		public ILogger Log;
 
 		private ServerApplication _server;
 
+		/// <summary>
+		/// Server application.
+		/// </summary>
 		public IServerApplication Server
 		{
 			get { return _server; }
@@ -34,6 +40,9 @@ namespace MGF_Photon.Implementation.Server
 			get { return _peer.Protocol; }
 		}
 
+		/// <summary>
+		/// Type of server.
+		/// </summary>
 		public IServerType ServerType { get; set; }
 
 		private readonly IServerConnectionCollection<IServerType, IServerPeer> _serverCollection;
@@ -105,6 +114,11 @@ namespace MGF_Photon.Implementation.Server
 			_server.Register(this);
 		}
 
+		/// <summary>
+		/// Server date.
+		/// </summary>
+		/// <typeparam name="T">class, IServerData.</typeparam>
+		/// <returns>T class, IServer data.</returns>
 		public T ServerData<T>() where T : class, IServerData
 		{
 			IServerData result;
@@ -118,11 +132,19 @@ namespace MGF_Photon.Implementation.Server
 			return null;
 		}
 
+		/// <summary>
+		/// Handle message from the server.
+		/// </summary>
+		/// <param name="message"></param>
 		public void HandleMessage(IMessage message)
 		{
 			_handlerList.HandleMessage(message, this);
 		}
 
+		/// <summary>
+		/// Send message to the server.
+		/// </summary>
+		/// <param name="message"></param>
 		public void SendMessage(IMessage message)
 		{
 			var response = message as Response;
@@ -156,6 +178,9 @@ namespace MGF_Photon.Implementation.Server
 			_peer.SendEvent(eventData, sendParameters);
 		}
 
+		/// <summary>
+		/// Disconnect from the server.
+		/// </summary>
 		public void Disconnect()
 		{
 			_peer.Disconnect();

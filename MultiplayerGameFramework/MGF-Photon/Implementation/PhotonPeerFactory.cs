@@ -20,6 +20,14 @@ namespace MGF_Photon.Implementation
 		public PhotonClientPeer.ClientPeerFactory ClientPeerFactory { get; set; }
 		public SubServerClientPeer.ClientPeerFactory SubServerClientPeerFactory { get; set; }
 
+		/// <summary>
+		/// Base constructor.
+		/// </summary>
+		/// <param name="serverConfiguration"></param>
+		/// <param name="log"></param>
+		/// <param name="serverPeerFactory"></param>
+		/// <param name="clientPeerFactory"></param>
+		/// <param name="subServerClientPeerFactory"></param>
 		public PhotonPeerFactory(ServerConfiguration serverConfiguration, ILogger log, PhotonServerPeer.ServerPeerFactory serverPeerFactory,
 			PhotonClientPeer.ClientPeerFactory clientPeerFactory, SubServerClientPeer.ClientPeerFactory subServerClientPeerFactory)
 		{
@@ -35,6 +43,12 @@ namespace MGF_Photon.Implementation
                 ParentPort, SiblingPort, AllowPhysicalClients);
 		}
 
+		/// <summary>
+		/// Create new peer.
+		/// </summary>
+		/// <typeparam name="T">class.</typeparam>
+		/// <param name="config">Peer configuration.</param>
+		/// <returns>T peer class.</returns>
 		public T CreatePeer<T>(IPeerConfig config) where T : class
 		{
 			var initRequest = config.GetConfig<InitRequest>();

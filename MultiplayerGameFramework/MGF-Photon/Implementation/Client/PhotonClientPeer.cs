@@ -13,7 +13,13 @@ namespace MGF_Photon.Implementation.Client
 {
 	public class PhotonClientPeer : ClientPeer, IClientPeer
 	{
+		/// <summary>
+		/// Is Proxy?
+		/// </summary>
 		public bool IsProxy { get { return false; } set {  } }
+		/// <summary>
+		/// Peer Id.
+		/// </summary>
 		public Guid PeerId { get; set; }
 		public IConnectionCollection<IClientPeer> ConnectionCollection { get; set; }
 
@@ -29,6 +35,15 @@ namespace MGF_Photon.Implementation.Client
 
 		#endregion
 
+		/// <summary>
+		/// Base constructor.
+		/// </summary>
+		/// <param name="initRequest"></param>
+		/// <param name="log"></param>
+		/// <param name="server"></param>
+		/// <param name="clientData"></param>
+		/// <param name="connectionCollection"></param>
+		/// <param name="handlerList"></param>
 		public PhotonClientPeer(InitRequest initRequest,
 			ILogger log,
 			IServerApplication server,
@@ -70,6 +85,10 @@ namespace MGF_Photon.Implementation.Client
 			Log.DebugFormat("Client Disconnected {0}", PeerId);
 		}
 
+		/// <summary>
+		/// Send message to the server.
+		/// </summary>
+		/// <param name="message">Message for sent.</param>
 		public void SendMessage(IMessage message)
 		{
 			if (!message.Parameters.Keys.Contains(_server.SubCodeParameterCode))
@@ -90,6 +109,11 @@ namespace MGF_Photon.Implementation.Client
 			}
 		}
 
+		/// <summary>
+		/// Client data.
+		/// </summary>
+		/// <typeparam name="T">Class, IClientData.</typeparam>
+		/// <returns></returns>
 		public T ClientData<T>() where T : class, IClientData
 		{
 			IClientData result;

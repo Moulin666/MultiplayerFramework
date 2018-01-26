@@ -7,6 +7,9 @@ namespace MultiplayerGameFramework.Implementation.Messaging
 	{
 		Request = 0x1,
 		Response = 0x2,
+		/// <summary>
+		/// Event.
+		/// </summary>
 		Async = 0x4
 	}
 }

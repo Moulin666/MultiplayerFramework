@@ -7,8 +7,15 @@ using System.Text;
 
 namespace MGF_Photon.Implementation.Server
 {
+	/// <summary>
+	/// Type of cache.
+	/// </summary>
 	public class TypeCache
 	{
+		/// <summary>
+		/// Get cache.
+		/// </summary>
+		/// <returns></returns>
 		public CustomTypeCache GetCache()
 		{
 			var cache = new CustomTypeCache();
@@ -16,6 +23,11 @@ namespace MGF_Photon.Implementation.Server
 			return cache;
 		}
 
+		/// <summary>
+		/// Serialize peer info object to byte[].
+		/// </summary>
+		/// <param name="obj"></param>
+		/// <returns></returns>
 		public static byte[] SerializePeerInfo(object obj)
 		{
 			PeerInfo info = obj as PeerInfo;
@@ -30,6 +42,11 @@ namespace MGF_Photon.Implementation.Server
 			return retVal.ToArray();
 		}
 
+		/// <summary>
+		/// Deserialize byte[] to peer info object.
+		/// </summary>
+		/// <param name="obj"></param>
+		/// <returns></returns>
 		public static object DeserializePeerInfo(byte[] obj)
 		{
 			int port = BitConverter.ToInt32(obj, 0);
