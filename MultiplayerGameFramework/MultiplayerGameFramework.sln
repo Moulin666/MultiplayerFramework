@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27130.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplayerGameFramework", "MultiplayerGameFramework\MultiplayerGameFramework.csproj", "{E01163E1-E5E3-4433-AF06-68AE2DE79096}"
 EndProject
@@ -9,30 +9,78 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGF-Photon", "MGF-Photon\MG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servers", "Servers\Servers.csproj", "{054FD666-E60C-4213-BB5F-7303A50CD9F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fortress War Online", "..\Fortress War Online\Fortress War Online.csproj", "{2B8FA914-D1E6-D444-DA14-8CBEA77E7D73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fortress War Online Client", "..\Fortress War Online Client\Fortress War Online Client.csproj", "{28770D0D-0702-B6EE-AABC-8A71C5681811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGF.Domain", "MGF.Domain\MGF.Domain.csproj", "{1F6ED35A-DADF-48E5-ABC6-5E515A3B2D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGF.DataEntities", "MGF.DataEntities\MGF.DataEntities.csproj", "{79DF54D0-19DF-4E45-A10B-B415ABFCF413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameCommon", "GameCommon\GameCommon.csproj", "{A434D041-CD61-4610-BC30-2F6F923D5480}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		MySQLDebug|Any CPU = MySQLDebug|Any CPU
+		MySQLRelease|Any CPU = MySQLRelease|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E01163E1-E5E3-4433-AF06-68AE2DE79096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E01163E1-E5E3-4433-AF06-68AE2DE79096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E01163E1-E5E3-4433-AF06-68AE2DE79096}.MySQLDebug|Any CPU.ActiveCfg = MySQLDebug|Any CPU
+		{E01163E1-E5E3-4433-AF06-68AE2DE79096}.MySQLDebug|Any CPU.Build.0 = MySQLDebug|Any CPU
+		{E01163E1-E5E3-4433-AF06-68AE2DE79096}.MySQLRelease|Any CPU.ActiveCfg = MySQLRelease|Any CPU
+		{E01163E1-E5E3-4433-AF06-68AE2DE79096}.MySQLRelease|Any CPU.Build.0 = MySQLRelease|Any CPU
 		{E01163E1-E5E3-4433-AF06-68AE2DE79096}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E01163E1-E5E3-4433-AF06-68AE2DE79096}.Release|Any CPU.Build.0 = Release|Any CPU
 		{85AD5791-D955-45C6-BC0C-6E6CA146207D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{85AD5791-D955-45C6-BC0C-6E6CA146207D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85AD5791-D955-45C6-BC0C-6E6CA146207D}.MySQLDebug|Any CPU.ActiveCfg = MySQLDebug|Any CPU
+		{85AD5791-D955-45C6-BC0C-6E6CA146207D}.MySQLDebug|Any CPU.Build.0 = MySQLDebug|Any CPU
+		{85AD5791-D955-45C6-BC0C-6E6CA146207D}.MySQLRelease|Any CPU.ActiveCfg = MySQLRelease|Any CPU
+		{85AD5791-D955-45C6-BC0C-6E6CA146207D}.MySQLRelease|Any CPU.Build.0 = MySQLRelease|Any CPU
 		{85AD5791-D955-45C6-BC0C-6E6CA146207D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85AD5791-D955-45C6-BC0C-6E6CA146207D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{054FD666-E60C-4213-BB5F-7303A50CD9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{054FD666-E60C-4213-BB5F-7303A50CD9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054FD666-E60C-4213-BB5F-7303A50CD9F0}.MySQLDebug|Any CPU.ActiveCfg = MySQLDebug|Any CPU
+		{054FD666-E60C-4213-BB5F-7303A50CD9F0}.MySQLDebug|Any CPU.Build.0 = MySQLDebug|Any CPU
+		{054FD666-E60C-4213-BB5F-7303A50CD9F0}.MySQLRelease|Any CPU.ActiveCfg = MySQLRelease|Any CPU
+		{054FD666-E60C-4213-BB5F-7303A50CD9F0}.MySQLRelease|Any CPU.Build.0 = MySQLRelease|Any CPU
 		{054FD666-E60C-4213-BB5F-7303A50CD9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{054FD666-E60C-4213-BB5F-7303A50CD9F0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B8FA914-D1E6-D444-DA14-8CBEA77E7D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B8FA914-D1E6-D444-DA14-8CBEA77E7D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B8FA914-D1E6-D444-DA14-8CBEA77E7D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B8FA914-D1E6-D444-DA14-8CBEA77E7D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28770D0D-0702-B6EE-AABC-8A71C5681811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28770D0D-0702-B6EE-AABC-8A71C5681811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28770D0D-0702-B6EE-AABC-8A71C5681811}.MySQLDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28770D0D-0702-B6EE-AABC-8A71C5681811}.MySQLDebug|Any CPU.Build.0 = Debug|Any CPU
+		{28770D0D-0702-B6EE-AABC-8A71C5681811}.MySQLRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{28770D0D-0702-B6EE-AABC-8A71C5681811}.MySQLRelease|Any CPU.Build.0 = Release|Any CPU
+		{28770D0D-0702-B6EE-AABC-8A71C5681811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28770D0D-0702-B6EE-AABC-8A71C5681811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6ED35A-DADF-48E5-ABC6-5E515A3B2D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6ED35A-DADF-48E5-ABC6-5E515A3B2D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6ED35A-DADF-48E5-ABC6-5E515A3B2D2E}.MySQLDebug|Any CPU.ActiveCfg = MySQLDebug|Any CPU
+		{1F6ED35A-DADF-48E5-ABC6-5E515A3B2D2E}.MySQLDebug|Any CPU.Build.0 = MySQLDebug|Any CPU
+		{1F6ED35A-DADF-48E5-ABC6-5E515A3B2D2E}.MySQLRelease|Any CPU.ActiveCfg = MySQLRelease|Any CPU
+		{1F6ED35A-DADF-48E5-ABC6-5E515A3B2D2E}.MySQLRelease|Any CPU.Build.0 = MySQLRelease|Any CPU
+		{1F6ED35A-DADF-48E5-ABC6-5E515A3B2D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6ED35A-DADF-48E5-ABC6-5E515A3B2D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79DF54D0-19DF-4E45-A10B-B415ABFCF413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79DF54D0-19DF-4E45-A10B-B415ABFCF413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79DF54D0-19DF-4E45-A10B-B415ABFCF413}.MySQLDebug|Any CPU.ActiveCfg = MySQLDebug|Any CPU
+		{79DF54D0-19DF-4E45-A10B-B415ABFCF413}.MySQLDebug|Any CPU.Build.0 = MySQLDebug|Any CPU
+		{79DF54D0-19DF-4E45-A10B-B415ABFCF413}.MySQLRelease|Any CPU.ActiveCfg = MySQLRelease|Any CPU
+		{79DF54D0-19DF-4E45-A10B-B415ABFCF413}.MySQLRelease|Any CPU.Build.0 = MySQLRelease|Any CPU
+		{79DF54D0-19DF-4E45-A10B-B415ABFCF413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79DF54D0-19DF-4E45-A10B-B415ABFCF413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A434D041-CD61-4610-BC30-2F6F923D5480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A434D041-CD61-4610-BC30-2F6F923D5480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A434D041-CD61-4610-BC30-2F6F923D5480}.MySQLDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A434D041-CD61-4610-BC30-2F6F923D5480}.MySQLDebug|Any CPU.Build.0 = Debug|Any CPU
+		{A434D041-CD61-4610-BC30-2F6F923D5480}.MySQLRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{A434D041-CD61-4610-BC30-2F6F923D5480}.MySQLRelease|Any CPU.Build.0 = Release|Any CPU
+		{A434D041-CD61-4610-BC30-2F6F923D5480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A434D041-CD61-4610-BC30-2F6F923D5480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

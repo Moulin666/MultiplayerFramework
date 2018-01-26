@@ -1,0 +1,10 @@
+D:\Roman\FWO\MultiplayerGameFramework\GameCommon\bin\Debug\GameCommon.dll
+D:\Roman\FWO\MultiplayerGameFramework\GameCommon\bin\Debug\GameCommon.pdb
+D:\Roman\FWO\MultiplayerGameFramework\GameCommon\bin\Debug\Newtonsoft.Json.Bson.dll
+D:\Roman\FWO\MultiplayerGameFramework\GameCommon\bin\Debug\Newtonsoft.Json.dll
+D:\Roman\FWO\MultiplayerGameFramework\GameCommon\bin\Debug\Newtonsoft.Json.xml
+D:\Roman\FWO\MultiplayerGameFramework\GameCommon\bin\Debug\Newtonsoft.Json.Bson.xml
+D:\Roman\FWO\MultiplayerGameFramework\GameCommon\obj\Debug\GameCommon.csprojResolveAssemblyReference.cache
+D:\Roman\FWO\MultiplayerGameFramework\GameCommon\obj\Debug\GameCommon.csproj.CoreCompileInputs.cache
+D:\Roman\FWO\MultiplayerGameFramework\GameCommon\obj\Debug\GameCommon.dll
+D:\Roman\FWO\MultiplayerGameFramework\GameCommon\obj\Debug\GameCommon.pdb

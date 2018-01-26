@@ -44,11 +44,11 @@ namespace Servers.BackgroundThreads
 						continue;
 					}
 
-					if (timer.Elapsed < TimeSpan.FromMilliseconds(5000))
+					if (timer.Elapsed < TimeSpan.FromMilliseconds(500))
 					{
-						if (5000 - timer.ElapsedMilliseconds > 0)
+						if (500 - timer.ElapsedMilliseconds > 0)
 						{
-							Thread.Sleep(5000 - (int)timer.ElapsedMilliseconds);
+							Thread.Sleep(500 - (int)timer.ElapsedMilliseconds);
 						}
 						continue;
 					}

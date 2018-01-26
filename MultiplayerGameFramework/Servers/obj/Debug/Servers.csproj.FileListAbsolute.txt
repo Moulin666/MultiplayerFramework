@@ -6,3 +6,12 @@ C:\Users\admin\Desktop\Projects\MMOProject\PhotonSDK\deploy\TestServer\Servers.p
 C:\Users\admin\Desktop\Projects\MMOProject\MultiplayerGameFramework\Servers\obj\Debug\Servers.dll
 C:\Users\admin\Desktop\Projects\MMOProject\MultiplayerGameFramework\Servers\obj\Debug\Servers.pdb
 C:\Users\admin\Desktop\Projects\MMOProject\PhotonSDK\deploy\TestServer\log4net.config
+D:\Roman\FWO\PhotonSDK\deploy\TestServer\log4net.config
+D:\Roman\FWO\PhotonSDK\deploy\TestServer\TestServer.config
+D:\Roman\FWO\PhotonSDK\deploy\TestServer\Servers.dll.config
+D:\Roman\FWO\PhotonSDK\deploy\TestServer\Servers.dll
+D:\Roman\FWO\PhotonSDK\deploy\TestServer\Servers.pdb
+D:\Roman\FWO\MultiplayerGameFramework\Servers\obj\Debug\Servers.csprojResolveAssemblyReference.cache
+D:\Roman\FWO\MultiplayerGameFramework\Servers\obj\Debug\Servers.csproj.CoreCompileInputs.cache
+D:\Roman\FWO\MultiplayerGameFramework\Servers\obj\Debug\Servers.dll
+D:\Roman\FWO\MultiplayerGameFramework\Servers\obj\Debug\Servers.pdb

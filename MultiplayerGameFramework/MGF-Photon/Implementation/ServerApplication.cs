@@ -60,11 +60,12 @@ namespace MGF_Photon.Implementation
 				backgroundThread.Setup(this);
 				ThreadPool.QueueUserWorkItem(backgroundThread.Run);
 			}
-
+            Log.Debug("Setup");
 			// Start servers
 			foreach (var peerInfo in _peerInfo)
 			{
 				ConnectToPeer(peerInfo);
+                Log.Info("Connecting server");
 			}
 		}
 

@@ -6,7 +6,7 @@ public class TestHandler : IMessageHandler
 	{
 		get
 		{
-			return MessageType.Async;
+			return MessageType.Response;
 		}
 	}
 
@@ -16,7 +16,7 @@ public class TestHandler : IMessageHandler
 
 	public bool HandleMessage(IMessage message)
 	{
-        Debug.Log("Loool");
+		Debug.Log("Response from server.");
 
 		return true;
 	}

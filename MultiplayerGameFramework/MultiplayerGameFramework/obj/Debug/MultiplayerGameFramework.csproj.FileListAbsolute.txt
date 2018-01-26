@@ -3,3 +3,9 @@ C:\Users\admin\Desktop\Projects\MMOProject\MultiplayerGameFramework\MultiplayerG
 C:\Users\admin\Desktop\Projects\MMOProject\MultiplayerGameFramework\MultiplayerGameFramework\obj\Debug\MultiplayerGameFramework.dll
 C:\Users\admin\Desktop\Projects\MMOProject\MultiplayerGameFramework\MultiplayerGameFramework\obj\Debug\MultiplayerGameFramework.pdb
 C:\Users\admin\Desktop\Projects\MMOProject\MultiplayerGameFramework\MultiplayerGameFramework\obj\Debug\MultiplayerGameFramework.csprojResolveAssemblyReference.cache
+D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\bin\Debug\MultiplayerGameFramework.dll
+D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\bin\Debug\MultiplayerGameFramework.pdb
+D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\obj\Debug\MultiplayerGameFramework.csproj.CoreCompileInputs.cache
+D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\obj\Debug\MultiplayerGameFramework.dll
+D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\obj\Debug\MultiplayerGameFramework.pdb
+D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\obj\Debug\MultiplayerGameFramework.csprojResolveAssemblyReference.cache

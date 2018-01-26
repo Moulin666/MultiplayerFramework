@@ -14,22 +14,51 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
 {
 	#region Variables
 
-	public string ServerAdress = "localhost:5055";
+	/// <summary>
+	/// Server Adress. For example - "localhost:5055".
+	/// </summary>
+	public string ServerAddress = "localhost:5055";
+	/// <summary>
+	/// ApplicationName on the server.
+	/// </summary>
 	public string ApplicationName = "TestServer";
+	/// <summary>
+	/// Use Enctyption?
+	/// </summary>
 	public bool UseEncryption;
 
-	[HideInInspector]
-	public byte SubCodeParameterCode;
+	/// <summary>
+	/// SubCodeParameterCode.
+	/// </summary>
+	[HideInInspector] public byte SubCodeParameterCode;
 
-	public static PhotonEngine instance = null;
+	/// <summary>
+	/// PhotonEngine singleton class.
+	/// </summary>
+	public static PhotonEngine Instance = null;
 
+	/// <summary>
+	/// Client connected state.
+	/// </summary>
 	public EngineState State { get; protected set; }
 
+	/// <summary>
+	/// Client. Photon.PhotonPeer.
+	/// </summary>
 	public PhotonPeer Peer { get; set; }
 
+	/// <summary>
+	/// Client ping. PhotonPeer.RoundTripTime.
+	/// </summary>
 	public int Ping { get; protected set; }
 
+	/// <summary>
+	/// List event handlers.
+	/// </summary>
 	public List<IMessageHandler> eventHandlerList { get; protected set; }
+	/// <summary>
+	/// List response handlers
+	/// </summary>
 	public List<IMessageHandler> responseHandlerList { get; protected set; }
 
 	#endregion
@@ -38,9 +67,9 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
 
 	private void Awake()
 	{
-		if (instance == null)
-			instance = this;
-		else if (instance != this)
+		if (Instance == null)
+			Instance = this;
+		else if (Instance != this)
 			Destroy(gameObject);
 
 		DontDestroyOnLoad(gameObject);
@@ -49,8 +78,8 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
 
 	private void Start()
 	{
-		Debug.LogFormat("Connecting to {0} | ApplicationName - {1}", ServerAdress, ApplicationName);
-		ConnectToServer(ServerAdress, ApplicationName);
+		Debug.LogFormat("Connecting to {0} | ApplicationName - {1}", ServerAddress, ApplicationName);
+		ConnectToServer(ServerAddress, ApplicationName);
 	}
 
 	private void FixedUpdate()
@@ -63,13 +92,16 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
 	private void OnApplicationQuit()
 	{
 		Disconnect();
-		instance = null;
+		Instance = null;
 	}
 
 	#endregion
 
 	#region My Methods
 
+	/// <summary>
+	/// Initialize PhotonEngine.
+	/// </summary>
 	protected void Initialize()
 	{
 		State = EngineState.DisconnectedState;
@@ -80,6 +112,9 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
 		Peer = new PhotonPeer(this, ConnectionProtocol.Udp);
 	}
 
+	/// <summary>
+	/// Do disconnect client from server.
+	/// </summary>
 	public void Disconnect()
 	{
 		if(Peer != null && Peer.PeerState == PeerStateValue.Connected)
@@ -90,6 +125,11 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
 		State = EngineState.DisconnectedState;
 	}
 
+	/// <summary>
+	/// Do connect to server.
+	/// </summary>
+	/// <param name="serverAddress">Server Address. PhotonEngine.ServerAddress.</param>
+	/// <param name="applicationName">Application Name. PhotonEngine.ApplicationName.</param>
 	public void ConnectToServer(string serverAddress, string applicationName)
 	{
 		if (State == EngineState.DisconnectedState)
@@ -99,9 +139,13 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
 		}
 	}
 
+	/// <summary>
+	/// Get all message handlers and sort it in PhotonEngine.EventHandlerList and PhotonEngine.ResponseHandlerList.
+	/// </summary>
 	public void GetherMessageHandlers()
 	{
-		var handlers = from t in Assembly.GetAssembly(GetType()).GetTypes().Where(t => t.GetInterfaces().Contains(typeof(IMessageHandler))) select Activator.CreateInstance(t) as IMessageHandler;
+		var handlers = from t in Assembly.GetAssembly(GetType()).GetTypes().Where(t => t.GetInterfaces()
+					   .Contains(typeof(IMessageHandler))) select Activator.CreateInstance(t) as IMessageHandler;
 
 		Debug.LogFormat("Load handlers. Found {0} handlers.", handlers.Count());
 
@@ -109,6 +153,10 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
 		responseHandlerList = handlers.Where(h => h.Type == MessageType.Response).ToList();
 	}
 
+	/// <summary>
+	/// Send Request to the server.
+	/// </summary>
+	/// <param name="request">Photon.OperationRequest</param>
 	public void SendRequest(OperationRequest request)
 	{
 		State.SendRequest(request, true, 0, UseEncryption);

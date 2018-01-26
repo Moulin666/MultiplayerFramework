@@ -1,0 +1,15 @@
+D:\Roman\FWO\MultiplayerGameFramework\MGF.DataEntities\bin\Debug\MGF.DataEntities.dll.config
+D:\Roman\FWO\MultiplayerGameFramework\MGF.DataEntities\bin\Debug\MGF.DataEntities.dll
+D:\Roman\FWO\MultiplayerGameFramework\MGF.DataEntities\bin\Debug\MGF.DataEntities.pdb
+D:\Roman\FWO\MultiplayerGameFramework\MGF.DataEntities\bin\Debug\EntityFramework.dll
+D:\Roman\FWO\MultiplayerGameFramework\MGF.DataEntities\bin\Debug\EntityFramework.SqlServer.dll
+D:\Roman\FWO\MultiplayerGameFramework\MGF.DataEntities\bin\Debug\MySql.Data.dll
+D:\Roman\FWO\MultiplayerGameFramework\MGF.DataEntities\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\Roman\FWO\MultiplayerGameFramework\MGF.DataEntities\bin\Debug\EntityFramework.xml
+D:\Roman\FWO\MultiplayerGameFramework\MGF.DataEntities\bin\Debug\EntityFramework.SqlServer.xml
+D:\Roman\FWO\MultiplayerGameFramework\MGF.DataEntities\bin\Debug\MySql.Data.xml
+D:\Roman\FWO\MultiplayerGameFramework\MGF.DataEntities\bin\Debug\MySql.Data.Entity.EF6.xml
+D:\Roman\FWO\MultiplayerGameFramework\MGF.DataEntities\obj\Debug\MGF.DataEntities.csprojResolveAssemblyReference.cache
+D:\Roman\FWO\MultiplayerGameFramework\MGF.DataEntities\obj\Debug\MGF.DataEntities.csproj.CoreCompileInputs.cache
+D:\Roman\FWO\MultiplayerGameFramework\MGF.DataEntities\obj\Debug\MGF.DataEntities.dll
+D:\Roman\FWO\MultiplayerGameFramework\MGF.DataEntities\obj\Debug\MGF.DataEntities.pdb

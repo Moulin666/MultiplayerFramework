@@ -1,0 +1,14 @@
+D:\Roman\FWO\MultiplayerGameFramework\MGF.Domain\obj\Debug\MGF.Domain.csprojResolveAssemblyReference.cache
+D:\Roman\FWO\MultiplayerGameFramework\MGF.Domain\obj\Debug\MGF.Domain.csproj.CoreCompileInputs.cache
+D:\Roman\FWO\MultiplayerGameFramework\MGF.Domain\bin\Debug\MGF.Domain.exe.config
+D:\Roman\FWO\MultiplayerGameFramework\MGF.Domain\bin\Debug\MGF.Domain.exe
+D:\Roman\FWO\MultiplayerGameFramework\MGF.Domain\bin\Debug\MGF.Domain.pdb
+D:\Roman\FWO\MultiplayerGameFramework\MGF.Domain\bin\Debug\EntityFramework.dll
+D:\Roman\FWO\MultiplayerGameFramework\MGF.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\Roman\FWO\MultiplayerGameFramework\MGF.Domain\bin\Debug\MGF.DataEntities.dll
+D:\Roman\FWO\MultiplayerGameFramework\MGF.Domain\bin\Debug\MGF.DataEntities.pdb
+D:\Roman\FWO\MultiplayerGameFramework\MGF.Domain\bin\Debug\MGF.DataEntities.dll.config
+D:\Roman\FWO\MultiplayerGameFramework\MGF.Domain\bin\Debug\EntityFramework.xml
+D:\Roman\FWO\MultiplayerGameFramework\MGF.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\Roman\FWO\MultiplayerGameFramework\MGF.Domain\obj\Debug\MGF.Domain.exe
+D:\Roman\FWO\MultiplayerGameFramework\MGF.Domain\obj\Debug\MGF.Domain.pdb

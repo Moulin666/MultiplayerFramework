@@ -46,3 +46,10 @@ C:\Users\admin\Desktop\Projects\MMOProject\MultiplayerGameFramework\MGF-Photon\b
 C:\Users\admin\Desktop\Projects\MMOProject\PhotonSDK\deploy\TestServer\MGF.Photon.dll.config
 C:\Users\admin\Desktop\Projects\MMOProject\PhotonSDK\deploy\TestServer\MGF.Photon.dll
 C:\Users\admin\Desktop\Projects\MMOProject\PhotonSDK\deploy\TestServer\MGF.Photon.pdb
+D:\Roman\FWO\PhotonSDK\deploy\TestServer\MGF.Photon.dll.config
+D:\Roman\FWO\PhotonSDK\deploy\TestServer\MGF.Photon.dll
+D:\Roman\FWO\PhotonSDK\deploy\TestServer\MGF.Photon.pdb
+D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\obj\Debug\MGF-Photon.csprojResolveAssemblyReference.cache
+D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\obj\Debug\MGF-Photon.csproj.CoreCompileInputs.cache
+D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\obj\Debug\MGF.Photon.dll
+D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\obj\Debug\MGF.Photon.pdb
