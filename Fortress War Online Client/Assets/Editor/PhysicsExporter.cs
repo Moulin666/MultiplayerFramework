@@ -48,8 +48,8 @@ public class PhysicsExporter : Editor
 					{
 						Center = new PositionData(center.x, center.y, center.z),
 						HalfExtents = new PositionData(box.size.x / 2f, box.size.y / 2f, box.size.z / 2f),
-						Rotation = new PositionData(box.transform.rotation.eulerAngles.x,
-							box.transform.rotation.eulerAngles.y, box.transform.rotation.eulerAngles.z),
+						Rotation = new PositionData(box.transform.rotation.x,
+							box.transform.rotation.y, box.transform.rotation.z, box.transform.rotation.w),
 						LocalScale = new PositionData(box.transform.localScale.y, box.transform.localScale.y,
 							box.transform.localScale.z)
 					};
@@ -67,8 +67,8 @@ public class PhysicsExporter : Editor
 					BPCapsule bpCapsule = new BPCapsule()
 					{
 						Center = new PositionData(center.x, center.y, center.z),
-						Rotation = new PositionData(capsule.transform.rotation.eulerAngles.x,
-							capsule.transform.rotation.eulerAngles.y, capsule.transform.rotation.eulerAngles.z),
+						Rotation = new PositionData(capsule.transform.rotation.x,
+							capsule.transform.rotation.y, capsule.transform.rotation.z, capsule.transform.rotation.w),
 						LocalScale = new PositionData(capsule.transform.localScale.y, capsule.transform.localScale.y,
 							capsule.transform.localScale.z),
 						Height = capsule.height,
@@ -88,8 +88,8 @@ public class PhysicsExporter : Editor
 					BPSphere bpSphere = new BPSphere()
 					{
 						Center = new PositionData(center.x, center.y, center.z),
-						Rotation = new PositionData(sphere.transform.rotation.eulerAngles.x,
-							sphere.transform.rotation.eulerAngles.y, sphere.transform.rotation.eulerAngles.z),
+						Rotation = new PositionData(sphere.transform.rotation.x,
+							sphere.transform.rotation.y, sphere.transform.rotation.z, sphere.transform.rotation.w),
 						LocalScale = new PositionData(sphere.transform.localScale.y, sphere.transform.localScale.y,
 							sphere.transform.localScale.z),
 						Radius = sphere.radius
@@ -115,8 +115,8 @@ public class PhysicsExporter : Editor
 					BPMesh bpMesh = new BPMesh()
 					{
 						Center = new PositionData(center.x, center.y, center.z),
-						Rotation = new PositionData(mesh.transform.rotation.eulerAngles.x,
-							mesh.transform.rotation.eulerAngles.y, mesh.transform.rotation.eulerAngles.z),
+						Rotation = new PositionData(mesh.transform.rotation.x,
+							mesh.transform.rotation.y, mesh.transform.rotation.z, mesh.transform.rotation.w),
 						LocalScale = new PositionData(mesh.transform.localScale.y, mesh.transform.localScale.y,
 							mesh.transform.localScale.z),
 						NumTris = mesh.sharedMesh.triangles.GetLength(0),
