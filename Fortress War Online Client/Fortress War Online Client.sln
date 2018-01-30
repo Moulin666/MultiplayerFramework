@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fortress War Online Client", "Fortress War Online Client.csproj", "{28770D0D-0702-B6EE-AABC-8A71C5681811}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fortress War Online Client.Editor", "Fortress War Online Client.Editor.csproj", "{77949CFD-2C70-CEF2-C9C2-8B26EE25CBCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{28770D0D-0702-B6EE-AABC-8A71C5681811}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28770D0D-0702-B6EE-AABC-8A71C5681811}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28770D0D-0702-B6EE-AABC-8A71C5681811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77949CFD-2C70-CEF2-C9C2-8B26EE25CBCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77949CFD-2C70-CEF2-C9C2-8B26EE25CBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77949CFD-2C70-CEF2-C9C2-8B26EE25CBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77949CFD-2C70-CEF2-C9C2-8B26EE25CBCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

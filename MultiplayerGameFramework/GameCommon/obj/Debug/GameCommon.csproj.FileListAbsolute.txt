@@ -4,7 +4,10 @@ D:\Roman\FWO\MultiplayerGameFramework\GameCommon\bin\Debug\Newtonsoft.Json.Bson.
 D:\Roman\FWO\MultiplayerGameFramework\GameCommon\bin\Debug\Newtonsoft.Json.dll
 D:\Roman\FWO\MultiplayerGameFramework\GameCommon\bin\Debug\Newtonsoft.Json.xml
 D:\Roman\FWO\MultiplayerGameFramework\GameCommon\bin\Debug\Newtonsoft.Json.Bson.xml
-D:\Roman\FWO\MultiplayerGameFramework\GameCommon\obj\Debug\GameCommon.csprojResolveAssemblyReference.cache
 D:\Roman\FWO\MultiplayerGameFramework\GameCommon\obj\Debug\GameCommon.csproj.CoreCompileInputs.cache
 D:\Roman\FWO\MultiplayerGameFramework\GameCommon\obj\Debug\GameCommon.dll
 D:\Roman\FWO\MultiplayerGameFramework\GameCommon\obj\Debug\GameCommon.pdb
+D:\Roman\FWO\MultiplayerGameFramework\GameCommon\bin\Debug\BulletSharp.dll
+D:\Roman\FWO\Fortress War Online Client\Assets\Plugins\GameCommon.dll
+D:\Roman\FWO\Fortress War Online Client\Assets\Plugins\GameCommon.pdb
+D:\Roman\FWO\MultiplayerGameFramework\GameCommon\obj\Debug\GameCommon.csprojResolveAssemblyReference.cache

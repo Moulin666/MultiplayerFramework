@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGF.DataEntities", "MGF.Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameCommon", "GameCommon\GameCommon.csproj", "{A434D041-CD61-4610-BC30-2F6F923D5480}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fortress War Online Client.Editor", "..\Fortress War Online Client\Fortress War Online Client.Editor.csproj", "{77949CFD-2C70-CEF2-C9C2-8B26EE25CBCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,14 @@ Global
 		{A434D041-CD61-4610-BC30-2F6F923D5480}.MySQLRelease|Any CPU.Build.0 = Release|Any CPU
 		{A434D041-CD61-4610-BC30-2F6F923D5480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A434D041-CD61-4610-BC30-2F6F923D5480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77949CFD-2C70-CEF2-C9C2-8B26EE25CBCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77949CFD-2C70-CEF2-C9C2-8B26EE25CBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77949CFD-2C70-CEF2-C9C2-8B26EE25CBCC}.MySQLDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77949CFD-2C70-CEF2-C9C2-8B26EE25CBCC}.MySQLDebug|Any CPU.Build.0 = Debug|Any CPU
+		{77949CFD-2C70-CEF2-C9C2-8B26EE25CBCC}.MySQLRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{77949CFD-2C70-CEF2-C9C2-8B26EE25CBCC}.MySQLRelease|Any CPU.Build.0 = Release|Any CPU
+		{77949CFD-2C70-CEF2-C9C2-8B26EE25CBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77949CFD-2C70-CEF2-C9C2-8B26EE25CBCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -35,4 +35,5 @@ public class TestView : MonoBehaviour
 
 		Debug.Log("Send request for get event from server");
 	}
+	
 }
