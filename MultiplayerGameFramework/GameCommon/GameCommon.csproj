@@ -35,12 +35,6 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BEPUphysics">
-      <HintPath>..\packages\BEPUPhysics\BEPUphysics.dll</HintPath>
-    </Reference>
-    <Reference Include="BEPUutilities">
-      <HintPath>..\packages\BEPUPhysics\BEPUutilities.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -55,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MessageObjects\PositionData.cs" />
     <Compile Include="MessageOperationCode.cs" />
     <Compile Include="MessageParameterCode.cs" />
     <Compile Include="MessageSerializerService.cs" />
@@ -69,8 +64,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="MessageObjeccts\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

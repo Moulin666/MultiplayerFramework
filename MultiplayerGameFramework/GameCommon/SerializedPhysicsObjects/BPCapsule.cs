@@ -1,23 +1,23 @@
 ﻿using System;
-using BEPUutilities;
+using GameCommon.MessageObjects;
 
 namespace GameCommon.SerializedPhysicsObjects
 {
 	[Serializable]
 	public class BPCapsule
 	{
-		public Vector3 Center { get; set; }
-		public Vector3 Rotation { get; set; }
-		public Vector3 LocalScale { get; set; }
+		public PositionData Center { get; set; }
+		public PositionData Rotation { get; set; }
+		public PositionData LocalScale { get; set; }
 
 		public float Height { get; set; }
 		public float Radius { get; set; }
 
 		public BPCapsule()
 		{
-			Center = new Vector3();
-			Rotation = new Vector3();
-			LocalScale = new Vector3();
+			Center = new PositionData();
+			Rotation = new PositionData();
+			LocalScale = new PositionData();
 		}
 	}
 }

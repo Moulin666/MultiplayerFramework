@@ -7,9 +7,8 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
+using GameCommon.MessageObjects;
 using GameCommon.SerializedPhysicsObjects;
-
-using Vector3 = BEPUutilities.Vector3;
 
 public class PhysicsExporter : Editor
 {
@@ -47,11 +46,11 @@ public class PhysicsExporter : Editor
 
 					BPBox bpBox = new BPBox()
 					{
-						Center = new Vector3(center.x, center.y, center.z),
-						HalfExtents = new Vector3(box.size.x / 2f, box.size.y / 2f, box.size.z / 2f),
-						Rotation = new Vector3(box.transform.rotation.eulerAngles.x,
+						Center = new PositionData(center.x, center.y, center.z),
+						HalfExtents = new PositionData(box.size.x / 2f, box.size.y / 2f, box.size.z / 2f),
+						Rotation = new PositionData(box.transform.rotation.eulerAngles.x,
 							box.transform.rotation.eulerAngles.y, box.transform.rotation.eulerAngles.z),
-						LocalScale = new Vector3(box.transform.localScale.y, box.transform.localScale.y,
+						LocalScale = new PositionData(box.transform.localScale.y, box.transform.localScale.y,
 							box.transform.localScale.z)
 					};
 
@@ -67,10 +66,10 @@ public class PhysicsExporter : Editor
 
 					BPCapsule bpCapsule = new BPCapsule()
 					{
-						Center = new Vector3(center.x, center.y, center.z),
-						Rotation = new Vector3(capsule.transform.rotation.eulerAngles.x,
+						Center = new PositionData(center.x, center.y, center.z),
+						Rotation = new PositionData(capsule.transform.rotation.eulerAngles.x,
 							capsule.transform.rotation.eulerAngles.y, capsule.transform.rotation.eulerAngles.z),
-						LocalScale = new Vector3(capsule.transform.localScale.y, capsule.transform.localScale.y,
+						LocalScale = new PositionData(capsule.transform.localScale.y, capsule.transform.localScale.y,
 							capsule.transform.localScale.z),
 						Height = capsule.height,
 						Radius = capsule.radius
@@ -88,10 +87,10 @@ public class PhysicsExporter : Editor
 
 					BPSphere bpSphere = new BPSphere()
 					{
-						Center = new Vector3(center.x, center.y, center.z),
-						Rotation = new Vector3(sphere.transform.rotation.eulerAngles.x,
+						Center = new PositionData(center.x, center.y, center.z),
+						Rotation = new PositionData(sphere.transform.rotation.eulerAngles.x,
 							sphere.transform.rotation.eulerAngles.y, sphere.transform.rotation.eulerAngles.z),
-						LocalScale = new Vector3(sphere.transform.localScale.y, sphere.transform.localScale.y,
+						LocalScale = new PositionData(sphere.transform.localScale.y, sphere.transform.localScale.y,
 							sphere.transform.localScale.z),
 						Radius = sphere.radius
 					};
@@ -106,19 +105,19 @@ public class PhysicsExporter : Editor
 				{
 					var center = mesh.gameObject.transform.position;
 
-					List<Vector3> vertArray = new List<Vector3>(mesh.sharedMesh.vertexCount);
+					List<PositionData> vertArray = new List<PositionData>(mesh.sharedMesh.vertexCount);
 
 					foreach(var vec in mesh.sharedMesh.vertices)
 					{
-						vertArray.Add(new Vector3(vec.x, vec.y, vec.z));
+						vertArray.Add(new PositionData(vec.x, vec.y, vec.z));
 					}
 
 					BPMesh bpMesh = new BPMesh()
 					{
-						Center = new Vector3(center.x, center.y, center.z),
-						Rotation = new Vector3(mesh.transform.rotation.eulerAngles.x,
+						Center = new PositionData(center.x, center.y, center.z),
+						Rotation = new PositionData(mesh.transform.rotation.eulerAngles.x,
 							mesh.transform.rotation.eulerAngles.y, mesh.transform.rotation.eulerAngles.z),
-						LocalScale = new Vector3(mesh.transform.localScale.y, mesh.transform.localScale.y,
+						LocalScale = new PositionData(mesh.transform.localScale.y, mesh.transform.localScale.y,
 							mesh.transform.localScale.z),
 						NumTris = mesh.sharedMesh.triangles.GetLength(0),
 						NumVert = mesh.sharedMesh.vertexCount,
