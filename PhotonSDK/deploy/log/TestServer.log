@@ -304,3 +304,23 @@
 2018-01-27 13:33:32,855 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
 2018-01-27 13:33:32,855 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
 2018-01-27 13:33:32,856 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=TestServer
+2018-01-31 16:31:48,335 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\TestServer\TestServer.config
+2018-01-31 16:31:48,586 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-01-31 16:31:48,601 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4530, Sibling 0, Allow Clients True
+2018-01-31 16:31:48,601 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=TestServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\TestServer, Type=MGF_Photon.PhotonApplication 
+2018-01-31 16:32:39,369 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-01-31 16:32:39,369 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-01-31 16:32:39,369 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=TestServer
+2018-01-31 16:32:39,369 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-01-31 16:32:39,369 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-01-31 16:32:39,369 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=TestServer
+2018-01-31 16:35:16,895 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\TestServer\TestServer.config
+2018-01-31 16:35:17,113 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-01-31 16:35:17,129 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4530, Sibling 0, Allow Clients True
+2018-01-31 16:35:17,145 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=TestServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\TestServer, Type=MGF_Photon.PhotonApplication 
+2018-01-31 16:35:22,016 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-01-31 16:35:22,016 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-01-31 16:35:22,016 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=TestServer
+2018-01-31 16:35:22,016 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-01-31 16:35:22,016 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-01-31 16:35:22,016 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=TestServer

@@ -6,21 +6,29 @@
         <X>0</X>
         <Y>1.64</Y>
         <Z>30.7</Z>
+        <W>0</W>
+        <Heading>0</Heading>
       </Center>
       <HalfExtents>
         <X>0.5</X>
         <Y>0.5</Y>
         <Z>0.5</Z>
+        <W>0</W>
+        <Heading>0</Heading>
       </HalfExtents>
       <Rotation>
         <X>-0</X>
-        <Y>0</Y>
-        <Z>0</Z>
+        <Y>-0</Y>
+        <Z>-0</Z>
+        <W>1</W>
+        <Heading>0</Heading>
       </Rotation>
       <LocalScale>
         <X>4</X>
         <Y>4</Y>
         <Z>4</Z>
+        <W>0</W>
+        <Heading>0</Heading>
       </LocalScale>
     </BPBox>
     <BPBox>
@@ -28,21 +36,29 @@
         <X>0</X>
         <Y>4.9</Y>
         <Z>0</Z>
+        <W>0</W>
+        <Heading>0</Heading>
       </Center>
       <HalfExtents>
         <X>0.5</X>
         <Y>0.5</Y>
         <Z>0.5</Z>
+        <W>0</W>
+        <Heading>0</Heading>
       </HalfExtents>
       <Rotation>
         <X>-0</X>
-        <Y>0</Y>
-        <Z>0</Z>
+        <Y>-0</Y>
+        <Z>-0</Z>
+        <W>1</W>
+        <Heading>0</Heading>
       </Rotation>
       <LocalScale>
         <X>10</X>
         <Y>10</Y>
         <Z>10</Z>
+        <W>0</W>
+        <Heading>0</Heading>
       </LocalScale>
     </BPBox>
   </Boxes>
@@ -54,16 +70,22 @@
         <X>0</X>
         <Y>0</Y>
         <Z>0</Z>
+        <W>0</W>
+        <Heading>0</Heading>
       </Center>
       <Rotation>
         <X>-0</X>
-        <Y>0</Y>
-        <Z>0</Z>
+        <Y>-0</Y>
+        <Z>-0</Z>
+        <W>1</W>
+        <Heading>0</Heading>
       </Rotation>
       <LocalScale>
         <X>1</X>
         <Y>1</Y>
         <Z>50</Z>
+        <W>0</W>
+        <Heading>0</Heading>
       </LocalScale>
       <NumTris>600</NumTris>
       <NumVert>121</NumVert>
@@ -670,611 +692,853 @@
         <int>50</int>
       </Triangles>
       <Vertexes>
-        <Vector3>
+        <PositionData>
           <X>5</X>
           <Y>-1.110223E-16</Y>
           <Z>5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>4</X>
           <Y>-1.110223E-16</Y>
           <Z>5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>3</X>
           <Y>-1.110223E-16</Y>
           <Z>5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>1.99999988</X>
           <Y>-1.110223E-16</Y>
           <Z>5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0.99999994</X>
           <Y>-1.110223E-16</Y>
           <Z>5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0</X>
           <Y>-1.110223E-16</Y>
           <Z>5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.00000024</X>
           <Y>-1.110223E-16</Y>
           <Z>5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.99999988</X>
           <Y>-1.110223E-16</Y>
           <Z>5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-3</X>
           <Y>-1.110223E-16</Y>
           <Z>5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-4.00000048</X>
           <Y>-1.110223E-16</Y>
           <Z>5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-5</X>
           <Y>-1.110223E-16</Y>
           <Z>5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>5</X>
           <Y>-8.881784E-17</Y>
           <Z>4</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>4</X>
           <Y>-8.881784E-17</Y>
           <Z>4</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>3</X>
           <Y>-8.881784E-17</Y>
           <Z>4</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>1.99999988</X>
           <Y>-8.881784E-17</Y>
           <Z>4</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0.99999994</X>
           <Y>-8.881784E-17</Y>
           <Z>4</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0</X>
           <Y>-8.881784E-17</Y>
           <Z>4</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.00000024</X>
           <Y>-8.881784E-17</Y>
           <Z>4</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.99999988</X>
           <Y>-8.881784E-17</Y>
           <Z>4</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-3</X>
           <Y>-8.881784E-17</Y>
           <Z>4</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-4.00000048</X>
           <Y>-8.881784E-17</Y>
           <Z>4</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-5</X>
           <Y>-8.881784E-17</Y>
           <Z>4</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>5</X>
           <Y>-6.66133841E-17</Y>
           <Z>3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>4</X>
           <Y>-6.66133841E-17</Y>
           <Z>3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>3</X>
           <Y>-6.66133841E-17</Y>
           <Z>3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>1.99999988</X>
           <Y>-6.66133841E-17</Y>
           <Z>3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0.99999994</X>
           <Y>-6.66133841E-17</Y>
           <Z>3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0</X>
           <Y>-6.66133841E-17</Y>
           <Z>3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.00000024</X>
           <Y>-6.66133841E-17</Y>
           <Z>3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.99999988</X>
           <Y>-6.66133841E-17</Y>
           <Z>3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-3</X>
           <Y>-6.66133841E-17</Y>
           <Z>3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-4.00000048</X>
           <Y>-6.66133841E-17</Y>
           <Z>3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-5</X>
           <Y>-6.66133841E-17</Y>
           <Z>3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>5</X>
           <Y>-4.44089183E-17</Y>
           <Z>1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>4</X>
           <Y>-4.44089183E-17</Y>
           <Z>1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>3</X>
           <Y>-4.44089183E-17</Y>
           <Z>1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>1.99999988</X>
           <Y>-4.44089183E-17</Y>
           <Z>1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0.99999994</X>
           <Y>-4.44089183E-17</Y>
           <Z>1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0</X>
           <Y>-4.44089183E-17</Y>
           <Z>1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.00000024</X>
           <Y>-4.44089183E-17</Y>
           <Z>1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.99999988</X>
           <Y>-4.44089183E-17</Y>
           <Z>1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-3</X>
           <Y>-4.44089183E-17</Y>
           <Z>1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-4.00000048</X>
           <Y>-4.44089183E-17</Y>
           <Z>1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-5</X>
           <Y>-4.44089183E-17</Y>
           <Z>1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>5</X>
           <Y>-2.22044592E-17</Y>
           <Z>0.99999994</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>4</X>
           <Y>-2.22044592E-17</Y>
           <Z>0.99999994</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>3</X>
           <Y>-2.22044592E-17</Y>
           <Z>0.99999994</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>1.99999988</X>
           <Y>-2.22044592E-17</Y>
           <Z>0.99999994</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0.99999994</X>
           <Y>-2.22044592E-17</Y>
           <Z>0.99999994</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0</X>
           <Y>-2.22044592E-17</Y>
           <Z>0.99999994</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.00000024</X>
           <Y>-2.22044592E-17</Y>
           <Z>0.99999994</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.99999988</X>
           <Y>-2.22044592E-17</Y>
           <Z>0.99999994</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-3</X>
           <Y>-2.22044592E-17</Y>
           <Z>0.99999994</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-4.00000048</X>
           <Y>-2.22044592E-17</Y>
           <Z>0.99999994</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-5</X>
           <Y>-2.22044592E-17</Y>
           <Z>0.99999994</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>5</X>
           <Y>0</Y>
           <Z>0</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>4</X>
           <Y>0</Y>
           <Z>0</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>3</X>
           <Y>0</Y>
           <Z>0</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>1.99999988</X>
           <Y>0</Y>
           <Z>0</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0.99999994</X>
           <Y>0</Y>
           <Z>0</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0</X>
           <Y>0</Y>
           <Z>0</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.00000024</X>
           <Y>0</Y>
           <Z>0</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.99999988</X>
           <Y>0</Y>
           <Z>0</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-3</X>
           <Y>0</Y>
           <Z>0</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-4.00000048</X>
           <Y>0</Y>
           <Z>0</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-5</X>
           <Y>0</Y>
           <Z>0</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>5</X>
           <Y>2.22044658E-17</Y>
           <Z>-1.00000024</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>4</X>
           <Y>2.22044658E-17</Y>
           <Z>-1.00000024</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>3</X>
           <Y>2.22044658E-17</Y>
           <Z>-1.00000024</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>1.99999988</X>
           <Y>2.22044658E-17</Y>
           <Z>-1.00000024</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0.99999994</X>
           <Y>2.22044658E-17</Y>
           <Z>-1.00000024</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0</X>
           <Y>2.22044658E-17</Y>
           <Z>-1.00000024</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.00000024</X>
           <Y>2.22044658E-17</Y>
           <Z>-1.00000024</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.99999988</X>
           <Y>2.22044658E-17</Y>
           <Z>-1.00000024</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-3</X>
           <Y>2.22044658E-17</Y>
           <Z>-1.00000024</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-4.00000048</X>
           <Y>2.22044658E-17</Y>
           <Z>-1.00000024</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-5</X>
           <Y>2.22044658E-17</Y>
           <Z>-1.00000024</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>5</X>
           <Y>4.44089183E-17</Y>
           <Z>-1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>4</X>
           <Y>4.44089183E-17</Y>
           <Z>-1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>3</X>
           <Y>4.44089183E-17</Y>
           <Z>-1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>1.99999988</X>
           <Y>4.44089183E-17</Y>
           <Z>-1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0.99999994</X>
           <Y>4.44089183E-17</Y>
           <Z>-1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0</X>
           <Y>4.44089183E-17</Y>
           <Z>-1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.00000024</X>
           <Y>4.44089183E-17</Y>
           <Z>-1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.99999988</X>
           <Y>4.44089183E-17</Y>
           <Z>-1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-3</X>
           <Y>4.44089183E-17</Y>
           <Z>-1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-4.00000048</X>
           <Y>4.44089183E-17</Y>
           <Z>-1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-5</X>
           <Y>4.44089183E-17</Y>
           <Z>-1.99999988</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>5</X>
           <Y>6.66133841E-17</Y>
           <Z>-3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>4</X>
           <Y>6.66133841E-17</Y>
           <Z>-3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>3</X>
           <Y>6.66133841E-17</Y>
           <Z>-3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>1.99999988</X>
           <Y>6.66133841E-17</Y>
           <Z>-3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0.99999994</X>
           <Y>6.66133841E-17</Y>
           <Z>-3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0</X>
           <Y>6.66133841E-17</Y>
           <Z>-3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.00000024</X>
           <Y>6.66133841E-17</Y>
           <Z>-3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.99999988</X>
           <Y>6.66133841E-17</Y>
           <Z>-3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-3</X>
           <Y>6.66133841E-17</Y>
           <Z>-3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-4.00000048</X>
           <Y>6.66133841E-17</Y>
           <Z>-3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-5</X>
           <Y>6.66133841E-17</Y>
           <Z>-3</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>5</X>
           <Y>8.881785E-17</Y>
           <Z>-4.00000048</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>4</X>
           <Y>8.881785E-17</Y>
           <Z>-4.00000048</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>3</X>
           <Y>8.881785E-17</Y>
           <Z>-4.00000048</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>1.99999988</X>
           <Y>8.881785E-17</Y>
           <Z>-4.00000048</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0.99999994</X>
           <Y>8.881785E-17</Y>
           <Z>-4.00000048</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0</X>
           <Y>8.881785E-17</Y>
           <Z>-4.00000048</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.00000024</X>
           <Y>8.881785E-17</Y>
           <Z>-4.00000048</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.99999988</X>
           <Y>8.881785E-17</Y>
           <Z>-4.00000048</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-3</X>
           <Y>8.881785E-17</Y>
           <Z>-4.00000048</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-4.00000048</X>
           <Y>8.881785E-17</Y>
           <Z>-4.00000048</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-5</X>
           <Y>8.881785E-17</Y>
           <Z>-4.00000048</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>5</X>
           <Y>1.110223E-16</Y>
           <Z>-5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>4</X>
           <Y>1.110223E-16</Y>
           <Z>-5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>3</X>
           <Y>1.110223E-16</Y>
           <Z>-5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>1.99999988</X>
           <Y>1.110223E-16</Y>
           <Z>-5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0.99999994</X>
           <Y>1.110223E-16</Y>
           <Z>-5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>0</X>
           <Y>1.110223E-16</Y>
           <Z>-5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.00000024</X>
           <Y>1.110223E-16</Y>
           <Z>-5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-1.99999988</X>
           <Y>1.110223E-16</Y>
           <Z>-5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-3</X>
           <Y>1.110223E-16</Y>
           <Z>-5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-4.00000048</X>
           <Y>1.110223E-16</Y>
           <Z>-5</Z>
-        </Vector3>
-        <Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
+        <PositionData>
           <X>-5</X>
           <Y>1.110223E-16</Y>
           <Z>-5</Z>
-        </Vector3>
+          <W>0</W>
+          <Heading>0</Heading>
+        </PositionData>
       </Vertexes>
     </BPMesh>
   </Meshes>
