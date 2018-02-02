@@ -50,7 +50,7 @@ public class PhysicsExporter : Editor
 						HalfExtents = new PositionData(box.size.x / 2f, box.size.y / 2f, box.size.z / 2f),
 						Rotation = new PositionData(box.transform.rotation.x,
 							box.transform.rotation.y, box.transform.rotation.z, box.transform.rotation.w),
-						LocalScale = new PositionData(box.transform.localScale.y, box.transform.localScale.y,
+						LocalScale = new PositionData(box.transform.localScale.x, box.transform.localScale.y,
 							box.transform.localScale.z)
 					};
 
@@ -69,7 +69,7 @@ public class PhysicsExporter : Editor
 						Center = new PositionData(center.x, center.y, center.z),
 						Rotation = new PositionData(capsule.transform.rotation.x,
 							capsule.transform.rotation.y, capsule.transform.rotation.z, capsule.transform.rotation.w),
-						LocalScale = new PositionData(capsule.transform.localScale.y, capsule.transform.localScale.y,
+						LocalScale = new PositionData(capsule.transform.localScale.x, capsule.transform.localScale.y,
 							capsule.transform.localScale.z),
 						Height = capsule.height,
 						Radius = capsule.radius
@@ -90,7 +90,7 @@ public class PhysicsExporter : Editor
 						Center = new PositionData(center.x, center.y, center.z),
 						Rotation = new PositionData(sphere.transform.rotation.x,
 							sphere.transform.rotation.y, sphere.transform.rotation.z, sphere.transform.rotation.w),
-						LocalScale = new PositionData(sphere.transform.localScale.y, sphere.transform.localScale.y,
+						LocalScale = new PositionData(sphere.transform.localScale.x, sphere.transform.localScale.y,
 							sphere.transform.localScale.z),
 						Radius = sphere.radius
 					};
@@ -117,7 +117,7 @@ public class PhysicsExporter : Editor
 						Center = new PositionData(center.x, center.y, center.z),
 						Rotation = new PositionData(mesh.transform.rotation.x,
 							mesh.transform.rotation.y, mesh.transform.rotation.z, mesh.transform.rotation.w),
-						LocalScale = new PositionData(mesh.transform.localScale.y, mesh.transform.localScale.y,
+						LocalScale = new PositionData(mesh.transform.localScale.x, mesh.transform.localScale.y,
 							mesh.transform.localScale.z),
 						NumTris = mesh.sharedMesh.triangles.GetLength(0),
 						NumVert = mesh.sharedMesh.vertexCount,
