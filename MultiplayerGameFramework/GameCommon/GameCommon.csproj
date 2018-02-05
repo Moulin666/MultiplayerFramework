@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GameCommon</RootNamespace>
     <AssemblyName>GameCommon</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -55,6 +55,7 @@
     <Compile Include="MessageSerializerService.cs" />
     <Compile Include="MessageSubCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReturnCode.cs" />
     <Compile Include="SerializedPhysicsObjects\BPBox.cs" />
     <Compile Include="SerializedPhysicsObjects\BPCapsule.cs" />
     <Compile Include="SerializedPhysicsObjects\BPColliders.cs" />

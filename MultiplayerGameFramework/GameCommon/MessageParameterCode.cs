@@ -5,6 +5,7 @@
 	/// </summary>
     public enum MessageParameterCode : byte
     {
-        SubCodeParameterCode = 0
+        SubCodeParameterCode = 0,
+		PeerIdParameterCode = 1,
     }
 }

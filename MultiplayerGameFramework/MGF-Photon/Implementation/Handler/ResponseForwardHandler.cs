@@ -58,8 +58,8 @@ namespace MGF_Photon.Implementation.Handler
 
 			if(message.Parameters.ContainsKey(_serverConfiguration.PeerIdCode))
 			{
-				Log.DebugFormat("Looking for peer id {0}", new Guid((byte[])message.Parameters[_serverConfiguration.PeerIdCode]));
-				PhotonClientPeer peer = _connectionCollection.GetPeers<PhotonClientPeer>().FirstOrDefault(p => p.PeerId == new Guid((byte[])message.Parameters[_serverConfiguration.PeerIdCode]));
+				Log.DebugFormat("Looking for peer id {0}", new Guid((Byte[])message.Parameters[_serverConfiguration.PeerIdCode]));
+				PhotonClientPeer peer = _connectionCollection.GetPeers<PhotonClientPeer>().FirstOrDefault(p => p.PeerId == new Guid((Byte[])message.Parameters[_serverConfiguration.PeerIdCode]));
 
 				if(peer != null)
 				{

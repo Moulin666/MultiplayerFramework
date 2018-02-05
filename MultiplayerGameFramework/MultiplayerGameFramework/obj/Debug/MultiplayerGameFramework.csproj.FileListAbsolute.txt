@@ -8,4 +8,10 @@ D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\bin\Debug\Multipl
 D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\obj\Debug\MultiplayerGameFramework.csproj.CoreCompileInputs.cache
 D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\obj\Debug\MultiplayerGameFramework.dll
 D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\obj\Debug\MultiplayerGameFramework.pdb
+D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\bin\Debug\Microsoft.Extensions.Primitives.xml
 D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\obj\Debug\MultiplayerGameFramework.csprojResolveAssemblyReference.cache

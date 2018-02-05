@@ -15,3 +15,10 @@ D:\Roman\FWO\MultiplayerGameFramework\Servers\obj\Debug\Servers.csprojResolveAss
 D:\Roman\FWO\MultiplayerGameFramework\Servers\obj\Debug\Servers.csproj.CoreCompileInputs.cache
 D:\Roman\FWO\MultiplayerGameFramework\Servers\obj\Debug\Servers.dll
 D:\Roman\FWO\MultiplayerGameFramework\Servers\obj\Debug\Servers.pdb
+D:\Roman\FWO\PhotonSDK\deploy\TestServer\LoginServer.config
+D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\log4net.config
+D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\LoginServer.config
+D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ProxyServer.config
+D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\Servers.dll.config
+D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\Servers.dll
+D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\Servers.pdb

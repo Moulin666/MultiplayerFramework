@@ -13,7 +13,7 @@ namespace GameCommon
 		/// <typeparam name="T">Class</typeparam>
 		/// <param name="objectToSerialize">Object to serialize of type to JSon or BSon</param>
 		/// <returns>Serialize object.</returns>
-		public object SerializeObjectOfType<T>(T objectToSerialize) where T : class
+		public static object SerializeObjectOfType<T>(T objectToSerialize) where T : class
 		{
 			object result = null;
 
@@ -32,7 +32,7 @@ namespace GameCommon
 		/// <typeparam name="T">Class</typeparam>
 		/// <param name="objectToDeserialize">Object to deserialize of type from JSon or BSon</param>
 		/// <returns>Deserialize T. Where T : class</returns>
-		public T DeserializeObjectOfType<T>(object objectToDeserialize) where T : class
+		public static T DeserializeObjectOfType<T>(object objectToDeserialize) where T : class
 		{
 			T result = null;
 
@@ -47,12 +47,12 @@ namespace GameCommon
 
 		#region JSon
 
-		public object SerializeJson<T>(T objectToSerialize) where T : class
+		protected static object SerializeJson<T>(T objectToSerialize) where T : class
 		{
 			return JsonConvert.SerializeObject(objectToSerialize);
 		}
 
-		public T DeserializeJson<T>(object objectToDeserialize) where T : class
+		protected static T DeserializeJson<T>(object objectToDeserialize) where T : class
 		{
 			return JsonConvert.DeserializeObject<T>((string)objectToDeserialize);
 		}
@@ -61,7 +61,7 @@ namespace GameCommon
 
 		#region BSon
 
-		public object SerializeBson<T>(T objectToSerialize) where T : class
+		protected static object SerializeBson<T>(T objectToSerialize) where T : class
 		{
 			MemoryStream memoryStream = new MemoryStream();
 
@@ -74,7 +74,7 @@ namespace GameCommon
 			return Convert.ToBase64String(memoryStream.ToArray());
 		}
 
-		public T DeserializeBson<T>(object objectToDeserialize) where T : class
+		protected static T DeserializeBson<T>(object objectToDeserialize) where T : class
 		{
 			byte[] data = Convert.FromBase64String((string)objectToDeserialize);
 

@@ -43,9 +43,9 @@ namespace MultiplayerGameFramework.Implementation.Config
 		/// <param name="isSiblingConnection"></param>
 		/// <param name="maxTries">Maximum number tries.</param>
 		/// <param name="applicationName">Application name our server.</param>
-		public PeerInfo(string ipAdress, int ipPort, int connectRetryIntervalSeconds, bool isSiblingConnection, int maxTries, string applicationName)
+		public PeerInfo(string ipAddress, int ipPort, int connectRetryIntervalSeconds, bool isSiblingConnection, int maxTries, string applicationName)
 		{
-			MasterEndPoint = new IPEndPoint(IPAddress.Parse(ipAdress), ipPort);
+			MasterEndPoint = new IPEndPoint(IPAddress.Parse(ipAddress), ipPort);
 			ConnectRetryIntervalSeconds = connectRetryIntervalSeconds;
 			IsSiblingConnection = isSiblingConnection;
 			MaxTries = maxTries;

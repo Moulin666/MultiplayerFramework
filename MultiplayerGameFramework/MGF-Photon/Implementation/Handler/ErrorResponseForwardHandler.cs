@@ -5,7 +5,7 @@ using MultiplayerGameFramework.Interfaces.Server;
 
 namespace MGF_Photon.Implementation.Handler
 {
-	public class ErrorResponseForwardHandler : ServerHandler, IDefaultRequestHandler<IServerPeer>
+	public class ErrorResponseForwardHandler : ServerHandler, IDefaultResponseHandler<IServerPeer>
 	{
 		public ILogger Log { get; set; }
 

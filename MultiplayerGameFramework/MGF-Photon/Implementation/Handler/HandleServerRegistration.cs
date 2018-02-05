@@ -4,11 +4,13 @@ using MGF_Photon.Implementation.Data;
 using MGF_Photon.Implementation.Operation;
 using MGF_Photon.Implementation.Operation.Data;
 using MGF_Photon.Implementation.Server;
+using MultiplayerGameFramework.Implementation.Config;
 using MultiplayerGameFramework.Implementation.Messaging;
 using MultiplayerGameFramework.Interfaces.Config;
 using MultiplayerGameFramework.Interfaces.Messaging;
 using MultiplayerGameFramework.Interfaces.Server;
 using Photon.SocketServer;
+using System.Collections.Generic;
 using System.IO;
 using System.Xml.Serialization;
 
@@ -20,10 +22,13 @@ namespace MGF_Photon.Implementation.Handler
 
 		public ILogger Log { get; set; }
 
-		public HandleServerRegistration(ILogger log, IServerType serverType)
+		private ServerConfiguration _serverConfiguration;
+
+		public HandleServerRegistration(ILogger log, IServerType serverType, ServerConfiguration serverConfiguration)
 		{
 			Log = log;
 			_serverType = serverType;
+			_serverConfiguration = serverConfiguration;
 		}
 
 		public override MessageType Type
@@ -69,7 +74,10 @@ namespace MGF_Photon.Implementation.Handler
 			if (serverPeer.Registered)
 			{
 				operationResponse = new OperationResponse(message.Code)
-				{ ReturnCode = (short)ErrorCode.InternalServerError, DebugMessage = "Already registered"};
+				{
+					ReturnCode = (short)ErrorCode.InternalServerError,
+					DebugMessage = "Already registered"
+				};
 			}
 			else
 			{
@@ -80,9 +88,7 @@ namespace MGF_Photon.Implementation.Handler
 					string msg = registerRequest.GetErrorMessage();
 
 					if(Log.IsDebugEnabled)
-					{
 						Log.DebugFormat("Invalid register request {0}", msg);
-					}
 
 					operationResponse = new OperationResponse(message.Code)
 						{ DebugMessage = msg, ReturnCode = (short)ErrorCode.OperationInvalid };
@@ -94,22 +100,17 @@ namespace MGF_Photon.Implementation.Handler
 					var registerData = (RegisterSubServerData)mySerializer.Deserialize(inStream);
 
 					if (Log.IsDebugEnabled)
-					{
-						Log.DebugFormat("Received register request: Address={0}, UdpPort={1}, TcpPort={2}, Type{3}", 
+						Log.DebugFormat("Received register request: Address={0}, UdpPort={1}, TcpPort={2}, Type={3}", 
 							registerData.GameServerAddress, registerData.UdpPort, registerData.TcpPort, registerData.ServerType);
-					}
 
 					var serverData = serverPeer.ServerData<ServerData>();
 
 					if(serverData != null)
-					{
 						Log.DebugFormat("ServerData is NULL");
-					}
+							
 
 					if (registerData.UdpPort.HasValue)
-					{
 						serverData.UdpAddress = registerData.GameServerAddress + ":" + registerData.UdpPort;
-					}
 
 					if (registerData.TcpPort.HasValue)
 					{
@@ -124,7 +125,8 @@ namespace MGF_Photon.Implementation.Handler
 
 					serverData.ApplicationName = registerData.ServerName;
 
-					operationResponse = new OperationResponse(message.Code);
+					operationResponse = new OperationResponse(message.Code, new Dictionary<byte, object>()
+						{ { _serverConfiguration.SubCodeParameterCode, 0 } });
 
 					serverPeer.Registered = true;
 				}

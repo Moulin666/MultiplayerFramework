@@ -10,4 +10,3 @@ D:\Roman\FWO\MultiplayerGameFramework\GameCommon\obj\Debug\GameCommon.pdb
 D:\Roman\FWO\MultiplayerGameFramework\GameCommon\bin\Debug\BulletSharp.dll
 D:\Roman\FWO\Fortress War Online Client\Assets\Plugins\GameCommon.dll
 D:\Roman\FWO\Fortress War Online Client\Assets\Plugins\GameCommon.pdb
-D:\Roman\FWO\MultiplayerGameFramework\GameCommon\obj\Debug\GameCommon.csprojResolveAssemblyReference.cache

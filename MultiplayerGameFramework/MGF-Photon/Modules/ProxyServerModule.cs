@@ -29,7 +29,7 @@ namespace MGF_Photon.Modules
 			builder.RegisterType<ClientHandlerList>().AsImplementedInterfaces();
             
 			builder.RegisterType<EventForwardHandler>().AsImplementedInterfaces();
-			builder.RegisterType<RequestForwarHandler>().AsImplementedInterfaces();
+			builder.RegisterType<RequestForwardHandler>().AsImplementedInterfaces();
 			builder.RegisterType<ResponseForwardHandler>().AsImplementedInterfaces();
 
 			builder.RegisterType<HandleServerRegistration>().AsImplementedInterfaces();

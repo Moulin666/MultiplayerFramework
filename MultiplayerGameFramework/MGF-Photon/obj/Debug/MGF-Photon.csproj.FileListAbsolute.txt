@@ -53,3 +53,6 @@ D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\obj\Debug\MGF-Photon.csprojReso
 D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\obj\Debug\MGF-Photon.csproj.CoreCompileInputs.cache
 D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\obj\Debug\MGF.Photon.dll
 D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\obj\Debug\MGF.Photon.pdb
+D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\MGF.Photon.dll.config
+D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\MGF.Photon.dll
+D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\MGF.Photon.pdb
