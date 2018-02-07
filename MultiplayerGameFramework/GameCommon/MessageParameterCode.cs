@@ -7,5 +7,7 @@
     {
         SubCodeParameterCode = 0,
 		PeerIdParameterCode = 1,
-    }
+
+		TestMessageParameterCode = 2,
+	}
 }

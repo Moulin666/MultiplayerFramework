@@ -105,9 +105,8 @@ namespace MGF_Photon.Implementation.Handler
 
 					var serverData = serverPeer.ServerData<ServerData>();
 
-					if(serverData != null)
-						Log.DebugFormat("ServerData is NULL");
-							
+					if(serverData == null)
+						Log.DebugFormat("ServerData is NULL");	
 
 					if (registerData.UdpPort.HasValue)
 						serverData.UdpAddress = registerData.GameServerAddress + ":" + registerData.UdpPort;
@@ -124,6 +123,10 @@ namespace MGF_Photon.Implementation.Handler
 					serverPeer.ServerType = _serverType.GetServerType(registerData.ServerType);
 
 					serverData.ApplicationName = registerData.ServerName;
+
+					Log.DebugFormat("ServerData: id={0} AppName={1} Type={2} | TCP: {3} UDP: {4}",
+						serverData.ServerId, serverData.ApplicationName, serverData.ServerType,
+						serverData.TcpAddress, serverData.UdpAddress);
 
 					operationResponse = new OperationResponse(message.Code, new Dictionary<byte, object>()
 						{ { _serverConfiguration.SubCodeParameterCode, 0 } });

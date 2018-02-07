@@ -5,6 +5,6 @@
 	/// </summary>
     public enum MessageOperationCode : byte
     {
-
+		LoginOperationCode = 0,
     }
 }

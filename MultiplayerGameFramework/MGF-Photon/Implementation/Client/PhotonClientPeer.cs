@@ -86,7 +86,7 @@ namespace MGF_Photon.Implementation.Client
 		}
 
 		/// <summary>
-		/// Send message to the server.
+		/// Send message to the client.
 		/// </summary>
 		/// <param name="message">Message for sent.</param>
 		public void SendMessage(IMessage message)

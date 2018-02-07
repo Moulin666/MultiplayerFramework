@@ -153,7 +153,11 @@
     <Compile Include="BackgroundThreads\TestBackgroundThread.cs" />
     <Compile Include="Config\ServerType.cs" />
     <Compile Include="Handlers\TestRequestEventHandler.cs" />
+    <Compile Include="Handlers\LoginHandler.cs" />
+    <Compile Include="Handlers\LoginTestHandler.cs" />
     <Compile Include="Handlers\TestRequestResponseHandler.cs" />
+    <Compile Include="Modules\GameModule.cs" />
+    <Compile Include="Modules\ChatModule.cs" />
     <Compile Include="Modules\LoginModule.cs" />
     <Compile Include="Modules\ProxyModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -164,6 +168,14 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ChatServer.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="GameServer.config">
+      <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />

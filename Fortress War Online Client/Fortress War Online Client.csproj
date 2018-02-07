@@ -333,6 +333,7 @@
     <Compile Include="Assets\_scripts\ClientHandlers\TestHandler.cs" />
     <Compile Include="Assets\_scripts\ClientHandlers\TestHandlerEvent.cs" />
     <Compile Include="Assets\_scripts\ClientHandlers\TestHandlerEventBack.cs" />
+    <Compile Include="Assets\_scripts\ClientHandlers\TestLoginHandler.cs" />
     <Compile Include="Assets\_scripts\ClientViews\TestView.cs" />
     <Compile Include="Assets\_scripts\Controllers\CameraController.cs" />
     <Compile Include="Assets\_scripts\MGFClient\EngineState.cs" />

@@ -17,6 +17,8 @@ namespace Servers.Modules
 			builder.RegisterType<TestRequestResponseHandler>().AsImplementedInterfaces();
 			builder.RegisterType<TestRequestEventHandler>().AsImplementedInterfaces();
 			builder.RegisterType<TestBackgroundThread>().AsImplementedInterfaces();
+
+			builder.RegisterType<LoginHandler>().AsImplementedInterfaces();
 		}
 	}
 }

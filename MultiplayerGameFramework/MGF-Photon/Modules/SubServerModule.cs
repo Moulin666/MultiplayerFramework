@@ -18,7 +18,7 @@ namespace MGF_Photon.Modules
 
 			builder.RegisterType<ServerApplication>().AsImplementedInterfaces().SingleInstance();
 			builder.RegisterType<PhotonPeerFactory>().AsImplementedInterfaces().SingleInstance();
-			builder.RegisterType<PeerConfig>().AsImplementedInterfaces();//SingleInstance();
+			builder.RegisterType<PeerConfig>().AsImplementedInterfaces();
 			builder.RegisterType<SubServerClientPeer>().AsSelf().AsImplementedInterfaces();
 			builder.RegisterType<PhotonClientPeer>().AsSelf().AsImplementedInterfaces();
 			builder.RegisterType<PhotonServerPeer>().AsSelf().AsImplementedInterfaces();

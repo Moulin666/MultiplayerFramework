@@ -1,6 +1,7 @@
 ﻿using ExitGames.Client.Photon;
 using UnityEngine;
 using System.Collections.Generic;
+using GameCommon;
 
 public class TestView : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class TestView : MonoBehaviour
 			OperationCode = 1,
 			Parameters = new Dictionary<byte, object>
 			{
-				{ (byte)PhotonEngine.Instance.SubCodeParameterCode, 2 }
+				{ PhotonEngine.Instance.SubCodeParameterCode, 2 }
 			}
 		};
 
@@ -36,4 +37,18 @@ public class TestView : MonoBehaviour
 		Debug.Log("Send request for get event from server");
 	}
 	
+	public void SendTestLoginRequest()
+	{
+		OperationRequest request = new OperationRequest()
+		{
+			OperationCode = (byte)MessageOperationCode.LoginOperationCode,
+			Parameters = new Dictionary<byte, object>
+			{
+				{ PhotonEngine.Instance.SubCodeParameterCode, (int)MessageSubCode.RegisterSubCode },
+				{ (byte)MessageParameterCode.TestMessageParameterCode, "Hello server" }
+			}
+		};
+
+		PhotonEngine.Instance.SendRequest(request);
+	}
 }

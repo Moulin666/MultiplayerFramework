@@ -21,7 +21,7 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
 	/// <summary>
 	/// ApplicationName on the server.
 	/// </summary>
-	public string ApplicationName = "TestServer";
+	public string ApplicationName = "ProxyServer";
 	/// <summary>
 	/// Use Enctyption?
 	/// </summary>

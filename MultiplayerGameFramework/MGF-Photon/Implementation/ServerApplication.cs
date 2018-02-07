@@ -142,6 +142,7 @@ namespace MGF_Photon.Implementation
 		{
 			foreach(var afterServerRegistration in _afterServerRegistrationEvents)
 			{
+				Log.DebugFormat("After - {0}", afterServerRegistration);
 				afterServerRegistration.AfterRegister(serverPeer);
 			}
 		}

@@ -28,7 +28,7 @@ namespace MultiplayerGameFramework.Interfaces.Client
 		/// </summary>
 		void Disconnect();
 		/// <summary>
-		/// Send message to the server.
+		/// Send message to the client.
 		/// </summary>
 		/// <param name="message">Message for sent.</param>
 		void SendMessage(IMessage message);

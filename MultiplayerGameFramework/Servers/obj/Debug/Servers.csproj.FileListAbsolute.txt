@@ -22,3 +22,5 @@ D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ProxyServer.config
 D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\Servers.dll.config
 D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\Servers.dll
 D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\Servers.pdb
+D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ChatServer.config
+D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
