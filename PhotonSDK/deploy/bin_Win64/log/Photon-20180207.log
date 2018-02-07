@@ -46,3 +46,9 @@
 59132: 21:47:54.987 - Will produce at most: 10 crash dumps
 59132: 21:47:54.987 - Service shutting down
 59132: 21:47:54.989 - Service shut down complete
+55084: 23:54:46.726 - ---
+55084: 23:54:46.726 - Service: "Photon Socket Server" starting
+55084: 23:54:46.726 - Config File: D:\Roman\FWO\PhotonSDK\deploy\bin_Win64\PhotonServer.config
+55084: 23:54:46.728 - Will produce at most: 10 crash dumps
+55084: 23:54:46.728 - Service shutting down
+55084: 23:54:46.732 - Service shut down complete

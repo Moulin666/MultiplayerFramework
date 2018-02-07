@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class TestHandlerEventBack : IMessageHandler
+public class TestBackgroundThreadHandler : IMessageHandler
 {
 	public MessageType Type
 	{
@@ -10,9 +10,9 @@ public class TestHandlerEventBack : IMessageHandler
 		}
 	}
 
-	public byte Code { get { return 2; } }
+	public byte Code { get { return 20; } }
 
-	public int? SubCode { get { return 3; } }
+	public int? SubCode { get { return 1; } }
 
 	public bool HandleMessage(IMessage message)
 	{

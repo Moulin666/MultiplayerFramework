@@ -138,6 +138,8 @@ namespace MGF_Photon.Implementation.Server
 		/// <param name="message"></param>
 		public void HandleMessage(IMessage message)
 		{
+			Log.Debug("Handle message.");
+
 			_handlerList.HandleMessage(message, this);
 		}
 

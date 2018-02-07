@@ -82,7 +82,7 @@ namespace Servers.BackgroundThreads
 			if (instance != null)
 			{
 				Log.DebugFormat("Send message to peer");
-				instance.SendMessage(new Event(2, 3, new Dictionary<byte, object>()));
+				instance.SendMessage(new Event(20, 1, new Dictionary<byte, object>()));
 			}
 		}
 	}

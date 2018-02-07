@@ -5,38 +5,6 @@ using GameCommon;
 
 public class TestView : MonoBehaviour
 {
-	public void SendResponseRequest()
-	{
-		OperationRequest request = new OperationRequest()
-		{
-			OperationCode = 1,
-			Parameters = new Dictionary<byte, object>
-			{
-				{ PhotonEngine.Instance.SubCodeParameterCode, 1 }
-			}
-		};
-
-		PhotonEngine.Instance.SendRequest(request);
-
-		Debug.Log("Send request for get response from server");
-	}
-
-    public void SendEventRequest()
-	{
-		OperationRequest request = new OperationRequest()
-		{
-			OperationCode = 1,
-			Parameters = new Dictionary<byte, object>
-			{
-				{ PhotonEngine.Instance.SubCodeParameterCode, 2 }
-			}
-		};
-
-		PhotonEngine.Instance.SendRequest(request);
-
-		Debug.Log("Send request for get event from server");
-	}
-	
 	public void SendTestLoginRequest()
 	{
 		OperationRequest request = new OperationRequest()
@@ -46,6 +14,36 @@ public class TestView : MonoBehaviour
 			{
 				{ PhotonEngine.Instance.SubCodeParameterCode, (int)MessageSubCode.RegisterSubCode },
 				{ (byte)MessageParameterCode.TestMessageParameterCode, "Hello server" }
+			}
+		};
+
+		PhotonEngine.Instance.SendRequest(request);
+	}
+
+	public void SendTestChatRequest()
+	{
+		OperationRequest request = new OperationRequest()
+		{
+			OperationCode = (byte)MessageOperationCode.ChatOperationCode,
+			Parameters = new Dictionary<byte, object>
+			{
+				{ PhotonEngine.Instance.SubCodeParameterCode, (int)MessageSubCode.TestChatSubCode },
+				{ (byte)MessageParameterCode.TestMessageParameterCode, "Test to chat" }
+			}
+		};
+
+		PhotonEngine.Instance.SendRequest(request);
+	}
+
+	public void SendTestGameRequest()
+	{
+		OperationRequest request = new OperationRequest()
+		{
+			OperationCode = (byte)MessageOperationCode.GameOperationCode,
+			Parameters = new Dictionary<byte, object>
+			{
+				{ PhotonEngine.Instance.SubCodeParameterCode, (int)MessageSubCode.TestGameSubCode },
+				{ (byte)MessageParameterCode.TestMessageParameterCode, "Test game" }
 			}
 		};
 

@@ -12,13 +12,17 @@ namespace Servers.Modules
 		{
 			base.Load(builder);
 
+			// What we need
 			builder.RegisterType<ClientCodeRemover>().AsImplementedInterfaces();
 			builder.RegisterType<ServerType>().AsImplementedInterfaces();
-			builder.RegisterType<TestRequestResponseHandler>().AsImplementedInterfaces();
-			builder.RegisterType<TestRequestEventHandler>().AsImplementedInterfaces();
+
+			// Background Threads
 			builder.RegisterType<TestBackgroundThread>().AsImplementedInterfaces();
 
-			builder.RegisterType<LoginHandler>().AsImplementedInterfaces();
+			// Handlers
+			builder.RegisterType<LoginProxyHandler>().AsImplementedInterfaces();
+			builder.RegisterType<ChatProxyHandler>().AsImplementedInterfaces();
+			builder.RegisterType<GameProxyHandler>().AsImplementedInterfaces();
 		}
 	}
 }

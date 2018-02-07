@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Servers.Handlers;
 
 namespace Servers.Modules
 {
@@ -8,7 +9,7 @@ namespace Servers.Modules
 		{
 			base.Load(builder);
 
-
+			builder.RegisterType<TestGameHandler>().AsImplementedInterfaces();
 		}
 	}
 }
