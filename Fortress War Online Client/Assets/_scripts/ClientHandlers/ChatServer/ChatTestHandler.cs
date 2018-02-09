@@ -7,9 +7,9 @@ namespace Assets._scripts.ClientHandlers
 	{
 		public MessageType Type => MessageType.Response;
 
-		public byte Code => (byte)MessageOperationCode.LoginOperationCode;
+		public byte Code => (byte)MessageOperationCode.ChatOperationCode;
 
-		public int? SubCode => (int)MessageSubCode.RegisterSubCode;
+		public int? SubCode => (int)MessageSubCode.TestChatSubCode;
 
 		public bool HandleMessage(IMessage message)
 		{
