@@ -6,6 +6,6 @@
 		OperationInvalid = -2,
 		InternalServerError = -1,
 
-		OK = 0
+		OK = 0,
 	}
 }

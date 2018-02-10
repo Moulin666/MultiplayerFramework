@@ -927,3 +927,125 @@ Exception:System.ArgumentException: Элемент с тем же ключом �
 2018-02-07 23:54:46,777 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
 2018-02-07 23:54:46,778 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
 2018-02-07 23:54:46,778 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=LoginServer
+2018-02-09 19:38:43,557 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\LoginServer.config
+2018-02-09 19:38:43,871 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-02-09 19:38:43,918 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-02-09 19:38:43,954 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4531, Sibling 0, Allow Clients False
+2018-02-09 19:38:43,961 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=LoginServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-02-09 19:38:44,646 [14] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-09 19:38:44,804 [14] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-09 19:38:44,809 [14] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-02-09 19:42:58,759 [14] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-09 19:42:58,783 [14] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:OutboundPhotonPeer,ConnId:4,ip:127.0.0.1:4530, Data: F3-02-00-00-02-00-69-00-00-00-00-01-78-00-00-00-10-96-A1-94-81-BA-CD-54-47-BC-09-2E-1D-50-D8-D2-5B,
+Exception:System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Photon.SocketServer.Rpc.DataContract..ctor(IRpcProtocol protocol, IDictionary`2 dataMembers) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\Rpc\DataContract.cs:строка 66
+   в Photon.SocketServer.Rpc.Operation..ctor(IRpcProtocol protocol, OperationRequest request) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\Rpc\Operation.cs:строка 48
+   в Servers.Handlers.LoginServerHandlers.Operations.RegisterOperation..ctor(IMessage message) в D:\Roman\FWO\MultiplayerGameFramework\Servers\Handlers\LoginServerHandlers\Operations\RegisterOperation.cs:строка 11
+   в Servers.Handlers.RegisterAccountHandler.HandleMessage(IMessage message, IServerPeer peer) в D:\Roman\FWO\MultiplayerGameFramework\Servers\Handlers\LoginServerHandlers\RegisterAccountHandler.cs:строка 20
+   в MultiplayerGameFramework.Implementation.Messaging.ServerHandlerList.HandleMessage(IMessage message, IServerPeer peer) в D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\Implementation\Messaging\ServerHandlerList.cs:строка 142
+   в MGF_Photon.Implementation.Server.PhotonServerPeer.HandleMessage(IMessage message) в D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\Implementation\Server\PhotonServerPeer.cs:строка 143
+   в MGF_Photon.Implementation.Server.PhotonServerPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) в D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\Implementation\Server\PhotonServerPeer.cs:строка 84
+   в MGF_Photon.Implementation.Server.OutboundPhotonPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) в D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\Implementation\Server\OutboundPhotonPeer.cs:строка 52
+   в Photon.SocketServer.ServerToServer.S2SPeerBase.OnReceive(Byte[] data, SendParameters sendParameters) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ServerToServer\S2SPeerBase.cs:строка 192
+   в Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:строка 988
+2018-02-09 19:43:00,202 [10] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-09 19:43:00,203 [10] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:OutboundPhotonPeer,ConnId:4,ip:127.0.0.1:4530, Data: F3-02-00-00-02-00-69-00-00-00-00-01-78-00-00-00-10-96-A1-94-81-BA-CD-54-47-BC-09-2E-1D-50-D8-D2-5B,
+Exception:System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Photon.SocketServer.Rpc.DataContract..ctor(IRpcProtocol protocol, IDictionary`2 dataMembers) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\Rpc\DataContract.cs:строка 66
+   в Photon.SocketServer.Rpc.Operation..ctor(IRpcProtocol protocol, OperationRequest request) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\Rpc\Operation.cs:строка 48
+   в Servers.Handlers.LoginServerHandlers.Operations.RegisterOperation..ctor(IMessage message) в D:\Roman\FWO\MultiplayerGameFramework\Servers\Handlers\LoginServerHandlers\Operations\RegisterOperation.cs:строка 11
+   в Servers.Handlers.RegisterAccountHandler.HandleMessage(IMessage message, IServerPeer peer) в D:\Roman\FWO\MultiplayerGameFramework\Servers\Handlers\LoginServerHandlers\RegisterAccountHandler.cs:строка 20
+   в MultiplayerGameFramework.Implementation.Messaging.ServerHandlerList.HandleMessage(IMessage message, IServerPeer peer) в D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\Implementation\Messaging\ServerHandlerList.cs:строка 142
+   в MGF_Photon.Implementation.Server.PhotonServerPeer.HandleMessage(IMessage message) в D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\Implementation\Server\PhotonServerPeer.cs:строка 143
+   в MGF_Photon.Implementation.Server.PhotonServerPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) в D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\Implementation\Server\PhotonServerPeer.cs:строка 84
+   в MGF_Photon.Implementation.Server.OutboundPhotonPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) в D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\Implementation\Server\OutboundPhotonPeer.cs:строка 52
+   в Photon.SocketServer.ServerToServer.S2SPeerBase.OnReceive(Byte[] data, SendParameters sendParameters) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ServerToServer\S2SPeerBase.cs:строка 192
+   в Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:строка 988
+2018-02-09 19:43:00,857 [10] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-09 19:43:00,858 [10] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:OutboundPhotonPeer,ConnId:4,ip:127.0.0.1:4530, Data: F3-02-00-00-02-00-69-00-00-00-00-01-78-00-00-00-10-96-A1-94-81-BA-CD-54-47-BC-09-2E-1D-50-D8-D2-5B,
+Exception:System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Photon.SocketServer.Rpc.DataContract..ctor(IRpcProtocol protocol, IDictionary`2 dataMembers) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\Rpc\DataContract.cs:строка 66
+   в Photon.SocketServer.Rpc.Operation..ctor(IRpcProtocol protocol, OperationRequest request) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\Rpc\Operation.cs:строка 48
+   в Servers.Handlers.LoginServerHandlers.Operations.RegisterOperation..ctor(IMessage message) в D:\Roman\FWO\MultiplayerGameFramework\Servers\Handlers\LoginServerHandlers\Operations\RegisterOperation.cs:строка 11
+   в Servers.Handlers.RegisterAccountHandler.HandleMessage(IMessage message, IServerPeer peer) в D:\Roman\FWO\MultiplayerGameFramework\Servers\Handlers\LoginServerHandlers\RegisterAccountHandler.cs:строка 20
+   в MultiplayerGameFramework.Implementation.Messaging.ServerHandlerList.HandleMessage(IMessage message, IServerPeer peer) в D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\Implementation\Messaging\ServerHandlerList.cs:строка 142
+   в MGF_Photon.Implementation.Server.PhotonServerPeer.HandleMessage(IMessage message) в D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\Implementation\Server\PhotonServerPeer.cs:строка 143
+   в MGF_Photon.Implementation.Server.PhotonServerPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) в D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\Implementation\Server\PhotonServerPeer.cs:строка 84
+   в MGF_Photon.Implementation.Server.OutboundPhotonPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) в D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\Implementation\Server\OutboundPhotonPeer.cs:строка 52
+   в Photon.SocketServer.ServerToServer.S2SPeerBase.OnReceive(Byte[] data, SendParameters sendParameters) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ServerToServer\S2SPeerBase.cs:строка 192
+   в Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:строка 988
+2018-02-09 19:50:38,465 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-09 19:50:38,467 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-02-09 19:50:38,469 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=LoginServer
+2018-02-09 19:50:38,473 [13] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-02-09 19:50:38,487 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-09 19:50:38,487 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-09 19:50:38,487 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=LoginServer
+2018-02-10 12:12:20,920 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\LoginServer.config
+2018-02-10 12:12:21,304 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-02-10 12:12:21,358 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-02-10 12:12:21,388 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4531, Sibling 0, Allow Clients False
+2018-02-10 12:12:21,397 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=LoginServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-02-10 12:18:48,624 [22] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\LoginServer.config
+2018-02-10 12:18:48,866 [22] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-02-10 12:18:48,905 [22] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-02-10 12:18:48,931 [22] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4531, Sibling 0, Allow Clients False
+2018-02-10 12:18:48,937 [22] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=LoginServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-02-10 12:18:48,951 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-10 12:18:48,952 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-10 12:18:48,953 [22] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=LoginServer
+2018-02-10 12:18:48,957 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-10 12:18:48,958 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-10 12:18:48,958 [22] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=LoginServer
+2018-02-10 12:18:51,090 [9] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-10 12:18:51,281 [26] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:18:51,287 [26] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-02-10 12:19:02,377 [11] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:19:02,389 [11] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:OutboundPhotonPeer,ConnId:5,ip:127.0.0.1:4530, Data: F3-02-00-00-02-00-69-00-00-00-00-01-78-00-00-00-10-61-D4-41-97-19-26-B7-4E-AA-C4-DB-4F-72-C9-D6-84,
+Exception:System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Photon.SocketServer.Rpc.DataContract..ctor(IRpcProtocol protocol, IDictionary`2 dataMembers) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\Rpc\DataContract.cs:строка 66
+   в Photon.SocketServer.Rpc.Operation..ctor(IRpcProtocol protocol, OperationRequest request) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\Rpc\Operation.cs:строка 48
+   в Servers.Handlers.LoginServerHandlers.Operations.RegisterOperation..ctor(IMessage message) в D:\Roman\FWO\MultiplayerGameFramework\Servers\Handlers\LoginServerHandlers\Operations\RegisterOperation.cs:строка 11
+   в Servers.Handlers.RegisterAccountHandler.HandleMessage(IMessage message, IServerPeer peer) в D:\Roman\FWO\MultiplayerGameFramework\Servers\Handlers\LoginServerHandlers\RegisterAccountHandler.cs:строка 20
+   в MultiplayerGameFramework.Implementation.Messaging.ServerHandlerList.HandleMessage(IMessage message, IServerPeer peer) в D:\Roman\FWO\MultiplayerGameFramework\MultiplayerGameFramework\Implementation\Messaging\ServerHandlerList.cs:строка 142
+   в MGF_Photon.Implementation.Server.PhotonServerPeer.HandleMessage(IMessage message) в D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\Implementation\Server\PhotonServerPeer.cs:строка 143
+   в MGF_Photon.Implementation.Server.PhotonServerPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) в D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\Implementation\Server\PhotonServerPeer.cs:строка 84
+   в MGF_Photon.Implementation.Server.OutboundPhotonPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) в D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\Implementation\Server\OutboundPhotonPeer.cs:строка 52
+   в Photon.SocketServer.ServerToServer.S2SPeerBase.OnReceive(Byte[] data, SendParameters sendParameters) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ServerToServer\S2SPeerBase.cs:строка 192
+   в Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:строка 988
+2018-02-10 12:27:44,565 [22] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\LoginServer.config
+2018-02-10 12:27:44,861 [22] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-02-10 12:27:44,905 [22] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-02-10 12:27:44,935 [22] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4531, Sibling 0, Allow Clients False
+2018-02-10 12:27:44,941 [22] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=LoginServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-02-10 12:27:44,959 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-10 12:27:44,960 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-02-10 12:27:44,962 [22] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=LoginServer
+2018-02-10 12:27:44,966 [12] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-02-10 12:27:44,967 [24] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-10 12:27:44,967 [24] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-10 12:27:44,967 [24] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=LoginServer
+2018-02-10 12:27:47,043 [6] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-10 12:27:47,203 [6] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:27:47,209 [6] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-02-10 12:27:56,515 [8] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:30:01,070 [9] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:43:12,757 [22] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\LoginServer.config
+2018-02-10 12:43:13,014 [22] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-02-10 12:43:13,051 [22] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-02-10 12:43:13,075 [22] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4531, Sibling 0, Allow Clients False
+2018-02-10 12:43:13,081 [22] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=LoginServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-02-10 12:43:13,094 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-10 12:43:13,096 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-02-10 12:43:13,098 [22] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=LoginServer
+2018-02-10 12:43:13,102 [6] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-02-10 12:43:13,102 [24] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-10 12:43:13,102 [24] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-10 12:43:13,103 [24] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=LoginServer
+2018-02-10 12:43:15,156 [26] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-10 12:43:15,294 [8] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:43:15,300 [8] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-02-10 13:12:59,994 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-10 13:12:59,996 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-02-10 13:12:59,998 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=LoginServer
+2018-02-10 13:13:00,002 [33] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 

@@ -9,7 +9,8 @@ namespace Servers.Modules
 		{
 			base.Load(builder);
 
-			builder.RegisterType<RegisterAccountHandler>().AsImplementedInterfaces();
+			builder.RegisterType<RegisterHandler>().AsImplementedInterfaces();
+			builder.RegisterType<LoginHandler>().AsImplementedInterfaces();
 		}
 	}
 }

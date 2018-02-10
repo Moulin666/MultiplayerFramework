@@ -4814,3 +4814,239 @@ Exception:System.ArgumentException: Элемент с тем же ключом �
 2018-02-07 23:54:46,780 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
 2018-02-07 23:54:46,780 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
 2018-02-07 23:54:46,780 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ProxyServer
+2018-02-09 19:38:44,231 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ProxyServer.config
+2018-02-09 19:38:44,496 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-02-09 19:38:44,517 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4530, Sibling 0, Allow Clients True
+2018-02-09 19:38:44,524 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ProxyServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-02-09 19:38:44,602 [13] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-02-09 19:38:44,603 [11] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-02-09 19:38:44,603 [15] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-02-09 19:38:44,620 [13] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-09 19:38:44,620 [11] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-09 19:38:44,621 [11] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-02-09 19:38:44,620 [15] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-09 19:38:44,621 [15] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-02-09 19:38:44,621 [13] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-02-09 19:38:44,738 [13] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-09 19:38:44,738 [15] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-09 19:38:44,738 [10] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-09 19:38:44,780 [10] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=3
+2018-02-09 19:38:44,780 [15] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=2
+2018-02-09 19:38:44,780 [13] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=1
+2018-02-09 19:38:44,782 [10] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=3 | TCP:  UDP: 
+2018-02-09 19:38:44,782 [13] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=1 | TCP:  UDP: 
+2018-02-09 19:38:44,782 [15] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=2 | TCP:  UDP: 
+2018-02-09 19:39:59,384 [11] DEBUG MGF_Photon.PhotonApplication - Connection request on port 5055
+2018-02-09 19:39:59,392 [11] DEBUG MGF_Photon.PhotonApplication - Created client peer
+2018-02-09 19:40:00,005 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:00,513 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:01,014 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:01,516 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:02,017 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:02,519 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:03,020 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:03,521 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:04,023 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:04,525 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:05,026 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:05,528 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:06,029 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:06,529 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:07,031 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:07,533 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:40:07,703 [10] DEBUG MGF_Photon.PhotonApplication - Client Disconnected 35296657-2fcc-4448-aff7-1fc86a09c7ac
+2018-02-09 19:42:57,010 [14] DEBUG MGF_Photon.PhotonApplication - Connection request on port 5055
+2018-02-09 19:42:57,011 [14] DEBUG MGF_Photon.PhotonApplication - Created client peer
+2018-02-09 19:42:58,552 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:42:58,741 [11] DEBUG MGF_Photon.PhotonApplication - Handeling operation request
+2018-02-09 19:42:59,053 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:42:59,554 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:43:00,056 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:43:00,202 [10] DEBUG MGF_Photon.PhotonApplication - Handeling operation request
+2018-02-09 19:43:00,557 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:43:00,856 [10] DEBUG MGF_Photon.PhotonApplication - Handeling operation request
+2018-02-09 19:43:01,059 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:43:01,560 [12] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-09 19:43:01,908 [11] DEBUG MGF_Photon.PhotonApplication - Client Disconnected 8194a196-cdba-4754-bc09-2e1d50d8d25b
+2018-02-09 19:50:38,450 [15] DEBUG MGF_Photon.PhotonApplication - Server disconnected ClientDisconnect - 
+2018-02-09 19:50:38,459 [13] DEBUG MGF_Photon.PhotonApplication - Server disconnected ClientDisconnect - 
+2018-02-09 19:50:38,469 [11] DEBUG MGF_Photon.PhotonApplication - Server disconnected ClientDisconnect - 
+2018-02-09 19:50:38,474 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-09 19:50:38,475 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-09 19:50:38,476 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ProxyServer
+2018-02-09 19:50:38,490 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-09 19:50:38,490 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-09 19:50:38,490 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ProxyServer
+2018-02-10 12:12:22,297 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ProxyServer.config
+2018-02-10 12:12:22,633 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-02-10 12:12:22,721 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4530, Sibling 0, Allow Clients True
+2018-02-10 12:12:22,727 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ProxyServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-02-10 12:13:36,617 [13] DEBUG MGF_Photon.PhotonApplication - Connection request on port 5055
+2018-02-10 12:13:36,626 [13] DEBUG MGF_Photon.PhotonApplication - Created client peer
+2018-02-10 12:13:38,146 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:38,653 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:39,154 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:39,656 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:40,157 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:40,659 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:40,975 [8] DEBUG MGF_Photon.PhotonApplication - Handeling operation request
+2018-02-10 12:13:41,160 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:41,660 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:42,161 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:42,662 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:42,872 [8] DEBUG MGF_Photon.PhotonApplication - Handeling operation request
+2018-02-10 12:13:43,164 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:43,665 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:44,166 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:44,667 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:45,168 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:45,669 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:46,170 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:46,672 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:47,173 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:47,673 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:48,175 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:48,676 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:49,177 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:49,677 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:50,178 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:50,679 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:50,723 [8] DEBUG MGF_Photon.PhotonApplication - Handeling operation request
+2018-02-10 12:13:50,908 [13] DEBUG MGF_Photon.PhotonApplication - Handeling operation request
+2018-02-10 12:13:51,180 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:51,681 [11] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:13:51,909 [13] DEBUG MGF_Photon.PhotonApplication - Client Disconnected 83677a40-d33e-4e8a-820f-8e72e480118b
+2018-02-10 12:18:50,603 [22] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ProxyServer.config
+2018-02-10 12:18:50,848 [22] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-02-10 12:18:50,877 [22] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4530, Sibling 0, Allow Clients True
+2018-02-10 12:18:50,884 [22] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ProxyServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-02-10 12:18:50,896 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-10 12:18:50,897 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-10 12:18:50,898 [22] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ProxyServer
+2018-02-10 12:18:50,900 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-10 12:18:50,900 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-10 12:18:50,901 [22] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ProxyServer
+2018-02-10 12:18:51,044 [9] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-02-10 12:18:51,044 [12] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-02-10 12:18:51,044 [13] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-02-10 12:18:51,062 [13] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-10 12:18:51,063 [12] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-10 12:18:51,063 [13] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-02-10 12:18:51,063 [12] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-02-10 12:18:51,062 [9] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-10 12:18:51,064 [9] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-02-10 12:18:51,209 [26] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:18:51,209 [13] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:18:51,209 [25] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:18:51,256 [13] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=3
+2018-02-10 12:18:51,256 [25] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=2
+2018-02-10 12:18:51,256 [26] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=1
+2018-02-10 12:18:51,258 [13] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=3 | TCP:  UDP: 
+2018-02-10 12:18:51,258 [26] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=1 | TCP:  UDP: 
+2018-02-10 12:18:51,258 [25] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=2 | TCP:  UDP: 
+2018-02-10 12:18:55,930 [12] DEBUG MGF_Photon.PhotonApplication - Connection request on port 5055
+2018-02-10 12:18:55,939 [12] DEBUG MGF_Photon.PhotonApplication - Created client peer
+2018-02-10 12:19:01,353 [8] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:19:01,859 [8] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:19:02,355 [13] DEBUG MGF_Photon.PhotonApplication - Handeling operation request
+2018-02-10 12:19:02,360 [8] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:19:02,862 [8] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:19:03,363 [8] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:19:03,864 [8] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:19:04,366 [8] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:19:04,785 [9] DEBUG MGF_Photon.PhotonApplication - Client Disconnected 9741d461-2619-4eb7-aac4-db4f72c9d684
+2018-02-10 12:27:44,963 [26] DEBUG MGF_Photon.PhotonApplication - Server disconnected ClientDisconnect - 
+2018-02-10 12:27:45,623 [9] DEBUG MGF_Photon.PhotonApplication - Server disconnected ClientDisconnect - 
+2018-02-10 12:27:46,277 [6] DEBUG MGF_Photon.PhotonApplication - Server disconnected ClientDisconnect - 
+2018-02-10 12:27:46,594 [22] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ProxyServer.config
+2018-02-10 12:27:46,822 [22] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-02-10 12:27:46,848 [22] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4530, Sibling 0, Allow Clients True
+2018-02-10 12:27:46,855 [22] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ProxyServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-02-10 12:27:46,868 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-10 12:27:46,869 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-10 12:27:46,870 [22] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ProxyServer
+2018-02-10 12:27:46,872 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-10 12:27:46,872 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-10 12:27:46,873 [22] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ProxyServer
+2018-02-10 12:27:46,978 [11] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-02-10 12:27:46,978 [26] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-02-10 12:27:46,979 [25] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-02-10 12:27:46,999 [26] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-10 12:27:46,999 [11] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-10 12:27:46,999 [26] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-02-10 12:27:46,999 [11] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-02-10 12:27:46,999 [25] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-10 12:27:47,001 [25] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-02-10 12:27:47,134 [9] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:27:47,135 [26] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:27:47,135 [8] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:27:47,178 [8] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=1
+2018-02-10 12:27:47,178 [9] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=3
+2018-02-10 12:27:47,178 [26] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=2
+2018-02-10 12:27:47,180 [9] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=3 | TCP:  UDP: 
+2018-02-10 12:27:47,180 [26] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=2 | TCP:  UDP: 
+2018-02-10 12:27:47,180 [8] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=1 | TCP:  UDP: 
+2018-02-10 12:27:54,329 [6] DEBUG MGF_Photon.PhotonApplication - Connection request on port 5055
+2018-02-10 12:27:54,343 [6] DEBUG MGF_Photon.PhotonApplication - Created client peer
+2018-02-10 12:27:56,494 [12] DEBUG MGF_Photon.PhotonApplication - Handeling operation request
+2018-02-10 12:27:56,544 [9] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:27:56,549 [9] DEBUG MGF_Photon.PhotonApplication - ForwardingResponse 0 - 0
+2018-02-10 12:27:56,550 [9] DEBUG MGF_Photon.PhotonApplication - Looking for peer id ef6fd55f-eb4c-4f01-96ba-d51d651ce5a0
+2018-02-10 12:27:56,551 [9] DEBUG MGF_Photon.PhotonApplication - Found Peer
+2018-02-10 12:27:57,327 [6] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:27:57,833 [13] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:27:58,334 [13] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:27:58,836 [13] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:27:59,338 [13] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:27:59,832 [25] DEBUG MGF_Photon.PhotonApplication - Client Disconnected ef6fd55f-eb4c-4f01-96ba-d51d651ce5a0
+2018-02-10 12:29:57,480 [9] DEBUG MGF_Photon.PhotonApplication - Connection request on port 5055
+2018-02-10 12:29:57,481 [9] DEBUG MGF_Photon.PhotonApplication - Created client peer
+2018-02-10 12:30:00,353 [13] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:30:00,855 [13] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:30:01,068 [9] DEBUG MGF_Photon.PhotonApplication - Handeling operation request
+2018-02-10 12:30:01,071 [9] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:30:01,072 [9] DEBUG MGF_Photon.PhotonApplication - ForwardingResponse 0 - 0
+2018-02-10 12:30:01,072 [9] DEBUG MGF_Photon.PhotonApplication - Looking for peer id 9c78c593-9c3a-4d23-8c74-c37d4ddde842
+2018-02-10 12:30:01,072 [9] DEBUG MGF_Photon.PhotonApplication - Found Peer
+2018-02-10 12:30:01,356 [13] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:30:01,857 [13] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:30:02,357 [13] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:30:02,859 [13] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-10 12:30:03,312 [6] DEBUG MGF_Photon.PhotonApplication - Client Disconnected 9c78c593-9c3a-4d23-8c74-c37d4ddde842
+2018-02-10 12:43:13,099 [26] DEBUG MGF_Photon.PhotonApplication - Server disconnected ClientDisconnect - 
+2018-02-10 12:43:13,715 [25] DEBUG MGF_Photon.PhotonApplication - Server disconnected ClientDisconnect - 
+2018-02-10 12:43:14,373 [8] DEBUG MGF_Photon.PhotonApplication - Server disconnected ClientDisconnect - 
+2018-02-10 12:43:14,689 [22] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ProxyServer.config
+2018-02-10 12:43:14,929 [22] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-02-10 12:43:14,952 [22] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4530, Sibling 0, Allow Clients True
+2018-02-10 12:43:14,959 [22] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ProxyServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-02-10 12:43:14,971 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-10 12:43:14,972 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-10 12:43:14,973 [22] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ProxyServer
+2018-02-10 12:43:14,975 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-10 12:43:14,975 [22] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-10 12:43:14,976 [22] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ProxyServer
+2018-02-10 12:43:15,079 [6] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-02-10 12:43:15,079 [8] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-02-10 12:43:15,079 [9] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-02-10 12:43:15,098 [6] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-10 12:43:15,098 [9] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-10 12:43:15,098 [6] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-02-10 12:43:15,098 [9] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-02-10 12:43:15,098 [8] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-10 12:43:15,099 [8] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-02-10 12:43:15,215 [6] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:43:15,215 [25] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:43:15,215 [13] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-10 12:43:15,269 [6] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=1
+2018-02-10 12:43:15,269 [25] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=2
+2018-02-10 12:43:15,269 [13] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=3
+2018-02-10 12:43:15,272 [6] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=1 | TCP:  UDP: 
+2018-02-10 12:43:15,272 [25] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=2 | TCP:  UDP: 
+2018-02-10 12:43:15,272 [13] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=3 | TCP:  UDP: 
+2018-02-10 13:12:59,980 [12] DEBUG MGF_Photon.PhotonApplication - Server disconnected ClientDisconnect - 
+2018-02-10 13:12:59,989 [13] DEBUG MGF_Photon.PhotonApplication - Server disconnected ClientDisconnect - 
+2018-02-10 13:12:59,997 [9] DEBUG MGF_Photon.PhotonApplication - Server disconnected ClientDisconnect - 
+2018-02-10 13:13:00,002 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-10 13:13:00,003 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-10 13:13:00,004 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ProxyServer

@@ -334,7 +334,7 @@
     <Compile Include="Assets\_scripts\ClientHandlers\GameServer\GameTestHandler.cs" />
     <Compile Include="Assets\_scripts\ClientHandlers\LoginServer\LoginHandler.cs" />
     <Compile Include="Assets\_scripts\ClientHandlers\LoginServer\RegisterHandler.cs" />
-    <Compile Include="Assets\_scripts\ClientHandlers\TestHandlerEventBack.cs" />
+    <Compile Include="Assets\_scripts\ClientHandlers\TestBackgroundThreadHandler.cs" />
     <Compile Include="Assets\_scripts\ClientViews\LoginServer\LoginView.cs" />
     <Compile Include="Assets\_scripts\ClientViews\LoginServer\RegisterView.cs" />
     <Compile Include="Assets\_scripts\Controllers\CameraController.cs" />

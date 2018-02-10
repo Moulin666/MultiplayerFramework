@@ -17,8 +17,9 @@ public class RegisterView : MonoBehaviour
 			Parameters = new Dictionary<byte, object>
 			{
 				{ PhotonEngine.Instance.SubCodeParameterCode, (int)MessageSubCode.RegisterSubCode },
-				//{ (byte)MessageParameterCode.CharacterDataParameterCode, Class },
-				// Login, Password, Email, Sex, Class, SubClass, CharacterType, CharacterHeight
+				// login, password, email
+				// (byte)MessageParameterCode.CharacterCreate - 
+				// CharacterName, Sex, Class, SubClass, CharacterType, CharacterHeight
 			}
 		};
 

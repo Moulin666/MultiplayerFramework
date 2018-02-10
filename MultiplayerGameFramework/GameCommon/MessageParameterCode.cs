@@ -8,6 +8,12 @@
         SubCodeParameterCode = 0,
 		PeerIdParameterCode = 1,
 
-		TestMessageParameterCode = 2,
+		TestMessageParameterCode,
+
+		Login,
+		Password,
+		Email,
+
+		CharacterCreate
 	}
 }

@@ -6,13 +6,13 @@
     public enum MessageSubCode
     {
 		// login
-		RegisterSubCode = 0,
-		LoginSubCode = 1,
+		RegisterSubCode,
+		LoginSubCode,
 
 		// Chat
-		TestChatSubCode = 2,
+		TestChatSubCode,
 
 		// Game
-		TestGameSubCode = 3
+		TestGameSubCode
     }
 }

@@ -14,8 +14,8 @@ namespace Assets._scripts.ClientHandlers
 		public bool HandleMessage(IMessage message)
 		{
 			// Notify user about register. If all okay just exit to login scene.
-
-			Debug.Log(message.Parameters[(byte)MessageParameterCode.TestMessageParameterCode]);
+			var response = message as Response;
+			Debug.Log(response.DebugMessage);
 
 			return true;
 		}

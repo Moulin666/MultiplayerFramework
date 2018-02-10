@@ -17,14 +17,17 @@ public class LoginView : MonoBehaviour
 	{
 		// Check field is null or empty
 
+		string login = "";
+		string password = "";
+
 		OperationRequest request = new OperationRequest()
 		{
 			OperationCode = (byte)MessageOperationCode.LoginOperationCode,
 			Parameters = new Dictionary<byte, object>
 			{
 				{ PhotonEngine.Instance.SubCodeParameterCode, (int)MessageSubCode.LoginSubCode },
-				//{ (byte)MessageParameterCode.LoginParameterCode, Text },
-				//{ (byte)MessageParameterCode.PasswordParameterCode, Text }
+				{ (byte)MessageParameterCode.Login, login },
+				{ (byte)MessageParameterCode.Password, password }
 			}
 		};
 

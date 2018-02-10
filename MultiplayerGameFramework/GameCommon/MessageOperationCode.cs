@@ -5,8 +5,8 @@
 	/// </summary>
     public enum MessageOperationCode : byte
     {
-		LoginOperationCode = 0,
-		ChatOperationCode = 1,
-		GameOperationCode = 2,
+		LoginOperationCode,
+		ChatOperationCode,
+		GameOperationCode,
     }
 }

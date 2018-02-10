@@ -14,8 +14,8 @@ namespace Assets._scripts.ClientHandlers
 		public bool HandleMessage(IMessage message)
 		{
 			// Notify user about login. If all okay just go to the lobby scene.
-
-			Debug.Log(message.Parameters[(byte)MessageParameterCode.TestMessageParameterCode]);
+			var response = message as Response;
+			Debug.Log(response.DebugMessage);
 
 			return true;
 		}

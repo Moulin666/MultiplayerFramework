@@ -157,7 +157,10 @@
     <Compile Include="Handlers\GameProxyHandler.cs" />
     <Compile Include="Handlers\GameServerHandlers\TestGameHandler.cs" />
     <Compile Include="Handlers\LoginProxyHandler.cs" />
-    <Compile Include="Handlers\LoginServerHandlers\RegisterAccountHandler.cs" />
+    <Compile Include="Handlers\LoginServerHandlers\Operations\LoginOperation.cs" />
+    <Compile Include="Handlers\LoginServerHandlers\Operations\RegisterOperation.cs" />
+    <Compile Include="Handlers\LoginServerHandlers\LoginHandler.cs" />
+    <Compile Include="Handlers\LoginServerHandlers\RegisterHandler.cs" />
     <Compile Include="Modules\GameModule.cs" />
     <Compile Include="Modules\ChatModule.cs" />
     <Compile Include="Modules\LoginModule.cs" />
@@ -204,7 +207,10 @@
       <Name>MultiplayerGameFramework</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Handlers\ChatServerHandlers\Operations\" />
+    <Folder Include="Handlers\GameServerHandlers\Operations\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
