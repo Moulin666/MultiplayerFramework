@@ -35,7 +35,7 @@ namespace Servers.Handlers
 				{
 					{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
 					{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
-				}, operation.GetErrorMessage(), (int)ErrorReturnCode.OperationInvalid);
+				}, operation.GetErrorMessage(), (int)ReturnCode.OperationInvalid);
 
 				peer.SendMessage(response);
 

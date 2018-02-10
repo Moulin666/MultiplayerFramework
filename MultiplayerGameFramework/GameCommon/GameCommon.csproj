@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MessageObjects\RegisterData.cs" />
     <Compile Include="MessageObjects\PositionData.cs" />
     <Compile Include="MessageOperationCode.cs" />
     <Compile Include="MessageParameterCode.cs" />

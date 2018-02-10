@@ -1,7 +1,7 @@
 ﻿using Autofac;
 using Servers.BackgroundThreads;
 using Servers.Config;
-using Servers.Handlers;
+using Servers.Handlers.ProxyServerHandlers;
 using Servers.Support;
 
 namespace Servers.Modules

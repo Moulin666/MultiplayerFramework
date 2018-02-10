@@ -1,21 +1,18 @@
 ﻿using GameCommon;
 using UnityEngine;
 
-namespace Assets._scripts.ClientHandlers
+public class ChatTestHandler : IMessageHandler
 {
-	public class ChatTestHandler : IMessageHandler
+	public MessageType Type => MessageType.Response;
+
+	public byte Code => (byte)MessageOperationCode.ChatOperationCode;
+
+	public int? SubCode => (int)MessageSubCode.TestChatSubCode;
+
+	public bool HandleMessage(IMessage message)
 	{
-		public MessageType Type => MessageType.Response;
+		Debug.Log(message.Parameters[(byte)MessageParameterCode.TestMessageParameterCode]);
 
-		public byte Code => (byte)MessageOperationCode.ChatOperationCode;
-
-		public int? SubCode => (int)MessageSubCode.TestChatSubCode;
-
-		public bool HandleMessage(IMessage message)
-		{
-			Debug.Log(message.Parameters[(byte)MessageParameterCode.TestMessageParameterCode]);
-
-			return true;
-		}
+		return true;
 	}
 }

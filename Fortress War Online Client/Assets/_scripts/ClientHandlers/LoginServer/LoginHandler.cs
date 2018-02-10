@@ -1,23 +1,26 @@
 ﻿using GameCommon;
 using UnityEngine;
 
-namespace Assets._scripts.ClientHandlers
+public class LoginHandler : IMessageHandler
 {
-	public class LoginHandler : IMessageHandler
+	public MessageType Type => MessageType.Response;
+
+	public byte Code => (byte)MessageOperationCode.LoginOperationCode;
+
+	public int? SubCode => (int)MessageSubCode.LoginSubCode;
+
+	public bool HandleMessage(IMessage message)
 	{
-		public MessageType Type => MessageType.Response;
+		var response = message as Response;
 
-		public byte Code => (byte)MessageOperationCode.LoginOperationCode;
-
-		public int? SubCode => (int)MessageSubCode.LoginSubCode;
-
-		public bool HandleMessage(IMessage message)
+		if (response.ReturnCode == (int)ReturnCode.OK)
 		{
-			// Notify user about login. If all okay just go to the lobby scene.
-			var response = message as Response;
-			Debug.Log(response.DebugMessage);
-
+			Loading.Load(LoadingScene.Lobby);
 			return true;
 		}
+
+		Debug.LogFormat("Notify about this to user. Msg = {0}", response.DebugMessage);
+
+		return true;
 	}
 }

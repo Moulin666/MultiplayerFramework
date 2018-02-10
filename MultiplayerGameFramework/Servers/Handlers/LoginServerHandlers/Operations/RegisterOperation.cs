@@ -19,7 +19,7 @@ namespace Servers.Handlers.LoginServerHandlers.Operations
 		[DataMember(Code = (byte)MessageParameterCode.Email, IsOptional = false)]
 		public string Email { get; set; }
 
-		[DataMember(Code = (byte)MessageParameterCode.CharacterCreate, IsOptional = false)]
-		public string CharacterCreate { get; set; }
+		[DataMember(Code = (byte)MessageParameterCode.CharacterRegisterData, IsOptional = false)]
+		public string CharacterRegisterData { get; set; }
 	}
 }

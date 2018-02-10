@@ -2,6 +2,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using GameCommon;
+using GameCommon.MessageObjects;
 
 public class RegisterView : MonoBehaviour
 {
@@ -15,6 +16,20 @@ public class RegisterView : MonoBehaviour
 	public void SendRegisterRequest()
 	{
 		// Check field is null or empty and check password and confirm password
+		
+		var serializeCharacterData = MessageSerializerService
+			.SerializeObjectOfType<RegisterData>(new RegisterData
+			{
+				Login = "Moulin666",
+				Password = "123456",
+				Email = "thirtybeltmusicgroup@gmail.com",
+				CharacterName = "Repository",
+				Sex = "Female",
+				CharacterType = 1,
+				CharacterHeight = 140,
+				Class = "Rogue",
+				SubClass = "Warlock"
+			});
 
 		OperationRequest request = new OperationRequest()
 		{
@@ -22,13 +37,10 @@ public class RegisterView : MonoBehaviour
 			Parameters = new Dictionary<byte, object>
 			{
 				{ PhotonEngine.Instance.SubCodeParameterCode, (int)MessageSubCode.RegisterSubCode },
-				// login, password, email
-				// (byte)MessageParameterCode.CharacterCreate - 
-				// CharacterName, Sex, Class, SubClass, CharacterType, CharacterHeight
+				{ (byte)MessageParameterCode.CharacterRegisterData, serializeCharacterData.ToString() }
 			}
 		};
 
-		Debug.LogFormat("Delete that. Send request with code - ", request.OperationCode);
-		//PhotonEngine.Instance.SendRequest(request);
+		PhotonEngine.Instance.SendRequest(request);
 	}
 }

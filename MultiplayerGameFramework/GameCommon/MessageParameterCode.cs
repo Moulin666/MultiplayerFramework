@@ -14,6 +14,6 @@
 		Password,
 		Email,
 
-		CharacterCreate
+		CharacterRegisterData,
 	}
 }

@@ -16,8 +16,8 @@ public class LoginView : MonoBehaviour
 	{
 		// Check field is null or empty
 
-		string login = "";
-		string password = "";
+		string login = "Moulin666";
+		string password = "123456";
 
 		OperationRequest request = new OperationRequest()
 		{
@@ -30,7 +30,6 @@ public class LoginView : MonoBehaviour
 			}
 		};
 
-		Debug.LogFormat("Delete that. Send request with code - ", request.OperationCode);
-		//PhotonEngine.Instance.SendRequest(request);
+		PhotonEngine.Instance.SendRequest(request);
 	}
 }

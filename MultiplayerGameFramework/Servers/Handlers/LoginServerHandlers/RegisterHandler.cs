@@ -45,6 +45,27 @@ namespace Servers.Handlers
 				return true;
 			}
 
+			if (operation.Login.Length < 6 || operation.Password.Length < 6)
+			{
+				peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
+				{
+					{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
+					{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
+				}, "Login and password can't be less than 6 symbols", (int)ReturnCode.OperationInvalid));
+
+				return true;
+			}
+			if (!operation.Email.Contains("@"))
+			{
+				peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
+				{
+					{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
+					{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
+				}, "DIXK", (int)ReturnCode.OperationInvalid));
+
+				return true;
+			}
+
 			try
 			{
 				using (var session = NHibernateHelper.OpenSession())
@@ -83,24 +104,24 @@ namespace Servers.Handlers
 						Log.DebugFormat("Create new Account. Login - {0}", operation.Login);
 					}
 
-					//using (var transaction = session.BeginTransaction())
-					//{
-					//	var accounts = session.QueryOver<AccountModel>().Where(a => a.Login == operation.Login).List();
+					using (var transaction = session.BeginTransaction())
+					{
+						var accounts = session.QueryOver<AccountModel>().Where(a => a.Login == operation.Login).List();
 
-					//	if (accounts.Count > 0)
-					//	{
-					//		CharacterModel newCharacter = new CharacterModel()
-					//		{
-					//			AccountId = accounts[0],
-					//			Name = operation.
-					//		};
+						if (accounts.Count > 0)
+						{
+							CharacterModel newCharacter = new CharacterModel()
+							{
+								AccountId = accounts[0],
+								Name = operation.
+							};
 
-					//		session.Save(newCharacter);
-					//		transaction.Commit();
+							session.Save(newCharacter);
+							transaction.Commit();
 
-					//		Log.DebugFormat("Create new Character. CharacterName - {0}", );
-					//	} 
-					//}
+							Log.DebugFormat("Create new Character. CharacterName - {0}", newCharacter.Name);
+						}
+					}
 
 					peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
 					{
