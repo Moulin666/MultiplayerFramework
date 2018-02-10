@@ -2,7 +2,6 @@
 using UnityEngine;
 using System.Collections.Generic;
 using GameCommon;
-using UnityEngine.SceneManagement;
 
 public class LoginView : MonoBehaviour
 {
@@ -10,7 +9,7 @@ public class LoginView : MonoBehaviour
 
 	public void ToRegisterClick()
 	{
-		//SceneManager.LoadScene();
+		Loading.Load(LoadingScene.Register);
 	}
 
 	public void SendLoginRequest()

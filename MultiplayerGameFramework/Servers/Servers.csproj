@@ -63,6 +63,9 @@
     <Reference Include="ExitGamesLibs">
       <HintPath>..\..\PhotonSDK\lib\ExitGamesLibs.dll</HintPath>
     </Reference>
+    <Reference Include="FluentNHibernate, Version=1.5.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentNHibernate.Net35.1.5.3.0\lib\net35\FluentNHibernate.dll</HintPath>
+    </Reference>
     <Reference Include="Iesi.Collections, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <HintPath>..\packages\Iesi.Collections.4.0.3\lib\net40\Iesi.Collections.dll</HintPath>
     </Reference>
@@ -101,6 +104,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json.Bson, Version=1.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.Bson.1.0.1\lib\net45\Newtonsoft.Json.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="Photon.SocketServer">
       <HintPath>..\..\PhotonSDK\lib\Photon.SocketServer.dll</HintPath>
@@ -152,6 +158,11 @@
   <ItemGroup>
     <Compile Include="BackgroundThreads\TestBackgroundThread.cs" />
     <Compile Include="Config\ServerType.cs" />
+    <Compile Include="DataBase\Map\CharacterMap.cs" />
+    <Compile Include="DataBase\Map\AccountMap.cs" />
+    <Compile Include="DataBase\Model\CharacterModel.cs" />
+    <Compile Include="DataBase\Model\AccountModel.cs" />
+    <Compile Include="DataBase\NHibernateHelper.cs" />
     <Compile Include="Handlers\ChatProxyHandler.cs" />
     <Compile Include="Handlers\ChatServerHandlers\TestChatHandler.cs" />
     <Compile Include="Handlers\GameProxyHandler.cs" />

@@ -7,5 +7,7 @@
 		InternalServerError = -1,
 
 		OK = 0,
+
+		AlreadyExist,
 	}
 }

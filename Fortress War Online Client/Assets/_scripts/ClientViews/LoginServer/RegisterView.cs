@@ -7,6 +7,11 @@ public class RegisterView : MonoBehaviour
 {
 	// add fields
 
+	public void BackClick()
+	{
+		Loading.Load(LoadingScene.Login);
+	}
+
 	public void SendRegisterRequest()
 	{
 		// Check field is null or empty and check password and confirm password

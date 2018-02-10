@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using ExitGames.Logging;
 using GameCommon;
 using MGF_Photon.Implementation.Server;
 using MultiplayerGameFramework.Implementation.Messaging;
@@ -10,6 +11,13 @@ namespace Servers.Handlers
 {
 	public class LoginHandler : IHandler<IServerPeer>
 	{
+		public ILogger Log { get; set; }
+
+		public LoginHandler(ILogger log)
+		{
+			Log = log;
+		}
+
 		public MessageType Type => MessageType.Request;
 
 		public byte Code => (byte)MessageOperationCode.LoginOperationCode;
@@ -27,7 +35,7 @@ namespace Servers.Handlers
 				{
 					{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
 					{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
-				}, operation.GetErrorMessage(), (int)ReturnCode.OperationInvalid);
+				}, operation.GetErrorMessage(), (int)ErrorReturnCode.OperationInvalid);
 
 				peer.SendMessage(response);
 

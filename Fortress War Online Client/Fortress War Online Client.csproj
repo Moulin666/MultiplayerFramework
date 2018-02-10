@@ -330,6 +330,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_scripts\Client\Controllers\CameraController.cs" />
+    <Compile Include="Assets\_scripts\Client\Loading.cs" />
     <Compile Include="Assets\_scripts\ClientHandlers\ChatServer\ChatTestHandler.cs" />
     <Compile Include="Assets\_scripts\ClientHandlers\GameServer\GameTestHandler.cs" />
     <Compile Include="Assets\_scripts\ClientHandlers\LoginServer\LoginHandler.cs" />
@@ -337,7 +339,6 @@
     <Compile Include="Assets\_scripts\ClientHandlers\TestBackgroundThreadHandler.cs" />
     <Compile Include="Assets\_scripts\ClientViews\LoginServer\LoginView.cs" />
     <Compile Include="Assets\_scripts\ClientViews\LoginServer\RegisterView.cs" />
-    <Compile Include="Assets\_scripts\Controllers\CameraController.cs" />
     <Compile Include="Assets\_scripts\MGFClient\EngineState.cs" />
     <Compile Include="Assets\_scripts\MGFClient\Message\Implementation\Event.cs" />
     <Compile Include="Assets\_scripts\MGFClient\Message\Implementation\Response.cs" />
