@@ -73,11 +73,12 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
 			Destroy(gameObject);
 
 		DontDestroyOnLoad(gameObject);
-		Initialize();
 	}
 
 	private void Start()
 	{
+		Initialize();
+
 		Debug.LogFormat("Connecting to {0} | ApplicationName - {1}", ServerAddress, ApplicationName);
 		ConnectToServer(ServerAddress, ApplicationName);
 	}

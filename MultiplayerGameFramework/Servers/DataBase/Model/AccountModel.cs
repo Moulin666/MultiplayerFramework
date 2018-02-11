@@ -9,6 +9,9 @@ namespace Servers.DataBase.Model
 		public virtual string Password { get; set; }
 		public virtual string Salt { get; set; }
 		public virtual string Email { get; set; }
+
+		public virtual int AdminLevel { get; set; }
+		public virtual int BanLevel { get; set; }
 		
 		public virtual DateTime Created { get; set; }
 		public virtual DateTime Updated { get; set; }

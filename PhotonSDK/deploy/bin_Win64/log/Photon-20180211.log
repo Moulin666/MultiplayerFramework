@@ -1,0 +1,24 @@
+22652: 18:47:19.926 - ---
+22652: 18:47:19.926 - Service: "Photon Socket Server" starting
+22652: 18:47:19.927 - Config File: D:\Roman\FWO\PhotonSDK\deploy\bin_Win64\PhotonServer.config
+22652: 18:47:19.928 - Will produce at most: 10 crash dumps
+22652: 18:47:19.929 - Service shutting down
+22652: 18:47:19.932 - Service shut down complete
+8636: 21:15:08.039 - ---
+8636: 21:15:08.039 - Service: "Photon Socket Server" starting
+8636: 21:15:08.039 - Config File: D:\Roman\FWO\PhotonSDK\deploy\bin_Win64\PhotonServer.config
+8636: 21:15:08.043 - Will produce at most: 10 crash dumps
+8636: 21:15:08.043 - Service shutting down
+8636: 21:15:08.047 - Service shut down complete
+13696: 22:56:04.768 - ---
+13696: 22:56:04.768 - Service: "Photon Socket Server" starting
+13696: 22:56:04.768 - Config File: D:\Roman\FWO\PhotonSDK\deploy\bin_Win64\PhotonServer.config
+13696: 22:56:04.772 - Will produce at most: 10 crash dumps
+13696: 22:56:04.772 - Service shutting down
+13696: 22:56:04.780 - Service shut down complete
+22392: 23:17:59.950 - ---
+22392: 23:17:59.950 - Service: "Photon Socket Server" starting
+22392: 23:17:59.950 - Config File: D:\Roman\FWO\PhotonSDK\deploy\bin_Win64\PhotonServer.config
+22392: 23:17:59.953 - Will produce at most: 10 crash dumps
+22392: 23:17:59.953 - Service shutting down
+22392: 23:17:59.957 - Service shut down complete

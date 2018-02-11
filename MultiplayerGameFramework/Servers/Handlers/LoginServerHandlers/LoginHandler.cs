@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using ExitGames.Logging;
 using GameCommon;
 using MGF_Photon.Implementation.Server;
@@ -42,7 +43,31 @@ namespace Servers.Handlers
 				return true;
 			}
 
-			// TO DO : LOGIN HANDLING
+			if (operation.Login.Length < 6 || operation.Password.Length < 6)
+			{
+				peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
+				{
+					{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
+					{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
+				}, "Login and password can't be less than 6 symbols.", (int)ReturnCode.OperationInvalid));
+
+				return true;
+			}
+
+			try
+			{
+				// TO DO login handle
+			}
+			catch(Exception ex)
+			{
+				Log.ErrorFormat("Error login handler: {0}", ex);
+
+				peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
+				{
+					{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
+					{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
+				}, ex.ToString(), (int)ReturnCode.OperationDenied));
+			}
 
 			return true;
 		}

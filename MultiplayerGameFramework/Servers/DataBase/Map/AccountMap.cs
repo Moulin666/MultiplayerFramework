@@ -14,6 +14,9 @@ namespace Servers.DataBase.Map
 			Map(x => x.Salt).Column("salt");
 			Map(x => x.Email).Column("email");
 
+			Map(x => x.AdminLevel).Column("admin_level");
+			Map(x => x.BanLevel).Column("ban_level");
+
 			Map(x => x.Created).Column("created_at");
 			Map(x => x.Updated).Column("updated_at");
 

@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Security.Cryptography;
 using System.Text;
 using ExitGames.Logging;
 using GameCommon;
+using GameCommon.MessageObjects;
 using MGF_Photon.Implementation.Server;
 using MultiplayerGameFramework.Implementation.Messaging;
 using MultiplayerGameFramework.Interfaces.Messaging;
@@ -51,20 +53,44 @@ namespace Servers.Handlers
 				{
 					{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
 					{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
-				}, "Login and password can't be less than 6 symbols", (int)ReturnCode.OperationInvalid));
+				}, "Login and password can't be less than 6 symbols.", (int)ReturnCode.OperationInvalid));
 
 				return true;
 			}
-			if (!operation.Email.Contains("@"))
+
+			var checkMail = new EmailAddressAttribute();
+			if (!checkMail.IsValid(operation.Email))
 			{
 				peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
 				{
 					{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
 					{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
-				}, "DIXK", (int)ReturnCode.OperationInvalid));
+				}, "Email address incorrect.", (int)ReturnCode.OperationInvalid));
 
 				return true;
 			}
+
+			var characterData = MessageSerializerService.DeserializeObjectOfType<RegisterCharacterData>(
+				operation.CharacterRegisterData);
+
+			if (characterData.CharacterName.Length < 6)
+			{
+				peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
+				{
+					{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
+					{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
+				}, "Name can't be less than 6 symbols.", (int)ReturnCode.OperationInvalid));
+
+				return true;
+			}
+			else if (characterData.Sex != "Male" && characterData.Sex != "Female")
+				return true;
+			else if (characterData.CharacterType != 1) // add more types
+				return true;
+			else if (characterData.Class != "Warrior" && characterData.Class != "Rogue" && characterData.Class != "Mage")
+				return true;
+			else if (characterData.SubClass != "Warlock" && characterData.SubClass != "Cleric")
+				return true;
 
 			try
 			{
@@ -73,6 +99,7 @@ namespace Servers.Handlers
 					using (var transaction = session.BeginTransaction())
 					{
 						var accounts = session.QueryOver<AccountModel>().Where(a => a.Login == operation.Login).List();
+						var characters = session.QueryOver<CharacterModel>().Where(c => c.Name == characterData.CharacterName).List();
 
 						if (accounts.Count > 0)
 						{
@@ -83,17 +110,35 @@ namespace Servers.Handlers
 								{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
 								{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
 							}, "Login already taken.", (int)ReturnCode.AlreadyExist));
+
+							return true;
+						}
+						else if (characters.Count > 0)
+						{
+							transaction.Commit();
+
+							peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
+							{
+								{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
+								{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
+							}, "Name already taken.", (int)ReturnCode.AlreadyExist));
+
+							return true;
 						}
 
 						string salt = Guid.NewGuid().ToString().Replace("-", "");
 
 						AccountModel newAccount = new AccountModel()
 						{
-							Email = operation.Email,
 							Login = operation.Login,
 							Password = BitConverter.ToString(SHA512.Create().ComputeHash(
 								Encoding.UTF8.GetBytes(salt + operation.Password))).Replace("-", ""),
 							Salt = salt,
+							Email = operation.Email,
+
+							AdminLevel = 0,
+							BanLevel = 0,
+
 							Created = DateTime.Now,
 							Updated = DateTime.Now
 						};
@@ -101,34 +146,57 @@ namespace Servers.Handlers
 						session.Save(newAccount);
 						transaction.Commit();
 
-						Log.DebugFormat("Create new Account. Login - {0}", operation.Login);
+						Log.DebugFormat("Create new Account. Login - {0}.", operation.Login);
 					}
 
 					using (var transaction = session.BeginTransaction())
 					{
-						var accounts = session.QueryOver<AccountModel>().Where(a => a.Login == operation.Login).List();
+						var accounts = session.QueryOver<AccountModel>().Where(a => a.Login == operation.Login).SingleOrDefault();
 
-						if (accounts.Count > 0)
+						CharacterModel newCharacter = new CharacterModel()
 						{
-							CharacterModel newCharacter = new CharacterModel()
-							{
-								AccountId = accounts[0],
-								Name = operation.
-							};
+							AccountId = accounts,
 
-							session.Save(newCharacter);
-							transaction.Commit();
+							Name = characterData.CharacterName,
+							Sex = characterData.Sex,
+							CharacterType = characterData.CharacterType,
+							Class = characterData.Class,
+							SubClass = characterData.SubClass,
 
-							Log.DebugFormat("Create new Character. CharacterName - {0}", newCharacter.Name);
-						}
+							Level = 1,
+							Exp = 0,
+							Strength = 1,
+							Intellect = 1,
+
+							RangLevel = 0,
+
+							Gold = 10000,
+							Donate = 0,
+							SkillPoint = 1000,
+							StatPoint = 0,
+
+							InventorySize = 32,
+
+							GuildId = 0,
+
+							Created = DateTime.Now,
+							Updated = DateTime.Now
+						};
+
+						session.Save(newCharacter);
+						transaction.Commit();
+
+						Log.DebugFormat("Create new Character. Name - {0}.", characterData.CharacterName);
 					}
 
 					peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
 					{
 						{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
 						{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
-					}, "Register success", (int)ReturnCode.OK));
+					}, "Register success.", (int)ReturnCode.OK));
 				}
+
+				return true;
 			}
 			catch (Exception ex)
 			{
@@ -139,9 +207,9 @@ namespace Servers.Handlers
 					{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
 					{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
 				}, ex.ToString(), (int)ReturnCode.OperationDenied));
-			}
 
-			return true;
+				return true;
+			}
 		}
 	}
 }

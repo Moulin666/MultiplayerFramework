@@ -15,20 +15,29 @@ public class RegisterView : MonoBehaviour
 
 	public void SendRegisterRequest()
 	{
-		// Check field is null or empty and check password and confirm password
-		
+		string Login = "Moulin666";
+		string Password = "123456";
+		string Email = "thirtybeltmusicgroup@gmail.com";
+		string CharacterName = "Repository";
+		string Sex = "Female";
+		int CharacterType = 1;
+		string Class = "Rogue";
+		string SubClass = "Warlock";
+
+		if (Login.Length < 6 || Password.Length < 6)
+		{
+			Debug.Log("Login and password can't be less than 6 symbols");
+			return;
+		}
+
 		var serializeCharacterData = MessageSerializerService
-			.SerializeObjectOfType<RegisterData>(new RegisterData
+			.SerializeObjectOfType<RegisterCharacterData>(new RegisterCharacterData
 			{
-				Login = "Moulin666",
-				Password = "123456",
-				Email = "thirtybeltmusicgroup@gmail.com",
-				CharacterName = "Repository",
-				Sex = "Female",
-				CharacterType = 1,
-				CharacterHeight = 140,
-				Class = "Rogue",
-				SubClass = "Warlock"
+				CharacterName = CharacterName,
+				Sex = Sex,
+				CharacterType = CharacterType,
+				Class = Class,
+				SubClass = SubClass
 			});
 
 		OperationRequest request = new OperationRequest()
@@ -37,6 +46,9 @@ public class RegisterView : MonoBehaviour
 			Parameters = new Dictionary<byte, object>
 			{
 				{ PhotonEngine.Instance.SubCodeParameterCode, (int)MessageSubCode.RegisterSubCode },
+				{ (byte)MessageParameterCode.Login, Login },
+				{ (byte)MessageParameterCode.Password, Password },
+				{ (byte)MessageParameterCode.Email, Email },
 				{ (byte)MessageParameterCode.CharacterRegisterData, serializeCharacterData.ToString() }
 			}
 		};

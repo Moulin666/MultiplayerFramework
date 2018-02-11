@@ -13,14 +13,25 @@ public class LoginHandler : IMessageHandler
 	{
 		var response = message as Response;
 
-		if (response.ReturnCode == (int)ReturnCode.OK)
+		switch (response.ReturnCode)
 		{
-			Loading.Load(LoadingScene.Lobby);
-			return true;
+			case (int)ReturnCode.OK:
+				{
+					Loading.Load(LoadingScene.Lobby);
+					Debug.Log("Notify about this to user. Msg = Login success.");
+					return true;
+				}
+			case (int)ReturnCode.OperationInvalid:
+				{
+					Debug.LogFormat("Notify about this to user. Msg = {0}", response.DebugMessage);
+					return true;
+				}
+			default:
+				{
+					Debug.Log("Notify about this to user. Msg = OperationDenied.");
+					Debug.LogFormat("OperationDenied. DebugMessage = {0}", response.DebugMessage);
+					return true;
+				}
 		}
-
-		Debug.LogFormat("Notify about this to user. Msg = {0}", response.DebugMessage);
-
-		return true;
 	}
 }

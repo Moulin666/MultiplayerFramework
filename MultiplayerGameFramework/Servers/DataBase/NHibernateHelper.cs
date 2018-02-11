@@ -28,7 +28,7 @@ namespace Servers.DataBase
 		{
 			_sessionFactory = Fluently.Configure().Database(
 				MySQLConfiguration.Standard
-				.ConnectionString(fw => fw.Server("localhost:3306")
+				.ConnectionString(fw => fw.Server("localhost")
 				.Database("fwo")
 				.Username("root")
 				.Password("325862123")))
@@ -38,7 +38,7 @@ namespace Servers.DataBase
 
 		public static ISession OpenSession()
 		{
-			return _sessionFactory.OpenSession();
+			return SessionFactory.OpenSession();
 		}
 	}
 }

@@ -14,10 +14,14 @@ public class LoginView : MonoBehaviour
 
 	public void SendLoginRequest()
 	{
-		// Check field is null or empty
+		string Login = "Moulin666";
+		string Password = "12";
 
-		string login = "Moulin666";
-		string password = "123456";
+		if (Login.Length < 6 || Password.Length < 6)
+		{
+			Debug.Log("Login and password can't be less than 6 symbols");
+			return;
+		}
 
 		OperationRequest request = new OperationRequest()
 		{
@@ -25,8 +29,8 @@ public class LoginView : MonoBehaviour
 			Parameters = new Dictionary<byte, object>
 			{
 				{ PhotonEngine.Instance.SubCodeParameterCode, (int)MessageSubCode.LoginSubCode },
-				{ (byte)MessageParameterCode.Login, login },
-				{ (byte)MessageParameterCode.Password, password }
+				{ (byte)MessageParameterCode.Login, Login },
+				{ (byte)MessageParameterCode.Password, Password }
 			}
 		};
 
