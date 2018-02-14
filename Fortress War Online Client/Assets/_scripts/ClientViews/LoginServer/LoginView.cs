@@ -15,7 +15,7 @@ public class LoginView : MonoBehaviour
 	public void SendLoginRequest()
 	{
 		string Login = "Moulin666";
-		string Password = "12";
+		string Password = "123456";
 
 		if (Login.Length < 6 || Password.Length < 6)
 		{

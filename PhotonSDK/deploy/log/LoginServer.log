@@ -1544,3 +1544,38 @@ Exception:System.NullReferenceException: Ссылка на объект не у�
 2018-02-11 23:18:00,005 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
 2018-02-11 23:18:00,006 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
 2018-02-11 23:18:00,006 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=LoginServer
+2018-02-14 21:51:21,652 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\LoginServer.config
+2018-02-14 21:51:21,968 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-02-14 21:51:22,005 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-02-14 21:51:22,029 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4531, Sibling 0, Allow Clients False
+2018-02-14 21:51:22,036 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=LoginServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-02-14 21:56:27,361 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-14 21:56:27,363 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-14 21:56:27,363 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=LoginServer
+2018-02-14 22:05:28,755 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\LoginServer.config
+2018-02-14 22:05:28,988 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-02-14 22:05:29,029 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-02-14 22:05:29,054 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4531, Sibling 0, Allow Clients False
+2018-02-14 22:05:29,060 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=LoginServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-02-14 22:05:29,724 [15] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-14 22:05:29,895 [12] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-14 22:05:29,900 [12] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-02-14 22:10:57,634 [10] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-14 22:10:57,642 [10] ERROR MGF_Photon.PhotonApplication - No existing request handler. 0 - 1
+2018-02-14 22:12:00,201 [15] DEBUG MGF_Photon.PhotonApplication - Server disconnected ClientDisconnect - 
+2018-02-14 22:12:01,854 [33] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\LoginServer.config
+2018-02-14 22:12:02,120 [33] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-02-14 22:12:02,156 [33] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-02-14 22:12:02,189 [33] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4531, Sibling 0, Allow Clients False
+2018-02-14 22:12:02,203 [33] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=LoginServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-02-14 22:12:02,220 [33] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-14 22:12:02,222 [33] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-14 22:12:02,222 [33] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=LoginServer
+2018-02-14 22:12:02,224 [33] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-02-14 22:12:02,225 [33] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-02-14 22:12:02,225 [33] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=LoginServer
+2018-02-14 22:12:02,458 [12] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-14 22:12:02,581 [13] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-14 22:12:02,587 [13] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-02-14 22:12:34,355 [10] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-14 22:15:31,602 [13] DEBUG MGF_Photon.PhotonApplication - Handle message.

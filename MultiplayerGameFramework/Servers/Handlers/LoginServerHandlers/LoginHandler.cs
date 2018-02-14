@@ -6,6 +6,8 @@ using MGF_Photon.Implementation.Server;
 using MultiplayerGameFramework.Implementation.Messaging;
 using MultiplayerGameFramework.Interfaces.Messaging;
 using MultiplayerGameFramework.Interfaces.Server;
+using Servers.DataBase;
+using Servers.DataBase.Model;
 using Servers.Handlers.LoginServerHandlers.Operations;
 
 namespace Servers.Handlers
@@ -23,7 +25,7 @@ namespace Servers.Handlers
 
 		public byte Code => (byte)MessageOperationCode.LoginOperationCode;
 
-		public int? SubCode => (int)MessageSubCode.RegisterSubCode;
+		public int? SubCode => (int)MessageSubCode.LoginSubCode;
 
 		public bool HandleMessage(IMessage message, IServerPeer peer)
 		{
@@ -56,9 +58,36 @@ namespace Servers.Handlers
 
 			try
 			{
-				// TO DO login handle
+				using (var session = NHibernateHelper.OpenSession())
+				{
+					using (var transaction = session.BeginTransaction())
+					{
+						var accounts = session.QueryOver<AccountModel>().Where(a => a.Login == operation.Login).List();
+
+						if (accounts.Count <= 0)
+						{
+							transaction.Commit();
+
+							peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
+							{
+								{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
+								{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
+							}, "Account not exist.", (int)ReturnCode.AlreadyExist));
+
+							return true;
+						}
+
+						// TO DO: Login
+
+						peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
+						{
+							{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
+							{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] }
+						}, "", (int)ReturnCode.OK));
+					}
+				}
 			}
-			catch(Exception ex)
+			catch (Exception ex)
 			{
 				Log.ErrorFormat("Error login handler: {0}", ex);
 
