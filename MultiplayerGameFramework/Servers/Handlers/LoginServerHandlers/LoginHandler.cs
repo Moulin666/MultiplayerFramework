@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography;
+using System.Text;
 using ExitGames.Logging;
 using GameCommon;
 using MGF_Photon.Implementation.Server;
+using MultiplayerGameFramework.Implementation.Client;
 using MultiplayerGameFramework.Implementation.Messaging;
 using MultiplayerGameFramework.Interfaces.Messaging;
 using MultiplayerGameFramework.Interfaces.Server;
@@ -14,6 +17,19 @@ namespace Servers.Handlers
 {
 	public class LoginHandler : IHandler<IServerPeer>
 	{
+		private SubServerClientPeer _clientConnectionCollection;
+		public SubServerClientPeer ClientConnectionCollection
+		{
+			get
+			{
+				return _clientConnectionCollection;
+			}
+			set
+			{
+				_clientConnectionCollection = value;
+			}
+		}
+
 		public ILogger Log { get; set; }
 
 		public LoginHandler(ILogger log)
@@ -62,9 +78,9 @@ namespace Servers.Handlers
 				{
 					using (var transaction = session.BeginTransaction())
 					{
-						var accounts = session.QueryOver<AccountModel>().Where(a => a.Login == operation.Login).List();
+						var account = session.QueryOver<AccountModel>().Where(a => a.Login == operation.Login).SingleOrDefault();
 
-						if (accounts.Count <= 0)
+						if (account == null)
 						{
 							transaction.Commit();
 
@@ -72,18 +88,39 @@ namespace Servers.Handlers
 							{
 								{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
 								{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
-							}, "Account not exist.", (int)ReturnCode.AlreadyExist));
+							}, "Login or password incorrect.", (int)ReturnCode.LoginOrPasswordIncorrect));
 
 							return true;
 						}
 
+						string Password = BitConverter.ToString(SHA512.Create().ComputeHash(
+								Encoding.UTF8.GetBytes(account.Salt + operation.Password))).Replace("-", "");
+
+						if (Password != account.Password)
+						{
+							transaction.Commit();
+
+							peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
+							{
+								{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
+								{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
+							}, "Login or password incorrect.", (int)ReturnCode.LoginOrPasswordIncorrect));
+
+							return true;
+						}
+
+						transaction.Commit();
+
 						// TO DO: Login
+						// Proxy server handler
 
 						peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
 						{
 							{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
 							{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] }
 						}, "", (int)ReturnCode.OK));
+
+						return true;
 					}
 				}
 			}
@@ -96,9 +133,9 @@ namespace Servers.Handlers
 					{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
 					{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
 				}, ex.ToString(), (int)ReturnCode.OperationDenied));
-			}
 
-			return true;
+				return true;
+			}
 		}
 	}
 }

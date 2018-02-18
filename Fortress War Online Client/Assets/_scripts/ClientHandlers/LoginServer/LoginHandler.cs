@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class LoginHandler : IMessageHandler
 {
+	public delegate void InfoDelegate(string info);
+	public static event InfoDelegate OnGetInfo;
+
 	public MessageType Type => MessageType.Response;
 
 	public byte Code => (byte)MessageOperationCode.LoginOperationCode;
@@ -18,17 +21,18 @@ public class LoginHandler : IMessageHandler
 			case (int)ReturnCode.OK:
 				{
 					Loading.Load(LoadingScene.Lobby);
-					Debug.Log("Notify about this to user. Msg = Login success.");
+					OnGetInfo?.Invoke("Login success.");
 					return true;
 				}
 			case (int)ReturnCode.OperationInvalid:
+			case (int)ReturnCode.LoginOrPasswordIncorrect:
 				{
-					Debug.LogFormat("Notify about this to user. Msg = {0}", response.DebugMessage);
+					OnGetInfo?.Invoke(response.DebugMessage);
 					return true;
 				}
 			default:
 				{
-					Debug.Log("Notify about this to user. Msg = OperationDenied.");
+					OnGetInfo?.Invoke("OperationDenied.");
 					Debug.LogFormat("OperationDenied. DebugMessage = {0}", response.DebugMessage);
 					return true;
 				}

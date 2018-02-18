@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class RegisterHandler : IMessageHandler
 {
+	public delegate void InfoDelegate(string info);
+	public static event InfoDelegate OnGetInfo;
+
 	public MessageType Type => MessageType.Response;
 
 	public byte Code => (byte)MessageOperationCode.LoginOperationCode;
@@ -13,23 +16,23 @@ public class RegisterHandler : IMessageHandler
 	{
 		var response = message as Response;
 
-		switch(response.ReturnCode)
+		switch (response.ReturnCode)
 		{
 			case (int)ReturnCode.OK:
 				{
 					Loading.Load(LoadingScene.Login);
-					Debug.Log("Notify about this to user. Msg = Register success.");
+					OnGetInfo?.Invoke("Register success.");
 					return true;
 				}
 			case (int)ReturnCode.OperationInvalid:
 			case (int)ReturnCode.AlreadyExist:
 				{
-					Debug.LogFormat("Notify about this to user. Msg = {0}", response.DebugMessage);
+					OnGetInfo?.Invoke(response.DebugMessage);
 					return true;
 				}
 			default:
 				{
-					Debug.Log("Notify about this to user. Msg = OperationDenied.");
+					OnGetInfo?.Invoke("OperationDenied.");
 					Debug.LogFormat("OperationDenied. DebugMessage = {0}", response.DebugMessage);
 					return true;
 				}

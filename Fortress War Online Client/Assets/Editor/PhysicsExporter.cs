@@ -131,7 +131,7 @@ public class PhysicsExporter : Editor
 
 			serializer.Serialize(file, colliders);
 			file.Close();
-
+			
 			Debug.LogFormat("Export colliders success. Path: {0}", path);
 		}
 		catch(Exception ex)

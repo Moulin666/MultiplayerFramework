@@ -1,0 +1,24 @@
+4948: 12:09:48.561 - FAILED license server contact - trying next URL.
+10748: 12:09:48.936 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+19872: 13:09:49.031 - FAILED license server contact - trying next URL.
+10748: 13:09:49.124 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+19872: 14:09:49.236 - FAILED license server contact - trying next URL.
+2484: 14:09:49.369 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+22808: 15:09:49.514 - FAILED license server contact - trying next URL.
+2484: 15:09:49.629 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+24028: 16:09:52.840 - FAILED license server contact - trying next URL.
+4948: 16:09:52.936 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+22808: 17:09:53.045 - FAILED license server contact - trying next URL.
+2484: 17:09:53.150 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+2532: 18:09:53.305 - FAILED license server contact - trying next URL.
+4948: 18:09:53.524 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+19872: 19:09:53.678 - FAILED license server contact - trying next URL.
+16752: 19:09:53.775 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+20044: 20:09:53.920 - FAILED license server contact - trying next URL.
+2484: 20:09:54.016 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+2484: 21:09:54.154 - FAILED license server contact - trying next URL.
+16752: 21:09:54.247 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+19872: 22:09:54.405 - FAILED license server contact - trying next URL.
+24028: 22:09:54.505 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+24028: 23:09:54.655 - FAILED license server contact - trying next URL.
+20044: 23:09:54.768 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2

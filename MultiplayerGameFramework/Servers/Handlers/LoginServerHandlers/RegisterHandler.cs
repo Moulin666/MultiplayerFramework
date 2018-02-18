@@ -57,6 +57,16 @@ namespace Servers.Handlers
 
 				return true;
 			}
+			else if (operation.Login.Length > 16 || operation.Password.Length > 16)
+			{
+				peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
+				{
+					{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
+					{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
+				}, "Login and password can't be more than 16 symbols.", (int)ReturnCode.OperationInvalid));
+
+				return true;
+			}
 
 			var checkMail = new EmailAddressAttribute();
 			if (!checkMail.IsValid(operation.Email))
@@ -73,13 +83,25 @@ namespace Servers.Handlers
 			var characterData = MessageSerializerService.DeserializeObjectOfType<RegisterCharacterData>(
 				operation.CharacterRegisterData);
 
+			characterData.CharacterType = 1; // delete this if we add more types
+
 			if (characterData.CharacterName.Length < 6)
 			{
 				peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
 				{
 					{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
 					{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
-				}, "Name can't be less than 6 symbols.", (int)ReturnCode.OperationInvalid));
+				}, "Name of your character can't be less than 6 symbols.", (int)ReturnCode.OperationInvalid));
+
+				return true;
+			}
+			else if (characterData.CharacterName.Length > 16)
+			{
+				peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
+				{
+					{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
+					{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
+				}, "Name of your can't be more than 16 symbols.", (int)ReturnCode.OperationInvalid));
 
 				return true;
 			}
@@ -99,6 +121,7 @@ namespace Servers.Handlers
 					using (var transaction = session.BeginTransaction())
 					{
 						var accounts = session.QueryOver<AccountModel>().Where(a => a.Login == operation.Login).List();
+						var accountsByEmail = session.QueryOver<AccountModel>().Where(a => a.Email == operation.Email).List();
 						var characters = session.QueryOver<CharacterModel>().Where(c => c.Name == characterData.CharacterName).List();
 
 						if (accounts.Count > 0)
@@ -110,6 +133,18 @@ namespace Servers.Handlers
 								{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
 								{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
 							}, "Login already taken.", (int)ReturnCode.AlreadyExist));
+
+							return true;
+						}
+						else if (accountsByEmail.Count > 0)
+						{
+							transaction.Commit();
+
+							peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
+							{
+								{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
+								{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
+							}, "Email already taken.", (int)ReturnCode.AlreadyExist));
 
 							return true;
 						}

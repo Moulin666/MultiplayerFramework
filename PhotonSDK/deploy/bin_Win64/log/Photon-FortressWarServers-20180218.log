@@ -1,0 +1,516 @@
+2532: 00:51:32.908 - FAILED license server contact - trying next URL.
+22808: 00:51:33.017 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+22808: 01:51:33.163 - FAILED license server contact - trying next URL.
+21920: 01:51:33.273 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+24028: 02:51:33.374 - FAILED license server contact - trying next URL.
+21920: 02:51:33.593 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+16752: 15:10:38.933 - FAILED license server contact - trying next URL.
+20044: 15:10:39.027 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+2532: 16:10:39.189 - FAILED license server contact - trying next URL.
+22808: 16:10:39.295 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+4948: 17:10:39.458 - FAILED license server contact - trying next URL.
+21280: 17:10:39.587 - Connect to Photon License Server failed. Trying again later. Allowed days without contact: 2
+5520: 17:50:25.700 - Service is stopped...
+5520: 17:50:25.700 - Server shutting down...
+5520: 17:50:25.700 - Shutdown monitoring enabled, 30000ms before process abort
+5520: 17:50:25.701 - Notifying CLR applications of shutdown...
+5520: 17:50:25.701 - RequestApplicationStop: 4
+5520: 17:50:25.845 - RequestApplicationStop: 5
+5520: 17:50:25.987 - RequestApplicationStop: 3
+5520: 17:50:26.163 - RequestApplicationStop: 2
+5520: 17:50:26.173 - RequestStop: defalt app domain
+5520: 17:50:26.189 - Shutting down WebSocket Outbound Connection Manager...
+5520: 17:50:26.189 - Shutting down TCP Outbound Connection Manager...
+5520: 17:50:26.189 - Shutting down ENet Outbound Connection Manager...
+5520: 17:50:26.190 - Disconnecting all outbound peers...
+5520: 17:50:26.190 - Shutting down ENet host...
+5520: 17:50:26.190 - Disconnecting all peers...
+5520: 17:50:26.190 - Shutting down socket servers...
+5520: 17:50:26.190 - Shutting down ENet thread pool...
+5520: 17:50:26.190 - Shutting down TCP inactivity timers...
+5520: 17:50:26.191 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:843
+5520: 17:50:26.191 - OnShutdownCompleted: NativePolicy:0.0.0.0:843
+5520: 17:50:26.191 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:943
+5520: 17:50:26.191 - OnShutdownCompleted: NativePolicy:0.0.0.0:943
+5520: 17:50:26.191 - WaitingForShutdownToComplete: TCP:0.0.0.0:4530
+5520: 17:50:26.191 - OnShutdownCompleted: TCP:0.0.0.0:4530
+5520: 17:50:26.191 - WaitingForShutdownToComplete: TCP:0.0.0.0:4531
+5520: 17:50:26.191 - OnShutdownCompleted: TCP:0.0.0.0:4531
+5520: 17:50:26.191 - WaitingForShutdownToComplete: TCP:0.0.0.0:4532
+5520: 17:50:26.191 - OnShutdownCompleted: TCP:0.0.0.0:4532
+5520: 17:50:26.191 - WaitingForShutdownToComplete: TCP:0.0.0.0:4533
+5520: 17:50:26.191 - OnShutdownCompleted: TCP:0.0.0.0:4533
+5520: 17:50:26.191 - WaitingForShutdownToComplete: UDP:127.0.0.1:5055
+5520: 17:50:26.191 - OnShutdownCompleted: UDP:127.0.0.1:5055
+5520: 17:50:26.191 - WaitingForShutdownToComplete: UDP:172.17.220.97:5055
+5520: 17:50:26.191 - OnShutdownCompleted: UDP:172.17.220.97:5055
+5520: 17:50:26.192 - WaitingForShutdownToComplete: UDP:192.168.1.100:5055
+5520: 17:50:26.192 - OnShutdownCompleted: UDP:192.168.1.100:5055
+5520: 17:50:26.192 - WaitingForShutdownToComplete: WebSocket:0.0.0.0:9090
+5520: 17:50:26.192 - OnShutdownCompleted: WebSocket:0.0.0.0:9090
+5520: 17:50:26.192 - Shutting down CLR applications...
+836: 17:50:26.208 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+5520: 17:50:26.219 - Shutting down business logic thread pool...
+5520: 17:50:26.219 - Shutting down I/O thread pool...
+5520: 17:50:26.220 - Destroying servers
+5520: 17:50:26.221 - Destroying WebSocket Outbound Connection Manager
+5520: 17:50:26.221 - Destroying TCP Outbound Connection Manager
+5520: 17:50:26.221 - Destroying TCP inactivity timer
+5520: 17:50:26.221 - Destroying ENet timer wheel
+5520: 17:50:26.221 - Destroying ENet host
+5520: 17:50:26.221 - Destroying ENet outbound host
+5520: 17:50:26.221 - Destroying HTTP inactivity timer
+5520: 17:50:26.221 - Destroying HTTP host
+5520: 17:50:26.221 - Destroying HTTP Chunk host
+5520: 17:50:26.221 - Flushing ENET buffer allocator...
+5520: 17:50:26.222 - Flushing TCP buffer handle allocator...
+5520: 17:50:26.222 - Flushing stream socket allocator...
+5520: 17:50:26.223 - Flushing inbound datagram socket allocator...
+5520: 17:50:26.225 - Flushing outbound datagram socket allocator...
+5520: 17:50:26.225 - Destroying CLR dispatcher
+5520: 17:50:26.225 - Destroying CLR applications
+5520: 17:50:26.225 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+10864: 17:50:26.226 - Unloading Domain: ApplicationName = 'ChatServer', DomainId='4'
+836: 17:50:26.228 - CManagedHost::OnDomainUnload() - 4
+836: 17:50:26.343 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+10864: 17:50:26.360 - Unloading Domain: ApplicationName = 'GameServer', DomainId='5'
+836: 17:50:26.368 - CManagedHost::OnDomainUnload() - 5
+836: 17:50:26.387 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+10864: 17:50:26.403 - Unloading Domain: ApplicationName = 'ProxyServer', DomainId='2'
+836: 17:50:26.479 - CManagedHost::OnDomainUnload() - 2
+836: 17:50:26.499 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+10864: 17:50:26.515 - Unloading Domain: ApplicationName = 'LoginServer', DomainId='3'
+836: 17:50:26.516 - CManagedHost::OnDomainUnload() - 3
+5520: 17:50:26.532 - ~CCLRApplicationCollection() - Done. All objects released
+5520: 17:50:26.532 - ~CManagedHost() - Release default app domain
+5520: 17:50:26.532 - CManagedHost::OnDomainUnload() - 1
+5520: 17:50:26.532 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+5520: 17:50:26.532 - ~CManagedHost
+5520: 17:50:26.532 - Destroying ENet thread pool
+5520: 17:50:26.532 - Destroying Business logic thread pool
+5520: 17:50:26.532 - Destroying I/O thread pool
+5520: 17:50:26.532 - Destroying ENet buffer allocator
+5520: 17:50:26.533 - Destroying TCP buffer allocator
+5520: 17:50:26.533 - Destroying TCP socket allocator
+5520: 17:50:26.533 - Destroying ENet inbound socket allocator
+5520: 17:50:26.533 - Destroying ENet outbound socket allocator
+5520: 17:50:26.533 - Destroying shared datagram flow control data
+5520: 17:50:26.533 - Shutdown complete...
+22840: 17:50:26.533 - Service shutting down
+22840: 17:50:26.548 - Service shut down complete
+8396: 17:50:32.051 - ---
+8396: 17:50:32.051 - Service: "Photon Socket Server" starting
+8396: 17:50:32.051 - Config File: D:\Roman\FWO\PhotonSDK\deploy\bin_Win64\PhotonServer.config
+8396: 17:50:32.055 - Will produce at most: 10 crash dumps
+8396: 17:50:32.055 - Action: remove service
+8396: 17:50:32.057 - Service: "Photon Socket Server: FortressWarServers" removed
+8396: 17:50:32.057 - MessageBox: Photon Socket Server: FortressWarServers - 4.0.28.2962
+
+Service removed
+
+Instance Name = "FortressWarServers"
+8396: 17:50:33.586 - Service shutting down
+8396: 17:50:33.590 - Service shut down complete
+22896: 17:50:37.725 - ---
+22896: 17:50:37.725 - Service: "Photon Socket Server" starting
+22896: 17:50:37.725 - Config File: D:\Roman\FWO\PhotonSDK\deploy\bin_Win64\PhotonServer.config
+22896: 17:50:37.728 - Will produce at most: 10 crash dumps
+22896: 17:50:37.728 - Action: run as exe
+22896: 17:50:37.729 - Server Starting...
+22896: 17:50:37.729 -    Tick count: 714032171 (wraps in: 41.446 days)
+22896: 17:50:37.729 - Tick count 64: 714032171
+22896: 17:50:37.729 - Photon Version: 4.0.28.2962
+22896: 17:50:37.729 - PID: 2376
+22896: 17:50:37.729 - Config File: D:\Roman\FWO\PhotonSDK\deploy\bin_Win64\PhotonServer.config
+22896: 17:50:37.730 - Will NOT log unimportant exceptions
+22896: 17:50:37.736 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+22896: 17:50:37.736 - Shutdown timeout enabled: 30000ms
+22896: 17:50:37.736 - Starting I/O thread pool with 2 threads
+22896: 17:50:37.736 - Using Standard allocator
+22896: 17:50:37.736 - Max message size: 512000
+22896: 17:50:37.736 - Starting business logic thread pool with the following settings
+22896: 17:50:37.736 - InitialThreads: 4 threads
+22896: 17:50:37.736 - MinThreads: 4 threads
+22896: 17:50:37.736 - Thread pool is fixed size
+22896: 17:50:37.737 - Starting ENet thread pool with the following settings
+22896: 17:50:37.737 - InitialThreads: 2 threads
+22896: 17:50:37.737 - MinThreads: 2 threads
+22896: 17:50:37.737 - Thread pool is fixed size
+22896: 17:50:37.737 - OnlyDispatchTimers: False
+22896: 17:50:37.738 - S2S: flow control: Max pending writes: 50
+22896: 17:50:37.738 - S2S: flow control: Max queued buffers: 200
+22896: 17:50:37.738 - S2S: flow control: Max pending writes MUX: 500
+22896: 17:50:37.738 - S2S: flow control: Max queued buffers MUX: 2000
+22896: 17:50:37.738 - S2S: MaxInboundMessageSize: 512000
+22896: 17:50:37.738 - S2S: MaxOutboundMessageSize: 512000
+22896: 17:50:37.738 - S2S: No inactivity timeout
+22896: 17:50:37.747 - WebSocket S2S: MaxInboundMessageSize: 512000
+22896: 17:50:37.747 - WebSocket S2S: MaxOutboundMessageSize: 512000
+22896: 17:50:37.747 - WebSocket S2S: No inactivity timeout
+22896: 17:50:37.747 - Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+22896: 17:50:37.747 - Per peer bandwidth limit
+22896: 17:50:37.747 - Transmit Rate Limit: 256 KB/Sec
+22896: 17:50:37.747 - Limit period: 200ms
+22896: 17:50:37.747 - Limit per period: 52428 bytes
+22896: 17:50:37.747 - Max queued data for transmission per peer: 512000 bytes
+22896: 17:50:37.747 - Minimum retransmit timeout: 200
+22896: 17:50:37.747 - No Maximum retransmit timeout
+22896: 17:50:37.747 - Minimum ENet timeout: 5000ms
+22896: 17:50:37.747 - Maximum ENet timeout: 30000ms
+22896: 17:50:37.747 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+22896: 17:50:37.747 - No RTT ACK adjustment timeout
+22896: 17:50:37.747 - Outbound ENet: MaxInboundMessageSize: 512000
+22896: 17:50:37.747 - Outbound ENet: MaxOutboundMessageSize: 512000
+22896: 17:50:37.791 - GetRuntime - About to load CLR - versions available:
+22896: 17:50:37.791 - v2.0.50727
+22896: 17:50:37.791 - v4.0.30319
+22896: 17:50:37.791 - Configuration requests: "v2.0.50727"
+22896: 17:50:37.791 - About to load version: "v2.0.50727"
+22896: 17:50:37.885 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+22896: 17:50:37.885 - CLRBaseDirectory set to "D:\Roman\FWO\PhotonSDK\deploy"
+22896: 17:50:37.885 - Optimising event broadcast for 20 or more peers
+22896: 17:50:37.886 - Start: About to load CLR - versions available:
+22896: 17:50:37.886 - v2.0.50727
+22896: 17:50:37.886 - v4.0.30319
+22896: 17:50:37.886 - No preference in configuration file, will load latest.
+22896: 17:50:37.886 - About to load version: "v4.0.30319"
+22896: 17:50:37.888 - Loaded version: "v4.0.30319"
+22896: 17:50:38.217 - Photon host runtime loaded
+22896: 17:50:40.373 - License is valid.
+22896: 17:50:40.373 - Licensed for 100 concurrent connections.
+22896: 17:50:40.373 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+22896: 17:50:40.373 - ENet: Per peer bandwidth limit
+22896: 17:50:40.373 - ENet: Transmit Rate Limit: 256 KB/Sec
+22896: 17:50:40.373 - ENet: Limit period: 200ms
+22896: 17:50:40.373 - ENet: Limit per period: 52428 bytes
+22896: 17:50:40.373 - ENet: Max queued data for transmission per peer: 512000 bytes
+22896: 17:50:40.373 - ENet: Minimum retransmit timeout: 200
+22896: 17:50:40.373 - No Maximum retransmit timeout
+22896: 17:50:40.373 - ENet: Minimum timeout: 5000ms
+22896: 17:50:40.373 - ENet: Maximum timeout: 30000ms
+22896: 17:50:40.373 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+22896: 17:50:40.373 - No RTT ACK adjustment timeout
+22896: 17:50:40.373 - About to load application: ProxyServer from MGF.Photon
+22896: 17:50:40.373 - Auto restart is enabled for application, existing connections will be terminated during restart
+22896: 17:50:40.373 - Application will restart 1000ms after the last change detected
+22896: 17:50:40.373 - Application will restart if files matching the following are changed: "dll;config"
+22896: 17:50:40.373 - Application will NOT restart if files matching the following are changed: "log4net.config"
+22896: 17:50:40.598 - Taking reference on default app domain
+22896: 17:50:40.864 - Application: "ProxyServer" started in app domain: 2
+22896: 17:50:40.864 - About to load application: LoginServer from MGF.Photon
+22896: 17:50:40.864 - Auto restart is enabled for application, existing connections will be terminated during restart
+22896: 17:50:40.864 - Application will restart 1000ms after the last change detected
+22896: 17:50:40.864 - Application will restart if files matching the following are changed: "dll;config"
+22896: 17:50:40.864 - Application will NOT restart if files matching the following are changed: "log4net.config"
+22896: 17:50:41.091 - Taking reference on default app domain
+22896: 17:50:41.266 - Application: "LoginServer" started in app domain: 3
+22896: 17:50:41.266 - About to load application: ChatServer from MGF.Photon
+22896: 17:50:41.266 - Auto restart is enabled for application, existing connections will be terminated during restart
+22896: 17:50:41.266 - Application will restart 1000ms after the last change detected
+22896: 17:50:41.266 - Application will restart if files matching the following are changed: "dll;config"
+22896: 17:50:41.266 - Application will NOT restart if files matching the following are changed: "log4net.config"
+22896: 17:50:41.515 - Taking reference on default app domain
+22896: 17:50:41.686 - Application: "ChatServer" started in app domain: 4
+22896: 17:50:41.686 - About to load application: GameServer from MGF.Photon
+22896: 17:50:41.686 - Auto restart is enabled for application, existing connections will be terminated during restart
+22896: 17:50:41.686 - Application will restart 1000ms after the last change detected
+22896: 17:50:41.686 - Application will restart if files matching the following are changed: "dll;config"
+22896: 17:50:41.686 - Application will NOT restart if files matching the following are changed: "log4net.config"
+22896: 17:50:41.897 - Taking reference on default app domain
+22896: 17:50:42.089 - Application: "GameServer" started in app domain: 5
+22896: 17:50:42.089 - Adding TCP listener on: 0.0.0.0: 4530 with a listen backlog of: 150
+22896: 17:50:42.089 - TCP inactivity timeout: 10000ms
+22896: 17:50:42.089 - TCP disconnect timeout: 120000ms
+22896: 17:50:42.089 - MaxInboundMessageSize: 512000
+22896: 17:50:42.089 - MaxOutboundMessageSize: 512000
+22896: 17:50:42.089 - Forcing all applications ids to: "ProxyServer"
+22896: 17:50:42.090 - Serving policy file requests from: "D:\Roman\FWO\PhotonSDK\deploy\Policy\assets\socket-policy.xml"
+22896: 17:50:42.090 - Adding TCP listener on: 0.0.0.0: 4531 with a listen backlog of: 150
+22896: 17:50:42.090 - TCP inactivity timeout: 10000ms
+22896: 17:50:42.090 - TCP disconnect timeout: 120000ms
+22896: 17:50:42.090 - MaxInboundMessageSize: 512000
+22896: 17:50:42.090 - MaxOutboundMessageSize: 512000
+22896: 17:50:42.090 - Forcing all applications ids to: "LoginServer"
+22896: 17:50:42.091 - Serving policy file requests from: "D:\Roman\FWO\PhotonSDK\deploy\Policy\assets\socket-policy.xml"
+22896: 17:50:42.091 - Adding TCP listener on: 0.0.0.0: 4532 with a listen backlog of: 150
+22896: 17:50:42.091 - TCP inactivity timeout: 10000ms
+22896: 17:50:42.091 - TCP disconnect timeout: 120000ms
+22896: 17:50:42.091 - MaxInboundMessageSize: 512000
+22896: 17:50:42.091 - MaxOutboundMessageSize: 512000
+22896: 17:50:42.091 - Forcing all applications ids to: "ChatServer"
+22896: 17:50:42.091 - Serving policy file requests from: "D:\Roman\FWO\PhotonSDK\deploy\Policy\assets\socket-policy.xml"
+22896: 17:50:42.092 - Adding TCP listener on: 0.0.0.0: 4533 with a listen backlog of: 150
+22896: 17:50:42.092 - TCP inactivity timeout: 10000ms
+22896: 17:50:42.092 - TCP disconnect timeout: 120000ms
+22896: 17:50:42.092 - MaxInboundMessageSize: 512000
+22896: 17:50:42.092 - MaxOutboundMessageSize: 512000
+22896: 17:50:42.092 - Forcing all applications ids to: "GameServer"
+22896: 17:50:42.092 - Serving policy file requests from: "D:\Roman\FWO\PhotonSDK\deploy\Policy\assets\socket-policy.xml"
+22896: 17:50:42.092 - Forcing all applications ids to: "ProxyServer"
+22896: 17:50:42.092 - MaxInboundMessageSize: 512000
+22896: 17:50:42.092 - MaxOutboundMessageSize: 512000
+22896: 17:50:42.092 - UDP address specified as: "0.0.0.0" adding listener to each available IPv4 address
+22896: 17:50:42.093 - Adding UDP listener on: 172.17.220.97: 5055 with a listen backlog of: 500
+22896: 17:50:42.093 - Adding UDP listener on: 192.168.1.100: 5055 with a listen backlog of: 500
+22896: 17:50:42.093 - Adding UDP listener on: 127.0.0.1: 5055 with a listen backlog of: 500
+22896: 17:50:42.093 - Adding WebSocket TCP listener on: 0.0.0.0: 9090 with a listen backlog of: 150
+22896: 17:50:42.093 - Nagle disabled
+22896: 17:50:42.093 - TCP inactivity timeout: 10000ms
+22896: 17:50:42.093 - MaxInboundMessageSize: 512000
+22896: 17:50:42.093 - MaxOutboundMessageSize: 512000
+22896: 17:50:42.093 - Forcing all applications ids to: "ProxyServer"
+22896: 17:50:42.093 - Will accept ANY sub-protocols from the client
+22896: 17:50:42.093 - No automatic WebSocket ping
+22896: 17:50:42.094 - Adding Policy File listener on: 0.0.0.0: 843 with a listen backlog of: 150 and serving Policy File: "D:\Roman\FWO\PhotonSDK\deploy\Policy\assets\socket-policy.xml"
+22896: 17:50:42.094 - TCP inactivity timeout: 10000ms
+22896: 17:50:42.095 - Adding Policy File listener on: 0.0.0.0: 943 with a listen backlog of: 150 and serving Policy File: "D:\Roman\FWO\PhotonSDK\deploy\Policy\assets\socket-policy-silverlight.xml"
+22896: 17:50:42.095 - TCP inactivity timeout: 10000ms
+22896: 17:50:42.157 - Service is running...
+8736: 18:08:34.595 - Restarting application: "LoginServer" due to file changes
+8736: 18:08:34.595 - Application: "LoginServer" restart request (abort existing connections)
+8736: 18:08:34.837 - Taking reference on default app domain
+8736: 18:08:35.007 - Application: "LoginServer" started in app domain: 6
+8736: 18:08:36.054 - RequestApplicationStop: 3
+8736: 18:08:36.063 - Application: "LoginServer" stopped in app domain: 3 (abort existing connections)
+8736: 18:08:36.063 - Application: "LoginServer" restart complete.
+8736: 18:08:36.063 - Restarting application: "GameServer" due to file changes
+8736: 18:08:36.063 - Application: "GameServer" restart request (abort existing connections)
+21640: 18:08:36.069 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 18:08:36.148 - Unloading Domain: ApplicationName = 'LoginServer', DomainId='3'
+21640: 18:08:36.172 - CManagedHost::OnDomainUnload() - 3
+8736: 18:08:36.327 - Taking reference on default app domain
+8736: 18:08:36.514 - Application: "GameServer" started in app domain: 7
+8736: 18:08:37.512 - RequestApplicationStop: 5
+8736: 18:08:37.522 - Application: "GameServer" stopped in app domain: 5 (abort existing connections)
+8736: 18:08:37.522 - Application: "GameServer" restart complete.
+8736: 18:08:37.522 - Restarting application: "ChatServer" due to file changes
+8736: 18:08:37.522 - Application: "ChatServer" restart request (abort existing connections)
+8736: 18:08:37.704 - Taking reference on default app domain
+8736: 18:08:37.891 - Application: "ChatServer" started in app domain: 8
+8736: 18:08:38.778 - RequestApplicationStop: 4
+8736: 18:08:38.786 - Application: "ChatServer" stopped in app domain: 4 (abort existing connections)
+8736: 18:08:38.786 - Application: "ChatServer" restart complete.
+8736: 18:08:38.786 - Restarting application: "ProxyServer" due to file changes
+8736: 18:08:38.786 - Application: "ProxyServer" restart request (abort existing connections)
+8736: 18:08:38.955 - Taking reference on default app domain
+8736: 18:08:39.232 - Application: "ProxyServer" started in app domain: 9
+8736: 18:08:40.149 - RequestApplicationStop: 2
+8736: 18:08:40.158 - Application: "ProxyServer" stopped in app domain: 2 (abort existing connections)
+8736: 18:08:40.158 - Application: "ProxyServer" restart complete.
+8736: 18:08:40.158 - Restarting application: "LoginServer" due to file changes
+8736: 18:08:40.158 - Application: "LoginServer" restart request (abort existing connections)
+8736: 18:08:40.372 - Taking reference on default app domain
+8736: 18:08:40.503 - Application: "LoginServer" started in app domain: 10
+8736: 18:08:41.326 - RequestApplicationStop: 6
+8736: 18:08:41.478 - Application: "LoginServer" stopped in app domain: 6 (abort existing connections)
+8736: 18:08:41.478 - Application: "LoginServer" restart complete.
+8736: 18:08:41.478 - Restarting application: "GameServer" due to file changes
+8736: 18:08:41.478 - Application: "GameServer" restart request (abort existing connections)
+8736: 18:08:41.621 - Taking reference on default app domain
+8736: 18:08:41.792 - Application: "GameServer" started in app domain: 11
+8736: 18:08:42.656 - RequestApplicationStop: 7
+8736: 18:08:42.775 - Application: "GameServer" stopped in app domain: 7 (abort existing connections)
+8736: 18:08:42.775 - Application: "GameServer" restart complete.
+8736: 18:08:42.775 - Restarting application: "ChatServer" due to file changes
+8736: 18:08:42.775 - Application: "ChatServer" restart request (abort existing connections)
+8736: 18:08:42.940 - Taking reference on default app domain
+8736: 18:08:43.085 - Application: "ChatServer" started in app domain: 12
+8736: 18:08:43.914 - RequestApplicationStop: 8
+8736: 18:08:44.051 - Application: "ChatServer" stopped in app domain: 8 (abort existing connections)
+8736: 18:08:44.051 - Application: "ChatServer" restart complete.
+8736: 18:08:44.051 - Restarting application: "ProxyServer" due to file changes
+8736: 18:08:44.051 - Application: "ProxyServer" restart request (abort existing connections)
+8736: 18:08:44.224 - Taking reference on default app domain
+8736: 18:08:44.396 - Application: "ProxyServer" started in app domain: 13
+8736: 18:08:45.203 - RequestApplicationStop: 9
+8736: 18:08:45.211 - Application: "ProxyServer" stopped in app domain: 9 (abort existing connections)
+8736: 18:08:45.211 - Application: "ProxyServer" restart complete.
+21640: 18:08:45.267 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 18:08:45.283 - Unloading Domain: ApplicationName = 'ChatServer', DomainId='4'
+21640: 18:08:45.283 - CManagedHost::OnDomainUnload() - 4
+21640: 18:08:45.300 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 18:08:45.315 - Unloading Domain: ApplicationName = 'GameServer', DomainId='5'
+21640: 18:08:45.315 - CManagedHost::OnDomainUnload() - 5
+21640: 18:08:45.333 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 18:08:45.350 - Unloading Domain: ApplicationName = 'LoginServer', DomainId='6'
+21640: 18:08:45.350 - CManagedHost::OnDomainUnload() - 6
+21640: 18:08:45.366 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 18:08:45.387 - Unloading Domain: ApplicationName = 'GameServer', DomainId='7'
+21640: 18:08:45.388 - CManagedHost::OnDomainUnload() - 7
+21640: 18:08:45.403 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 18:08:45.422 - Unloading Domain: ApplicationName = 'ChatServer', DomainId='8'
+21640: 18:08:45.422 - CManagedHost::OnDomainUnload() - 8
+21640: 18:08:45.436 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 18:08:45.451 - Unloading Domain: ApplicationName = 'ProxyServer', DomainId='9'
+21640: 18:08:45.506 - CManagedHost::OnDomainUnload() - 9
+21640: 18:08:45.519 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 18:08:45.534 - Unloading Domain: ApplicationName = 'ProxyServer', DomainId='2'
+21640: 18:08:45.535 - CManagedHost::OnDomainUnload() - 2
+8736: 18:22:58.014 - Restarting application: "ProxyServer" due to file changes
+8736: 18:22:58.014 - Application: "ProxyServer" restart request (abort existing connections)
+8736: 18:22:58.216 - Taking reference on default app domain
+8736: 18:22:58.377 - Application: "ProxyServer" started in app domain: 14
+8736: 18:22:59.274 - RequestApplicationStop: 13
+8736: 18:22:59.286 - Application: "ProxyServer" stopped in app domain: 13 (abort existing connections)
+8736: 18:22:59.287 - Application: "ProxyServer" restart complete.
+21640: 18:22:59.287 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+8736: 18:22:59.287 - Restarting application: "GameServer" due to file changes
+8736: 18:22:59.287 - Application: "GameServer" restart request (abort existing connections)
+16908: 18:22:59.299 - Unloading Domain: ApplicationName = 'ProxyServer', DomainId='13'
+21640: 18:22:59.321 - CManagedHost::OnDomainUnload() - 13
+8736: 18:22:59.505 - Taking reference on default app domain
+8736: 18:22:59.653 - Application: "GameServer" started in app domain: 15
+8736: 18:23:00.478 - RequestApplicationStop: 11
+8736: 18:23:00.487 - Application: "GameServer" stopped in app domain: 11 (abort existing connections)
+8736: 18:23:00.487 - Application: "GameServer" restart complete.
+8736: 18:23:00.487 - Restarting application: "ChatServer" due to file changes
+8736: 18:23:00.487 - Application: "ChatServer" restart request (abort existing connections)
+8736: 18:23:00.669 - Taking reference on default app domain
+8736: 18:23:00.799 - Application: "ChatServer" started in app domain: 16
+8736: 18:23:01.694 - RequestApplicationStop: 12
+8736: 18:23:01.703 - Application: "ChatServer" stopped in app domain: 12 (abort existing connections)
+8736: 18:23:01.704 - Application: "ChatServer" restart complete.
+8736: 18:23:01.704 - Restarting application: "LoginServer" due to file changes
+8736: 18:23:01.704 - Application: "LoginServer" restart request (abort existing connections)
+8736: 18:23:01.785 - Taking reference on default app domain
+8736: 18:23:01.827 - Application: "LoginServer" started in app domain: 17
+8736: 18:23:02.359 - RequestApplicationStop: 10
+8736: 18:23:02.369 - Application: "LoginServer" stopped in app domain: 10 (abort existing connections)
+8736: 18:23:02.369 - Application: "LoginServer" restart complete.
+21640: 18:23:02.515 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 18:23:02.527 - Unloading Domain: ApplicationName = 'LoginServer', DomainId='10'
+21640: 18:23:02.546 - CManagedHost::OnDomainUnload() - 10
+21640: 18:23:02.610 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 18:23:02.625 - Unloading Domain: ApplicationName = 'GameServer', DomainId='11'
+21640: 18:23:02.625 - CManagedHost::OnDomainUnload() - 11
+21640: 18:23:02.644 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 18:23:02.655 - Unloading Domain: ApplicationName = 'ChatServer', DomainId='12'
+21640: 18:23:02.655 - CManagedHost::OnDomainUnload() - 12
+8736: 18:56:09.772 - Restarting application: "LoginServer" due to file changes
+8736: 18:56:09.772 - Application: "LoginServer" restart request (abort existing connections)
+8736: 18:56:10.074 - Taking reference on default app domain
+8736: 18:56:10.255 - Application: "LoginServer" started in app domain: 18
+8736: 18:56:11.285 - RequestApplicationStop: 17
+8736: 18:56:11.293 - Application: "LoginServer" stopped in app domain: 17 (abort existing connections)
+8736: 18:56:11.293 - Application: "LoginServer" restart complete.
+8736: 18:56:11.293 - Restarting application: "GameServer" due to file changes
+8736: 18:56:11.293 - Application: "GameServer" restart request (abort existing connections)
+21640: 18:56:11.300 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 18:56:11.314 - Unloading Domain: ApplicationName = 'LoginServer', DomainId='17'
+21640: 18:56:11.316 - CManagedHost::OnDomainUnload() - 17
+8736: 18:56:11.446 - Taking reference on default app domain
+8736: 18:56:11.597 - Application: "GameServer" started in app domain: 19
+8736: 18:56:12.458 - RequestApplicationStop: 15
+8736: 18:56:12.467 - Application: "GameServer" stopped in app domain: 15 (abort existing connections)
+8736: 18:56:12.467 - Application: "GameServer" restart complete.
+8736: 18:56:12.467 - Restarting application: "ChatServer" due to file changes
+8736: 18:56:12.467 - Application: "ChatServer" restart request (abort existing connections)
+8736: 18:56:12.744 - Taking reference on default app domain
+8736: 18:56:12.895 - Application: "ChatServer" started in app domain: 20
+8736: 18:56:13.819 - RequestApplicationStop: 16
+8736: 18:56:13.828 - Application: "ChatServer" stopped in app domain: 16 (abort existing connections)
+8736: 18:56:13.828 - Application: "ChatServer" restart complete.
+8736: 18:56:13.828 - Restarting application: "ProxyServer" due to file changes
+8736: 18:56:13.828 - Application: "ProxyServer" restart request (abort existing connections)
+8736: 18:56:13.991 - Taking reference on default app domain
+8736: 18:56:14.116 - Application: "ProxyServer" started in app domain: 21
+8736: 18:56:14.916 - RequestApplicationStop: 14
+8736: 18:56:14.924 - Application: "ProxyServer" stopped in app domain: 14 (abort existing connections)
+8736: 18:56:14.924 - Application: "ProxyServer" restart complete.
+21640: 18:56:14.967 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 18:56:14.982 - Unloading Domain: ApplicationName = 'ProxyServer', DomainId='14'
+21640: 18:56:15.014 - CManagedHost::OnDomainUnload() - 14
+21640: 18:56:15.032 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 18:56:15.049 - Unloading Domain: ApplicationName = 'GameServer', DomainId='15'
+21640: 18:56:15.050 - CManagedHost::OnDomainUnload() - 15
+21640: 18:56:15.070 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 18:56:15.092 - Unloading Domain: ApplicationName = 'ChatServer', DomainId='16'
+21640: 18:56:15.092 - CManagedHost::OnDomainUnload() - 16
+22896: 19:02:32.192 - Service is stopped...
+22896: 19:02:32.192 - Server shutting down...
+22896: 19:02:32.192 - Shutdown monitoring enabled, 30000ms before process abort
+22896: 19:02:32.192 - Notifying CLR applications of shutdown...
+22896: 19:02:32.192 - RequestApplicationStop: 20
+22896: 19:02:32.204 - RequestApplicationStop: 19
+22896: 19:02:32.214 - RequestApplicationStop: 18
+22896: 19:02:32.225 - RequestApplicationStop: 21
+22896: 19:02:32.232 - RequestStop: defalt app domain
+22896: 19:02:32.234 - Shutting down WebSocket Outbound Connection Manager...
+22896: 19:02:32.234 - Shutting down TCP Outbound Connection Manager...
+22896: 19:02:32.234 - Shutting down ENet Outbound Connection Manager...
+22896: 19:02:32.234 - Disconnecting all outbound peers...
+22896: 19:02:32.234 - Shutting down ENet host...
+22896: 19:02:32.234 - Disconnecting all peers...
+22896: 19:02:32.234 - Shutting down socket servers...
+22896: 19:02:32.234 - Shutting down ENet thread pool...
+22896: 19:02:32.234 - Shutting down TCP inactivity timers...
+22896: 19:02:32.234 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:843
+22896: 19:02:32.234 - OnShutdownCompleted: NativePolicy:0.0.0.0:843
+22896: 19:02:32.234 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:943
+22896: 19:02:32.234 - OnShutdownCompleted: NativePolicy:0.0.0.0:943
+22896: 19:02:32.234 - WaitingForShutdownToComplete: TCP:0.0.0.0:4530
+22896: 19:02:32.234 - OnShutdownCompleted: TCP:0.0.0.0:4530
+22896: 19:02:32.234 - WaitingForShutdownToComplete: TCP:0.0.0.0:4531
+22896: 19:02:32.234 - OnShutdownCompleted: TCP:0.0.0.0:4531
+22896: 19:02:32.234 - WaitingForShutdownToComplete: TCP:0.0.0.0:4532
+22896: 19:02:32.234 - OnShutdownCompleted: TCP:0.0.0.0:4532
+22896: 19:02:32.234 - WaitingForShutdownToComplete: TCP:0.0.0.0:4533
+22896: 19:02:32.234 - OnShutdownCompleted: TCP:0.0.0.0:4533
+22896: 19:02:32.234 - WaitingForShutdownToComplete: UDP:127.0.0.1:5055
+22896: 19:02:32.234 - OnShutdownCompleted: UDP:127.0.0.1:5055
+22896: 19:02:32.234 - WaitingForShutdownToComplete: UDP:172.17.220.97:5055
+22896: 19:02:32.234 - OnShutdownCompleted: UDP:172.17.220.97:5055
+22896: 19:02:32.234 - WaitingForShutdownToComplete: UDP:192.168.1.100:5055
+22896: 19:02:32.234 - OnShutdownCompleted: UDP:192.168.1.100:5055
+22896: 19:02:32.234 - WaitingForShutdownToComplete: WebSocket:0.0.0.0:9090
+22896: 19:02:32.234 - OnShutdownCompleted: WebSocket:0.0.0.0:9090
+22896: 19:02:32.234 - Shutting down CLR applications...
+21640: 19:02:32.237 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+22896: 19:02:32.246 - Shutting down business logic thread pool...
+22896: 19:02:32.246 - Shutting down I/O thread pool...
+22896: 19:02:32.247 - Destroying servers
+22896: 19:02:32.248 - Destroying WebSocket Outbound Connection Manager
+22896: 19:02:32.248 - Destroying TCP Outbound Connection Manager
+22896: 19:02:32.248 - Destroying TCP inactivity timer
+22896: 19:02:32.248 - Destroying ENet timer wheel
+22896: 19:02:32.248 - Destroying ENet host
+22896: 19:02:32.248 - Destroying ENet outbound host
+22896: 19:02:32.248 - Destroying HTTP inactivity timer
+22896: 19:02:32.248 - Destroying HTTP host
+22896: 19:02:32.248 - Destroying HTTP Chunk host
+22896: 19:02:32.248 - Flushing ENET buffer allocator...
+22896: 19:02:32.250 - Flushing TCP buffer handle allocator...
+22896: 19:02:32.250 - Flushing stream socket allocator...
+22896: 19:02:32.250 - Flushing inbound datagram socket allocator...
+22896: 19:02:32.252 - Flushing outbound datagram socket allocator...
+22896: 19:02:32.252 - Destroying CLR dispatcher
+22896: 19:02:32.252 - Destroying CLR applications
+22896: 19:02:32.253 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+16908: 19:02:32.254 - Unloading Domain: ApplicationName = 'ChatServer', DomainId='20'
+21640: 19:02:32.255 - CManagedHost::OnDomainUnload() - 20
+21640: 19:02:32.275 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 19:02:32.298 - Unloading Domain: ApplicationName = 'ProxyServer', DomainId='21'
+21640: 19:02:32.340 - CManagedHost::OnDomainUnload() - 21
+21640: 19:02:32.375 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 19:02:32.404 - Unloading Domain: ApplicationName = 'LoginServer', DomainId='18'
+21640: 19:02:32.405 - CManagedHost::OnDomainUnload() - 18
+21640: 19:02:32.471 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16908: 19:02:32.501 - Unloading Domain: ApplicationName = 'GameServer', DomainId='19'
+21640: 19:02:32.502 - CManagedHost::OnDomainUnload() - 19
+22896: 19:02:32.531 - ~CCLRApplicationCollection() - Done. All objects released
+22896: 19:02:32.532 - ~CManagedHost() - Release default app domain
+22896: 19:02:32.532 - CManagedHost::OnDomainUnload() - 1
+22896: 19:02:32.532 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+22896: 19:02:32.532 - ~CManagedHost
+22896: 19:02:32.532 - Destroying ENet thread pool
+22896: 19:02:32.532 - Destroying Business logic thread pool
+22896: 19:02:32.532 - Destroying I/O thread pool
+22896: 19:02:32.532 - Destroying ENet buffer allocator
+22896: 19:02:32.532 - Destroying TCP buffer allocator
+22896: 19:02:32.532 - Destroying TCP socket allocator
+22896: 19:02:32.532 - Destroying ENet inbound socket allocator
+22896: 19:02:32.532 - Destroying ENet outbound socket allocator
+22896: 19:02:32.532 - Destroying shared datagram flow control data
+22896: 19:02:32.532 - Shutdown complete...
+22896: 19:02:32.533 - Service shutting down
+22896: 19:02:32.539 - Service shut down complete
