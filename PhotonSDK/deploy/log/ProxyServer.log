@@ -10033,3 +10033,342 @@ Exception:System.ArgumentException: Элемент с тем же ключом �
 2018-02-18 19:02:32,245 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
 2018-02-18 19:02:32,246 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
 2018-02-18 19:02:32,246 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ProxyServer
+2018-02-22 10:03:40,618 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ProxyServer.config
+2018-02-22 10:03:40,899 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-02-22 10:03:40,922 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4530, Sibling 0, Allow Clients True
+2018-02-22 10:03:40,929 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ProxyServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-02-22 10:03:51,584 [13] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-02-22 10:03:51,584 [11] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-02-22 10:03:51,584 [8] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-02-22 10:03:51,620 [8] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-22 10:03:51,620 [13] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-22 10:03:51,621 [13] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-02-22 10:03:51,620 [11] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-02-22 10:03:51,621 [11] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-02-22 10:03:51,620 [8] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-02-22 10:03:52,020 [15] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-22 10:03:52,020 [8] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-22 10:03:52,020 [11] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-22 10:03:52,083 [11] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=1
+2018-02-22 10:03:52,083 [8] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=3
+2018-02-22 10:03:52,083 [15] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=2
+2018-02-22 10:03:52,084 [8] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=3 | TCP:  UDP: 
+2018-02-22 10:03:52,085 [15] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=2 | TCP:  UDP: 
+2018-02-22 10:03:52,084 [11] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=1 | TCP:  UDP: 
+2018-02-22 10:04:04,877 [11] DEBUG MGF_Photon.PhotonApplication - Connection request on port 5055
+2018-02-22 10:04:04,927 [11] DEBUG MGF_Photon.PhotonApplication - Created client peer
+2018-02-22 10:04:06,451 [23] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:06,980 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:07,481 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:07,983 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:08,484 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:08,985 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:09,487 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:09,988 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:10,489 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:10,991 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:11,493 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:11,994 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:12,495 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:12,997 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:13,498 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:14,000 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:14,501 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:15,002 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:15,503 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:16,005 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:16,506 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:17,007 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:17,508 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:18,009 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:18,511 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:19,013 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:19,514 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:20,016 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:20,517 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:21,018 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:21,519 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:22,021 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:22,522 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:23,023 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:23,524 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:24,025 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:24,526 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:25,027 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:25,528 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:26,030 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:26,531 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:27,032 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:27,533 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:28,034 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:28,536 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:29,037 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:29,539 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:30,040 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:30,541 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:31,042 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:31,543 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:32,044 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:32,545 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:33,046 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:33,547 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:34,049 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:34,550 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:35,051 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:35,552 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:36,053 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:36,555 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:37,056 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:37,557 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:38,058 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:38,559 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:39,060 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:39,561 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:40,062 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:40,564 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:41,065 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:41,566 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:42,067 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:42,568 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:43,069 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:43,570 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:44,071 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:44,572 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:45,073 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:45,574 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:46,075 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:46,576 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:47,077 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:47,579 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:48,080 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:48,581 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:49,083 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:49,585 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:50,087 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:50,588 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:51,090 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:51,591 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:52,092 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:52,593 [27] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:53,094 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:53,596 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:54,097 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:54,599 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:55,100 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:55,601 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:56,102 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:56,603 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:57,104 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:57,605 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:58,107 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:58,608 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:59,109 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:04:59,610 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:00,111 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:00,612 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:01,112 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:01,613 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:02,152 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:02,653 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:03,155 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:03,657 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:04,158 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:04,659 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:05,160 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:05,661 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:06,163 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:06,664 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:07,165 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:07,666 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:08,167 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:08,668 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:09,169 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:09,670 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:10,171 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:10,673 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:11,174 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:11,675 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:12,177 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:12,679 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:13,181 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:13,682 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:14,183 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:14,684 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:15,186 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:15,687 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:16,189 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:16,690 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:17,191 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:17,692 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:18,193 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:18,694 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:19,195 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:19,696 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:20,197 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:20,698 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:21,200 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:21,701 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:22,202 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:22,704 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:23,205 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:23,706 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:24,207 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:24,710 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:25,212 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:25,713 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:26,214 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:26,715 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:27,216 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:27,716 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:28,217 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:28,719 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:29,220 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:29,722 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:30,224 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:30,725 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:31,226 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:31,728 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:32,229 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:32,731 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:33,232 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:33,733 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:34,235 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:34,330 [15] DEBUG MGF_Photon.PhotonApplication - Handeling operation request
+2018-02-22 10:05:34,737 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:35,238 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:35,739 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:36,241 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:36,743 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:37,037 [13] DEBUG MGF_Photon.PhotonApplication - Handeling operation request
+2018-02-22 10:05:37,244 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:37,745 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:38,246 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:38,747 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:39,250 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:39,751 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:40,252 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:40,753 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:41,255 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:41,756 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:42,024 [8] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-22 10:05:42,026 [8] DEBUG MGF_Photon.PhotonApplication - ForwardingResponse 0 - 1
+2018-02-22 10:05:42,027 [8] DEBUG MGF_Photon.PhotonApplication - Looking for peer id f028a2d0-0ba2-4e21-b6bb-04e4c61995a5
+2018-02-22 10:05:42,027 [8] DEBUG MGF_Photon.PhotonApplication - Found Peer
+2018-02-22 10:05:42,033 [12] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-02-22 10:05:42,033 [12] DEBUG MGF_Photon.PhotonApplication - ForwardingResponse 0 - 1
+2018-02-22 10:05:42,033 [12] DEBUG MGF_Photon.PhotonApplication - Looking for peer id f028a2d0-0ba2-4e21-b6bb-04e4c61995a5
+2018-02-22 10:05:42,034 [12] DEBUG MGF_Photon.PhotonApplication - Found Peer
+2018-02-22 10:05:42,258 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:42,759 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:43,260 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:43,761 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:44,263 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:44,764 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:45,265 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:45,767 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:46,268 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:46,769 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:47,270 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:47,772 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:48,273 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:48,774 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:49,275 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:49,776 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:50,278 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:50,779 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:51,280 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:51,782 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:52,283 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:52,784 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:53,286 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:53,788 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:54,289 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:54,790 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:55,291 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:55,793 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:56,294 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:56,795 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:57,296 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:57,797 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:58,298 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:58,799 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:59,300 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:05:59,801 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:00,303 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:00,804 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:01,305 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:01,807 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:02,308 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:02,808 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:03,310 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:03,812 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:04,314 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:04,815 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:05,317 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:05,818 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:06,320 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:06,821 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:07,323 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:07,824 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:08,326 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:08,827 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:09,328 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:09,829 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:10,330 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:10,832 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:11,334 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:11,835 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:12,336 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:12,838 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:06:12,891 [11] DEBUG MGF_Photon.PhotonApplication - Client Disconnected f028a2d0-0ba2-4e21-b6bb-04e4c61995a5
+2018-02-22 10:29:18,007 [21] DEBUG MGF_Photon.PhotonApplication - Connection request on port 5055
+2018-02-22 10:29:18,008 [21] DEBUG MGF_Photon.PhotonApplication - Created client peer
+2018-02-22 10:29:18,978 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:19,479 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:19,980 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:20,481 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:20,982 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:21,483 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:21,984 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:22,486 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:22,987 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:23,489 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:23,990 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:24,491 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:24,993 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:25,494 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:25,995 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:26,496 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:26,998 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:27,499 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:28,001 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:28,502 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:29,004 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:29,505 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:30,006 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:30,507 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:31,008 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:31,509 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:32,011 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:32,512 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:33,013 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:33,514 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:34,015 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:34,516 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:35,017 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:35,519 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:36,020 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:36,521 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:37,022 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:37,524 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:38,025 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:38,527 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:39,028 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:39,530 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:40,031 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:40,532 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:41,034 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:41,536 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:42,037 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:42,538 [14] DEBUG MGF_Photon.PhotonApplication - Send message to peer
+2018-02-22 10:29:42,808 [28] DEBUG MGF_Photon.PhotonApplication - Client Disconnected 0109669c-7408-4672-b81e-f860c23a1df9
