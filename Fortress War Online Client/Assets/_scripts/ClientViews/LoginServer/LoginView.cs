@@ -16,6 +16,11 @@ public class LoginView : MonoBehaviour
 		LoginHandler.OnGetInfo += GetInfo;
 	}
 
+	private void OnDestroy()
+	{
+		LoginHandler.OnGetInfo -= GetInfo;
+	}
+
 	public void ToRegisterClick()
 	{
 		Loading.Load(LoadingScene.Register);
@@ -25,7 +30,7 @@ public class LoginView : MonoBehaviour
 	{
 		if (Login.text.Length < 6 || Password.text.Length < 6)
 		{
-			Debug.Log("Login and password can't be less than 6 symbols");
+			Info.text = "Login and password can't be less than 6 symbols";
 			return;
 		}
 
@@ -45,6 +50,7 @@ public class LoginView : MonoBehaviour
 
 	public void GetInfo(string info)
 	{
-		Info.text = info;
+		if (Info != null)
+			Info.text = info;
 	}
 }

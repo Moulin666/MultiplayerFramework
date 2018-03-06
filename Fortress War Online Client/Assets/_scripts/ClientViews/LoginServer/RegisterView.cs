@@ -30,13 +30,18 @@ public class RegisterView : MonoBehaviour
 	private string Sex = "Male";
 	private int CharacterType = 1;
 	private string Class = "Rogue";
-	private string SubClass = "Clerick";
+	private string SubClass = "Cleric";
 
 	#endregion
 
 	private void Start()
 	{
 		RegisterHandler.OnGetInfo += GetInfo;
+	}
+
+	private void OnDestroy()
+	{
+		RegisterHandler.OnGetInfo -= GetInfo;
 	}
 
 	public void SliderValueChange(int sliderId)
@@ -154,6 +159,7 @@ public class RegisterView : MonoBehaviour
 
 	public void GetInfo(string info)
 	{
-		Info.text = info;
+		if (Info != null)
+			Info.text = info;
 	}
 }

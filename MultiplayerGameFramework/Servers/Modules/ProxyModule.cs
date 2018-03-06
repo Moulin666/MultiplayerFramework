@@ -1,7 +1,7 @@
 ﻿using Autofac;
 using Servers.BackgroundThreads;
 using Servers.Config;
-using Servers.Handlers.ProxyServerHandlers;
+using Servers.Handlers.LoginServerHandlers;
 using Servers.Support;
 
 namespace Servers.Modules
@@ -20,9 +20,9 @@ namespace Servers.Modules
 			builder.RegisterType<TestBackgroundThread>().AsImplementedInterfaces();
 
 			// Handlers
-			builder.RegisterType<LoginProxyHandler>().AsImplementedInterfaces();
-			builder.RegisterType<ChatProxyHandler>().AsImplementedInterfaces();
-			builder.RegisterType<GameProxyHandler>().AsImplementedInterfaces();
+			builder.RegisterType<ClientLoginForwardingRequestHandler>().AsImplementedInterfaces();
+			builder.RegisterType<ClientChatForwardingRequestHandler>().AsImplementedInterfaces();
+			builder.RegisterType<ClientGameForwardingRequestHandler>().AsImplementedInterfaces();
 		}
 	}
 }

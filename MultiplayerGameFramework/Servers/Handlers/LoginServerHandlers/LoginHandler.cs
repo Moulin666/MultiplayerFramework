@@ -5,7 +5,6 @@ using System.Text;
 using ExitGames.Logging;
 using GameCommon;
 using MGF_Photon.Implementation.Server;
-using MultiplayerGameFramework.Implementation.Client;
 using MultiplayerGameFramework.Implementation.Messaging;
 using MultiplayerGameFramework.Interfaces.Messaging;
 using MultiplayerGameFramework.Interfaces.Server;
@@ -17,19 +16,6 @@ namespace Servers.Handlers
 {
 	public class LoginHandler : IHandler<IServerPeer>
 	{
-		private SubServerClientPeer _clientConnectionCollection;
-		public SubServerClientPeer ClientConnectionCollection
-		{
-			get
-			{
-				return _clientConnectionCollection;
-			}
-			set
-			{
-				_clientConnectionCollection = value;
-			}
-		}
-
 		public ILogger Log { get; set; }
 
 		public LoginHandler(ILogger log)
@@ -111,8 +97,7 @@ namespace Servers.Handlers
 
 						transaction.Commit();
 
-						// TO DO: Login
-						// Proxy server handler
+						// TO DO: auth
 
 						peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
 						{
