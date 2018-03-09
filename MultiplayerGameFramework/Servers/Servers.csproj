@@ -164,6 +164,7 @@
     <Compile Include="DataBase\Model\CharacterModel.cs" />
     <Compile Include="DataBase\Model\AccountModel.cs" />
     <Compile Include="DataBase\NHibernateHelper.cs" />
+    <Compile Include="Data\Client\CharacterData.cs" />
     <Compile Include="Handlers\ChatServerHandlers\ClientChatForwardingRequestHandler.cs" />
     <Compile Include="Handlers\GameServerHandlers\ClientGameForwardingRequestHandler.cs" />
     <Compile Include="Handlers\LoginServerHandlers\ClientLoginForwardingRequestHandler.cs" />

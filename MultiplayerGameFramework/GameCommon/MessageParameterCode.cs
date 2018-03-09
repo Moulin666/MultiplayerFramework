@@ -15,5 +15,6 @@
 		Email,
 
 		CharacterRegisterData,
+		UserId,
 	}
 }

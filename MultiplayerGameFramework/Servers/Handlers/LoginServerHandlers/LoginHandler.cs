@@ -5,9 +5,13 @@ using System.Text;
 using ExitGames.Logging;
 using GameCommon;
 using MGF_Photon.Implementation.Server;
+using MultiplayerGameFramework.Implementation.Config;
 using MultiplayerGameFramework.Implementation.Messaging;
+using MultiplayerGameFramework.Interfaces.Client;
 using MultiplayerGameFramework.Interfaces.Messaging;
 using MultiplayerGameFramework.Interfaces.Server;
+using MultiplayerGameFramework.Interfaces.Support;
+using Servers.Data.Client;
 using Servers.DataBase;
 using Servers.DataBase.Model;
 using Servers.Handlers.LoginServerHandlers.Operations;
@@ -16,11 +20,16 @@ namespace Servers.Handlers
 {
 	public class LoginHandler : IHandler<IServerPeer>
 	{
-		public ILogger Log { get; set; }
+		private ILogger log;
 
-		public LoginHandler(ILogger log)
+		private IConnectionCollection<IClientPeer> connectionCollection;
+		private IPeerFactory peerFactory;
+
+		public LoginHandler(ILogger log, IConnectionCollection<IClientPeer> connectionCollection, IPeerFactory peerFactory)
 		{
-			Log = log;
+			this.log = log;
+			this.connectionCollection = connectionCollection;
+			this.peerFactory = peerFactory;
 		}
 
 		public MessageType Type => MessageType.Request;
@@ -97,12 +106,18 @@ namespace Servers.Handlers
 
 						transaction.Commit();
 
-						// TO DO: auth
+						var clientPeer = peerFactory.CreatePeer<IClientPeer>(new PeerConfig());
+						clientPeer.PeerId = new Guid((byte[])message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode]);
+
+						connectionCollection.Connect(clientPeer);
+
+						clientPeer.ClientData<CharacterData>().UserId = account.Id;
 
 						peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
 						{
 							{ (byte)MessageParameterCode.SubCodeParameterCode, SubCode },
-							{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] }
+							{ (byte)MessageParameterCode.PeerIdParameterCode, message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode] },
+							{ (byte)MessageParameterCode.UserId, account.Id }
 						}, "", (int)ReturnCode.OK));
 
 						return true;
@@ -111,7 +126,7 @@ namespace Servers.Handlers
 			}
 			catch (Exception ex)
 			{
-				Log.ErrorFormat("Error login handler: {0}", ex);
+				log.ErrorFormat("Error login handler: {0}", ex);
 
 				peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
 				{
