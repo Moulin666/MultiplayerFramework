@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
 {
@@ -169,7 +170,7 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
 
 	public void DebugReturn(DebugLevel level, string message)
 	{
-		Debug.LogFormat("Debug return: ({0}) {1}", level, message);
+		Debug.LogFormat("Debug return: ({0}): {1}", level, message);
 	}
 
 	public void OnEvent(EventData eventData)
@@ -241,6 +242,9 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
 				{
 					State = EngineState.DisconnectedState;
 					Debug.Log("Disconnected from server!");
+
+					GameObject window = Instantiate(Resources.Load("UI/DisconnectWindow"), GameObject.Find("Canvas").transform) as GameObject;
+					window.GetComponentInChildren<Button>().onClick.AddListener(delegate() { Application.Quit(); });
 				}
 				break;
 			default:
