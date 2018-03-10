@@ -28,9 +28,9 @@ namespace Servers.DataBase
 		{
 			_sessionFactory = Fluently.Configure().Database(
 				MySQLConfiguration.Standard
-				.ConnectionString(fw => fw.Server("localhost")
+				.ConnectionString(fw => fw.Server("95.165.128.83")
 				.Database("fwo")
-				.Username("root")
+				.Username("fwo_user")
 				.Password("325862123")))
 				.Mappings(m => m.FluentMappings.AddFromAssemblyOf<NHibernateHelper>())
 				.BuildSessionFactory();

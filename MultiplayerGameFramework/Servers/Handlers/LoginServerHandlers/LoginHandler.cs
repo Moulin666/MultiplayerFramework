@@ -104,14 +104,14 @@ namespace Servers.Handlers
 							return true;
 						}
 
-						transaction.Commit();
-
 						var clientPeer = peerFactory.CreatePeer<IClientPeer>(new PeerConfig());
 						clientPeer.PeerId = new Guid((byte[])message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode]);
 
 						connectionCollection.Connect(clientPeer);
 
-						clientPeer.ClientData<CharacterData>().UserId = account.Id;
+						//clientPeer.ClientData<CharacterData>().UserId = account.Id;
+
+						transaction.Commit();
 
 						peer.SendMessage(new Response(Code, SubCode, new Dictionary<byte, object>()
 						{
