@@ -109,7 +109,7 @@ namespace Servers.Handlers
 
 						connectionCollection.Connect(clientPeer);
 
-						clientPeer.ClientData<CharacterData>().UserId = account.Id;
+						//clientPeer.ClientData<CharacterData>().UserId = account.Id;
 
 						transaction.Commit();
 

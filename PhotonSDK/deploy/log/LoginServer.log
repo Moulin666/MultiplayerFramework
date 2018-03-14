@@ -2802,3 +2802,54 @@ Exception:System.NullReferenceException: Ссылка на объект не у�
 2018-03-14 18:06:40,436 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
 2018-03-14 18:06:40,437 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
 2018-03-14 18:06:40,437 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=LoginServer
+2018-03-14 23:44:35,191 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\LoginServer.config
+2018-03-14 23:44:35,566 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-14 23:44:35,621 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-14 23:44:35,646 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4531, Sibling 0, Allow Clients False
+2018-03-14 23:44:35,653 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=LoginServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-14 23:44:37,176 [6] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-14 23:44:37,956 [7] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-14 23:44:37,961 [7] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-14 23:50:19,929 [28] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\LoginServer.config
+2018-03-14 23:50:20,707 [28] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-14 23:50:20,751 [28] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-14 23:50:20,787 [28] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4531, Sibling 0, Allow Clients False
+2018-03-14 23:50:20,795 [28] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=LoginServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-14 23:50:20,867 [28] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-14 23:50:20,869 [28] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-03-14 23:50:20,872 [28] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=LoginServer
+2018-03-14 23:50:20,877 [12] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-03-14 23:50:20,879 [16] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-14 23:50:20,879 [16] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-14 23:50:20,880 [16] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=LoginServer
+2018-03-14 23:50:26,526 [15] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-14 23:50:27,151 [12] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-14 23:50:27,158 [12] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-14 23:50:48,384 [6] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-14 23:50:52,141 [6] ERROR MGF_Photon.PhotonApplication - Error login handler: FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> NHibernate.HibernateException: Could not create the driver from NHibernate.Driver.MySqlDataDriver, NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4. ---> System.Reflection.TargetInvocationException: Адресат вызова создал исключение. ---> System.ArgumentException: Не удалось найти запрошенного поставщика данных .Net Framework. Возможно он не установлен.
+   в System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+   в NHibernate.Driver.ReflectionBasedDriver..ctor(String providerInvariantName, String driverAssemblyName, String connectionTypeName, String commandTypeName)
+   в NHibernate.Driver.MySqlDataDriver..ctor()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   в System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   в System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   в System.Activator.CreateInstance(Type type)
+   в NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   --- Конец трассировки внутреннего стека исключений ---
+   в NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   в NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(IDictionary`2 settings)
+   в NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties)
+   в NHibernate.Cfg.Configuration.BuildSettings()
+   в NHibernate.Cfg.Configuration.BuildSessionFactory()
+   в FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Конец трассировки внутреннего стека исключений ---
+   в FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   в Servers.DataBase.NHibernateHelper.InitializeSessionFactory() в D:\Roman\FWO\MultiplayerGameFramework\Servers\DataBase\NHibernateHelper.cs:строка 29
+   в Servers.DataBase.NHibernateHelper.get_SessionFactory() в D:\Roman\FWO\MultiplayerGameFramework\Servers\DataBase\NHibernateHelper.cs:строка 21
+   в Servers.DataBase.NHibernateHelper.OpenSession() в D:\Roman\FWO\MultiplayerGameFramework\Servers\DataBase\NHibernateHelper.cs:строка 41
+   в Servers.Handlers.LoginHandler.HandleMessage(IMessage message, IServerPeer peer) в D:\Roman\FWO\MultiplayerGameFramework\Servers\Handlers\LoginServerHandlers\LoginHandler.cs:строка 72
+
+

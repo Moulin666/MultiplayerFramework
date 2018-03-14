@@ -1,6 +1,8 @@
 ﻿using Autofac;
 using Servers.BackgroundThreads;
 using Servers.Config;
+using Servers.Handlers.ChatServerHandlers;
+using Servers.Handlers.GameServerHandlers;
 using Servers.Handlers.LoginServerHandlers;
 using Servers.Support;
 
