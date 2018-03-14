@@ -23,6 +23,9 @@ public class LoginView : MonoBehaviour
 
 	public void ToRegisterClick()
 	{
+		if (PhotonEngine.Instance.State != EngineState.ConnectedState)
+			return;
+
 		Loading.Load(LoadingScene.Register);
 	}
 

@@ -7,7 +7,6 @@ public enum LoadingScene
 {
 	Login,
 	Register,
-	Lobby,
 	Game
 }
 
@@ -35,8 +34,6 @@ public class Loading : MonoBehaviour
 
 		if (_nextScene == LoadingScene.Register)
 			scene = "RegisterScene";
-		else if (_nextScene == LoadingScene.Lobby)
-			scene = "LobbyScene";
 		else if (_nextScene == LoadingScene.Game)
 			scene = "GameScene";
 

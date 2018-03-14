@@ -98,6 +98,9 @@ public class RegisterView : MonoBehaviour
 
 	public void BackClick()
 	{
+		if (PhotonEngine.Instance.State != EngineState.ConnectedState)
+			return;
+
 		Loading.Load(LoadingScene.Login);
 	}
 

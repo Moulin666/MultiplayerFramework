@@ -20,7 +20,7 @@ public class LoginHandler : IMessageHandler
 		{
 			case (int)ReturnCode.OK:
 				{
-					Loading.Load(LoadingScene.Lobby);
+					Loading.Load(LoadingScene.Game);
 					OnGetInfo?.Invoke("Login success.");
 					return true;
 				}

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -147,7 +147,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.555, y: -0.11}
+  m_AnchoredPosition: {x: -4.5550003, y: -0.11000061}
   m_SizeDelta: {x: 135.9, y: 137.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6778029
@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 130915023}
   - component: {fileID: 130915022}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: MapCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1417,21 +1417,13 @@ GameObject:
   - component: {fileID: 1192410990}
   - component: {fileID: 1192410989}
   - component: {fileID: 1192410988}
-  - component: {fileID: 1192410987}
   m_Layer: 0
-  m_Name: Main Camera (1)
+  m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1192410987
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1192410986}
-  m_Enabled: 1
 --- !u!124 &1192410988
 Behaviour:
   m_ObjectHideFlags: 0
@@ -1481,8 +1473,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1192410986}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 17.3, z: -92.1}
+  m_LocalRotation: {x: 0.08589259, y: -0.37854534, z: 0.035306577, w: 0.9209122}
+  m_LocalPosition: {x: 57.47679, y: 21.158955, z: -39.532234}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

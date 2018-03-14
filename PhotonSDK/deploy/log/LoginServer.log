@@ -2787,3 +2787,18 @@ Exception:System.NullReferenceException: Ссылка на объект не у�
 2018-03-12 20:21:10,598 [13] DEBUG MGF_Photon.PhotonApplication - Created server peer
 2018-03-12 20:21:10,948 [6] DEBUG MGF_Photon.PhotonApplication - Handle message.
 2018-03-12 20:21:10,954 [6] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-14 18:06:13,351 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\LoginServer.config
+2018-03-14 18:06:13,661 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-14 18:06:13,718 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-14 18:06:13,744 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4531, Sibling 0, Allow Clients False
+2018-03-14 18:06:13,751 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=LoginServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-14 18:06:15,009 [6] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-14 18:06:15,653 [12] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-14 18:06:15,658 [12] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-14 18:06:40,402 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-14 18:06:40,403 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-03-14 18:06:40,406 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=LoginServer
+2018-03-14 18:06:40,410 [23] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-03-14 18:06:40,436 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-14 18:06:40,437 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-14 18:06:40,437 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=LoginServer
