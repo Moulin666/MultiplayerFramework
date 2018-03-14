@@ -1602,3 +1602,63 @@
 2018-03-10 15:41:42,034 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
 2018-03-10 15:41:42,034 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
 2018-03-10 15:41:42,035 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ChatServer
+2018-03-12 15:20:02,513 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ChatServer.config
+2018-03-12 15:20:02,832 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-12 15:20:02,869 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-12 15:20:02,890 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4532, Sibling 0, Allow Clients False
+2018-03-12 15:20:02,895 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-12 15:29:19,886 [16] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ChatServer.config
+2018-03-12 15:29:20,131 [16] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-12 15:29:20,170 [16] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-12 15:29:20,190 [16] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4532, Sibling 0, Allow Clients False
+2018-03-12 15:29:20,195 [16] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-12 15:29:20,207 [16] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-12 15:29:20,209 [16] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-12 15:29:20,209 [16] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ChatServer
+2018-03-12 15:29:20,214 [16] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-12 15:29:20,214 [16] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-12 15:29:20,214 [16] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ChatServer
+2018-03-12 15:29:34,782 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-12 15:29:34,784 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-12 15:29:34,784 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ChatServer
+2018-03-12 15:40:07,175 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ChatServer.config
+2018-03-12 15:40:07,571 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-12 15:40:07,635 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-12 15:40:07,669 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4532, Sibling 0, Allow Clients False
+2018-03-12 15:40:07,674 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-12 15:42:30,795 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-12 15:42:30,796 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-12 15:42:30,797 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ChatServer
+2018-03-12 15:42:30,824 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-12 15:42:30,825 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-12 15:42:30,825 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ChatServer
+2018-03-12 15:42:36,914 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ChatServer.config
+2018-03-12 15:42:37,241 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-12 15:42:37,363 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-12 15:42:37,386 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4532, Sibling 0, Allow Clients False
+2018-03-12 15:42:37,391 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-12 15:43:40,900 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-12 15:43:40,903 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-12 15:43:40,904 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ChatServer
+2018-03-12 15:43:40,937 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-12 15:43:40,938 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-12 15:43:40,938 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ChatServer
+2018-03-12 15:44:13,340 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ChatServer.config
+2018-03-12 15:44:13,655 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-12 15:44:13,709 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-12 15:44:13,735 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4532, Sibling 0, Allow Clients False
+2018-03-12 15:44:13,743 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-12 15:46:05,887 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-12 15:46:05,889 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-12 15:46:05,889 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ChatServer
+2018-03-12 15:46:05,914 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-12 15:46:05,914 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-12 15:46:05,914 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ChatServer
+2018-03-12 20:21:06,264 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ChatServer.config
+2018-03-12 20:21:06,884 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-12 20:21:06,935 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-12 20:21:07,014 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4532, Sibling 0, Allow Clients False
+2018-03-12 20:21:07,020 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-12 20:21:10,596 [6] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-12 20:21:10,948 [16] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-12 20:21:10,955 [16] DEBUG MGF_Photon.PhotonApplication - Successfull registration

@@ -103,13 +103,13 @@ namespace Servers.Handlers
 
 							return true;
 						}
-
+						
 						var clientPeer = peerFactory.CreatePeer<IClientPeer>(new PeerConfig());
 						clientPeer.PeerId = new Guid((byte[])message.Parameters[(byte)MessageParameterCode.PeerIdParameterCode]);
 
 						connectionCollection.Connect(clientPeer);
 
-						//clientPeer.ClientData<CharacterData>().UserId = account.Id;
+						clientPeer.ClientData<CharacterData>().UserId = account.Id;
 
 						transaction.Commit();
 
