@@ -11,6 +11,7 @@ namespace Servers.Modules
 
 			builder.RegisterType<RegisterHandler>().AsImplementedInterfaces();
 			builder.RegisterType<LoginHandler>().AsImplementedInterfaces();
+			builder.RegisterType<DisconnectHandler>().AsImplementedInterfaces();
 		}
 	}
 }

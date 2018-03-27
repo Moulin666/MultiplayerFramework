@@ -132,6 +132,7 @@ namespace MGF_Photon.Implementation
 		/// <param name="state">State object.</param>
 		public void OnServerConnectionFailed(int errorCode, string errorMessage, object state)
 		{
+			Log.InfoFormat("[ServerApplication]: ServerConnectionFailed({0}) - {1}", errorCode, errorMessage);
 		}
 
 		/// <summary>

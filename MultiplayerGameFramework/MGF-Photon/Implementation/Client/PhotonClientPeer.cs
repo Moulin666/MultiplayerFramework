@@ -80,9 +80,11 @@ namespace MGF_Photon.Implementation.Client
 
 		protected override void OnDisconnect(DisconnectReason reasonCode, string reasonDetail)
 		{
+			_handlerList.HandleMessage(new Event(1, 0, new Dictionary<byte, object>() { { 0, 0 } }), this);
+
 			ConnectionCollection.Disconnect(this);
 
-			Log.DebugFormat("Client Disconnected {0}", PeerId);
+			Log.DebugFormat("Client Disconnected. ClientId - {0}", PeerId);
 		}
 
 		/// <summary>

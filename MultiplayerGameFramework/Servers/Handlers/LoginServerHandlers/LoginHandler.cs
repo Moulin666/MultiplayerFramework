@@ -11,7 +11,6 @@ using MultiplayerGameFramework.Interfaces.Client;
 using MultiplayerGameFramework.Interfaces.Messaging;
 using MultiplayerGameFramework.Interfaces.Server;
 using MultiplayerGameFramework.Interfaces.Support;
-using Servers.Data.Client;
 using Servers.DataBase;
 using Servers.DataBase.Model;
 using Servers.Handlers.LoginServerHandlers.Operations;
@@ -21,7 +20,6 @@ namespace Servers.Handlers
 	public class LoginHandler : IHandler<IServerPeer>
 	{
 		private ILogger log;
-
 		private IConnectionCollection<IClientPeer> connectionCollection;
 		private IPeerFactory peerFactory;
 
@@ -110,6 +108,8 @@ namespace Servers.Handlers
 						connectionCollection.Connect(clientPeer);
 
 						//clientPeer.ClientData<CharacterData>().UserId = account.Id;
+
+						log.DebugFormat("clients - {0}", connectionCollection.GetPeers<IClientPeer>().Count);
 
 						transaction.Commit();
 

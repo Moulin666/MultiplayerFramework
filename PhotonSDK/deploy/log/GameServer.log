@@ -1704,3 +1704,213 @@
 2018-03-14 23:50:26,528 [7] DEBUG MGF_Photon.PhotonApplication - Created server peer
 2018-03-14 23:50:27,152 [19] DEBUG MGF_Photon.PhotonApplication - Handle message.
 2018-03-14 23:50:27,159 [19] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-22 10:03:21,409 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
+2018-03-22 10:03:21,702 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-22 10:03:21,758 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-22 10:03:21,782 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4533, Sibling 0, Allow Clients False
+2018-03-22 10:03:21,788 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=GameServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-25 15:04:15,563 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
+2018-03-25 15:04:15,940 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-25 15:04:15,984 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-25 15:04:16,013 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4533, Sibling 0, Allow Clients False
+2018-03-25 15:04:16,021 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=GameServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-25 15:04:19,402 [12] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-25 15:04:19,693 [13] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-25 15:04:19,699 [13] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-25 15:06:33,759 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 15:06:33,761 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-03-25 15:06:33,764 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=GameServer
+2018-03-25 15:06:33,768 [15] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-03-25 15:06:33,789 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 15:06:33,790 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-25 15:06:33,790 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=GameServer
+2018-03-25 15:09:17,019 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
+2018-03-25 15:09:17,279 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-25 15:09:17,319 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-25 15:09:17,340 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4533, Sibling 0, Allow Clients False
+2018-03-25 15:09:17,346 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=GameServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-25 15:09:25,341 [15] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-25 15:09:25,590 [14] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-25 15:09:25,598 [14] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-25 15:42:56,845 [27] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
+2018-03-25 15:42:57,111 [27] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-25 15:42:57,149 [27] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-25 15:42:57,269 [27] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4533, Sibling 0, Allow Clients False
+2018-03-25 15:42:57,276 [27] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=GameServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-25 15:42:57,293 [27] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 15:42:57,295 [27] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-03-25 15:42:57,297 [27] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=GameServer
+2018-03-25 15:42:57,302 [14] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-03-25 15:42:57,302 [20] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 15:42:57,302 [20] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-25 15:42:57,303 [20] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=GameServer
+2018-03-25 15:43:00,412 [15] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-25 15:43:00,545 [15] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-25 15:43:00,550 [15] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-25 15:43:02,358 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 15:43:02,360 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-03-25 15:43:02,362 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=GameServer
+2018-03-25 15:43:02,377 [15] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-03-25 15:43:02,389 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 15:43:02,389 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-25 15:43:02,390 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=GameServer
+2018-03-25 15:43:12,859 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
+2018-03-25 15:43:13,135 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-25 15:43:13,184 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-25 15:43:13,208 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4533, Sibling 0, Allow Clients False
+2018-03-25 15:43:13,215 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=GameServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-25 15:43:17,504 [19] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-25 15:43:17,689 [19] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-25 15:43:17,695 [19] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-25 15:50:04,484 [30] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
+2018-03-25 15:50:04,796 [30] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-25 15:50:04,833 [30] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-25 15:50:04,858 [30] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4533, Sibling 0, Allow Clients False
+2018-03-25 15:50:04,864 [30] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=GameServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-25 15:50:04,878 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 15:50:04,879 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-03-25 15:50:04,881 [30] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=GameServer
+2018-03-25 15:50:04,886 [14] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-03-25 15:50:04,886 [31] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 15:50:04,887 [31] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-25 15:50:04,887 [31] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=GameServer
+2018-03-25 15:50:07,845 [12] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-25 15:50:07,978 [11] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-25 15:50:07,983 [11] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-25 16:00:35,186 [30] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
+2018-03-25 16:00:35,450 [30] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-25 16:00:35,494 [30] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-25 16:00:35,525 [30] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4533, Sibling 0, Allow Clients False
+2018-03-25 16:00:35,535 [30] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=GameServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-25 16:00:35,553 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:00:35,554 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-03-25 16:00:35,556 [30] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=GameServer
+2018-03-25 16:00:35,565 [11] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-03-25 16:00:35,566 [16] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:00:35,566 [16] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-25 16:00:35,567 [16] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=GameServer
+2018-03-25 16:00:41,086 [30] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
+2018-03-25 16:00:41,349 [30] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-25 16:00:41,382 [30] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-25 16:00:41,405 [30] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4533, Sibling 0, Allow Clients False
+2018-03-25 16:00:41,411 [30] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=GameServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-25 16:00:41,424 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:00:41,425 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-25 16:00:41,426 [30] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=GameServer
+2018-03-25 16:00:41,430 [7] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в MGF_Photon.Implementation.Server.OutboundPhotonPeer.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) в D:\Roman\FWO\MultiplayerGameFramework\MGF-Photon\Implementation\Server\OutboundPhotonPeer.cs:строка 42
+   в Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:строка 1039
+   в Photon.SocketServer.ServerToServer.OutboundS2SPeer.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ServerToServer\OutboundS2SPeer.cs:строка 295
+   в Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() в h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:строка 874
+   в ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) в c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:строка 111
+2018-03-25 16:00:41,431 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:00:41,540 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-25 16:00:41,540 [30] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=GameServer
+2018-03-25 16:00:44,654 [7] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-25 16:00:44,817 [28] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-25 16:00:44,821 [28] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-25 16:02:16,116 [30] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
+2018-03-25 16:02:16,381 [30] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-25 16:02:16,446 [30] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-25 16:02:16,475 [30] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4533, Sibling 0, Allow Clients False
+2018-03-25 16:02:16,481 [30] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=GameServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-25 16:02:16,495 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:02:16,497 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-03-25 16:02:16,499 [30] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=GameServer
+2018-03-25 16:02:16,503 [19] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-03-25 16:02:16,503 [18] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:02:16,504 [18] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-25 16:02:16,504 [18] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=GameServer
+2018-03-25 16:02:19,231 [38] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-25 16:02:19,349 [15] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-25 16:02:19,353 [15] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-25 16:07:30,260 [30] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
+2018-03-25 16:07:30,550 [30] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-25 16:07:30,594 [30] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-25 16:07:30,622 [30] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4533, Sibling 0, Allow Clients False
+2018-03-25 16:07:30,629 [30] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=GameServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-25 16:07:30,643 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:07:30,645 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-03-25 16:07:30,647 [30] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=GameServer
+2018-03-25 16:07:30,651 [7] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-03-25 16:07:30,651 [17] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:07:30,651 [17] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-25 16:07:30,652 [17] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=GameServer
+2018-03-25 16:07:33,599 [12] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-25 16:07:33,708 [21] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-25 16:07:33,713 [21] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-25 16:10:54,603 [30] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
+2018-03-25 16:10:54,854 [30] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-25 16:10:54,891 [30] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-25 16:10:54,916 [30] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4533, Sibling 0, Allow Clients False
+2018-03-25 16:10:54,923 [30] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=GameServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-25 16:10:54,937 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:10:54,938 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-03-25 16:10:54,940 [30] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=GameServer
+2018-03-25 16:10:54,944 [26] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-03-25 16:10:54,945 [18] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:10:54,945 [18] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-25 16:10:54,945 [18] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=GameServer
+2018-03-25 16:10:57,927 [29] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-25 16:10:58,070 [7] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-25 16:10:58,074 [7] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-25 16:17:30,514 [30] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
+2018-03-25 16:17:30,775 [30] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-25 16:17:30,821 [30] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-25 16:17:30,847 [30] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4533, Sibling 0, Allow Clients False
+2018-03-25 16:17:30,853 [30] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=GameServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-25 16:17:30,867 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:17:30,869 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-03-25 16:17:30,871 [30] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=GameServer
+2018-03-25 16:17:30,875 [14] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-03-25 16:17:30,876 [17] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:17:30,876 [17] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-25 16:17:30,876 [17] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=GameServer
+2018-03-25 16:17:33,681 [29] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-25 16:17:33,834 [14] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-25 16:17:33,839 [14] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-25 16:19:24,569 [30] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
+2018-03-25 16:19:24,830 [30] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-25 16:19:24,866 [30] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-25 16:19:24,892 [30] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4533, Sibling 0, Allow Clients False
+2018-03-25 16:19:24,899 [30] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=GameServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-25 16:19:24,912 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:19:24,914 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-03-25 16:19:24,916 [30] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=GameServer
+2018-03-25 16:19:24,920 [13] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-03-25 16:19:24,920 [31] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:19:24,921 [31] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-25 16:19:24,921 [31] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=GameServer
+2018-03-25 16:19:28,136 [27] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-25 16:19:28,309 [19] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-25 16:19:28,315 [19] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-25 16:26:18,442 [30] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
+2018-03-25 16:26:18,741 [30] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-25 16:26:18,780 [30] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-25 16:26:18,805 [30] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4533, Sibling 0, Allow Clients False
+2018-03-25 16:26:18,812 [30] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=GameServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-25 16:26:18,825 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:26:18,827 [30] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-03-25 16:26:18,829 [30] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=GameServer
+2018-03-25 16:26:18,833 [38] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-03-25 16:26:18,833 [16] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:26:18,834 [16] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-25 16:26:18,834 [16] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=GameServer
+2018-03-25 16:26:21,806 [26] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-03-25 16:26:21,958 [28] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-03-25 16:26:21,963 [28] DEBUG MGF_Photon.PhotonApplication - Successfull registration
+2018-03-25 16:26:27,808 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:26:27,810 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 1 servers
+2018-03-25 16:26:27,812 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=GameServer
+2018-03-25 16:26:27,826 [27] DEBUG MGF_Photon.PhotonApplication - Server disconnected ManagedDisconnect - 
+2018-03-25 16:26:27,836 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-25 16:26:27,836 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-25 16:26:27,836 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=GameServer
+2018-03-26 15:52:31,882 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\GameServer.config
+2018-03-26 15:52:32,220 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-03-26 15:52:32,252 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-03-26 15:52:32,271 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4533, Sibling 0, Allow Clients False
+2018-03-26 15:52:32,276 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=GameServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-03-26 16:09:20,009 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
+2018-03-26 16:09:20,011 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
+2018-03-26 16:09:20,012 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=GameServer

@@ -1,0 +1,30 @@
+17944: 18:54:18.493 - ---
+17944: 18:54:18.493 - Service: "Photon Socket Server" starting
+17944: 18:54:18.493 - Config File: D:\Roman\FWO\PhotonSDK\deploy\bin_Win64\PhotonServer.config
+17944: 18:54:18.496 - Will produce at most: 10 crash dumps
+17944: 18:54:18.496 - Action: install service
+17944: 18:54:18.496 - 
+17944: 18:54:18.496 - ERROR: ***************************************************************
+17944: 18:54:18.496 - ERROR: Only one copy of "FortressWarServers" can run at a time
+17944: 18:54:18.496 - ERROR: ***************************************************************
+17944: 18:54:18.496 - 
+17944: 18:54:18.496 - MessageBox: Photon Socket Server: FortressWarServers - 4.0.28.2962
+
+Only one copy of "FortressWarServers" can run at a time
+17944: 18:54:22.640 - Service shutting down: instance already running. Errorcode: 100
+17944: 18:54:22.644 - Service shut down complete
+20796: 18:59:52.496 - ---
+20796: 18:59:52.496 - Service: "Photon Socket Server" starting
+20796: 18:59:52.496 - Config File: D:\Roman\FWO\PhotonSDK\deploy\bin_Win64\PhotonServer.config
+20796: 18:59:52.501 - Will produce at most: 10 crash dumps
+20796: 18:59:52.501 - Action: install service
+20796: 18:59:52.502 - 
+20796: 18:59:52.502 - ERROR: ***************************************************************
+20796: 18:59:52.502 - ERROR: Only one copy of "FortressWarServers" can run at a time
+20796: 18:59:52.502 - ERROR: ***************************************************************
+20796: 18:59:52.502 - 
+20796: 18:59:52.502 - MessageBox: Photon Socket Server: FortressWarServers - 4.0.28.2962
+
+Only one copy of "FortressWarServers" can run at a time
+20796: 18:59:54.909 - Service shutting down: instance already running. Errorcode: 100
+20796: 18:59:54.914 - Service shut down complete
