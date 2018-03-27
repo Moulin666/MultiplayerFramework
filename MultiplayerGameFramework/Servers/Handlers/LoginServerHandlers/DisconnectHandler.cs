@@ -2,12 +2,10 @@
 using System.Linq;
 using ExitGames.Logging;
 using GameCommon;
-using MultiplayerGameFramework.Implementation.Config;
 using MultiplayerGameFramework.Implementation.Messaging;
 using MultiplayerGameFramework.Interfaces.Client;
 using MultiplayerGameFramework.Interfaces.Messaging;
 using MultiplayerGameFramework.Interfaces.Server;
-using MultiplayerGameFramework.Interfaces.Support;
 
 namespace Servers.Handlers
 {
@@ -15,16 +13,14 @@ namespace Servers.Handlers
 	{
 		private ILogger log;
 		private IConnectionCollection<IClientPeer> connectionCollection;
-		private IPeerFactory peerFactory;
 
-		public DisconnectHandler(ILogger log, IConnectionCollection<IClientPeer> connectionCollection, IPeerFactory peerFactory)
+		public DisconnectHandler(ILogger log, IConnectionCollection<IClientPeer> connectionCollection)
 		{
 			this.log = log;
 			this.connectionCollection = connectionCollection;
-			this.peerFactory = peerFactory;
 		}
 
-		public MessageType Type => MessageType.Async;
+		public MessageType Type => MessageType.Request;
 
 		public byte Code => (byte)MessageOperationCode.LoginOperationCode;
 

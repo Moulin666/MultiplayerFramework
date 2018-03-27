@@ -1,0 +1,12 @@
+18964: 13:54:51.829 - ---
+18964: 13:54:51.829 - Service: "Photon Socket Server" starting
+18964: 13:54:51.829 - Config File: D:\Roman\FWO\PhotonSDK\deploy\bin_Win64\PhotonServer.config
+18964: 13:54:51.833 - Will produce at most: 10 crash dumps
+18964: 13:54:51.834 - Service shutting down
+18964: 13:54:51.838 - Service shut down complete
+4984: 14:14:23.511 - ---
+4984: 14:14:23.511 - Service: "Photon Socket Server" starting
+4984: 14:14:23.511 - Config File: D:\Roman\FWO\PhotonSDK\deploy\bin_Win64\PhotonServer.config
+4984: 14:14:23.513 - Will produce at most: 10 crash dumps
+4984: 14:14:23.513 - Service shutting down
+4984: 14:14:23.515 - Service shut down complete
