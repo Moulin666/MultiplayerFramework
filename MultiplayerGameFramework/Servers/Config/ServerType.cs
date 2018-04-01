@@ -28,6 +28,7 @@ namespace Servers.Config
 				case 2:
 					server = ChatServer;
 					break;
+
 				case 3:
 					server = GameServer;
 					break;

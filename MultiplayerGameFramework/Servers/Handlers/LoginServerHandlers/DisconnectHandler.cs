@@ -33,7 +33,7 @@ namespace Servers.Handlers
 
 			connectionCollection.Disconnect(clientPeer);
 
-			log.DebugFormat("clients - {0}", connectionCollection.GetPeers<IClientPeer>().Count);
+			log.DebugFormat("Client disconnect. Clients - {0}", connectionCollection.GetPeers<IClientPeer>().Count);
 
 			return true;
 		}
