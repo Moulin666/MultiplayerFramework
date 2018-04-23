@@ -13,6 +13,6 @@
 		TestChatSubCode,
 
 		// Game
-		TestGameSubCode
-    }
+		WorldEnterSubCode,
+	}
 }

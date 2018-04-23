@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using GameCommon;
+﻿using GameCommon;
 using MultiplayerGameFramework.Implementation.Messaging;
 using MultiplayerGameFramework.Interfaces.Messaging;
 using MultiplayerGameFramework.Interfaces.Server;
 
-namespace Servers.Handlers.ChatServerHandlers
+namespace Servers.Handlers
 {
 	public class ChatDeregisterHandler : IHandler<IServerPeer>
 	{

@@ -22484,3 +22484,25 @@ Exception:System.IO.InvalidDataException: cannot serialize(): System.Guid
 2018-03-27 14:14:23,603 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
 2018-03-27 14:14:23,603 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
 2018-03-27 14:14:23,604 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ProxyServer
+2018-04-10 13:17:49,993 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\ProxyServer.config
+2018-04-10 13:17:50,287 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-04-10 13:17:50,309 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4530, Sibling 0, Allow Clients True
+2018-04-10 13:17:50,319 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ProxyServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-04-10 13:17:59,796 [13] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-04-10 13:17:59,796 [6] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-04-10 13:17:59,796 [14] DEBUG MGF_Photon.PhotonApplication - Connection request on port 4530
+2018-04-10 13:17:59,846 [14] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-04-10 13:17:59,847 [14] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-04-10 13:17:59,846 [6] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-04-10 13:17:59,848 [6] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-04-10 13:17:59,846 [13] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-04-10 13:17:59,849 [13] DEBUG MGF_Photon.PhotonApplication - data MGF_Photon.Implementation.Data.ServerData-MGF_Photon.Implementation.Data.ServerData
+2018-04-10 13:18:00,154 [6] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-04-10 13:18:00,154 [16] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-04-10 13:18:00,154 [13] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-04-10 13:18:00,217 [13] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=1
+2018-04-10 13:18:00,218 [6] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=2
+2018-04-10 13:18:00,218 [16] DEBUG MGF_Photon.PhotonApplication - Received register request: Address=, UdpPort=, TcpPort=, Type=3
+2018-04-10 13:18:00,220 [6] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=2 | TCP:  UDP: 
+2018-04-10 13:18:00,220 [16] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=3 | TCP:  UDP: 
+2018-04-10 13:18:00,220 [13] DEBUG MGF_Photon.PhotonApplication - ServerData: id= AppName= Type=1 | TCP:  UDP: 

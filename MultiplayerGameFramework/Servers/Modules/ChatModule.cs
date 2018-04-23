@@ -9,7 +9,8 @@ namespace Servers.Modules
 		{
 			base.Load(builder);
 
-			builder.RegisterType<TestChatHandler>().AsImplementedInterfaces();
+			builder.RegisterType<ChatRegisterHandler>().AsImplementedInterfaces();
+			builder.RegisterType<ChatDeregisterHandler>().AsImplementedInterfaces();
 		}
 	}
 }

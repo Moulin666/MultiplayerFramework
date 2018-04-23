@@ -179,6 +179,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackgroundThreads\PhysicsBackgroundThread.cs" />
     <Compile Include="BackgroundThreads\TestBackgroundThread.cs" />
     <Compile Include="Config\ServerType.cs" />
     <Compile Include="DataBase\Map\CharacterMap.cs" />
@@ -191,6 +192,7 @@
     <Compile Include="Handlers\ChatServerHandlers\ChatRegisterHandler.cs" />
     <Compile Include="Handlers\ChatServerHandlers\ClientChatForwardingRequestHandler.cs" />
     <Compile Include="Handlers\GameServerHandlers\ClientGameForwardingRequestHandler.cs" />
+    <Compile Include="Handlers\GameServerHandlers\WorldEnterHandler.cs" />
     <Compile Include="Handlers\LoginServerHandlers\ClientLoginForwardingRequestHandler.cs" />
     <Compile Include="Handlers\LoginServerHandlers\DisconnectHandler.cs" />
     <Compile Include="Handlers\LoginServerHandlers\Operations\LoginOperation.cs" />

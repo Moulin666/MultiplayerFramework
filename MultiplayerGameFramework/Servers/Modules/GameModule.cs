@@ -9,7 +9,7 @@ namespace Servers.Modules
 		{
 			base.Load(builder);
 
-			builder.RegisterType<TestGameHandler>().AsImplementedInterfaces();
+			builder.RegisterType<WorldEnterHandler>().AsImplementedInterfaces();
 		}
 	}
 }

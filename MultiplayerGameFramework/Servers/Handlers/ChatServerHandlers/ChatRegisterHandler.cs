@@ -1,20 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ExitGames.Logging;
 using GameCommon;
 using MultiplayerGameFramework.Implementation.Messaging;
+using MultiplayerGameFramework.Interfaces.Client;
 using MultiplayerGameFramework.Interfaces.Messaging;
 using MultiplayerGameFramework.Interfaces.Server;
+using MultiplayerGameFramework.Interfaces.Support;
 
-namespace Servers.Handlers.ChatServerHandlers
+namespace Servers.Handlers
 {
 	public class ChatRegisterHandler : IHandler<IServerPeer>
 	{
-		public ChatRegisterHandler()
-		{
+		private ILogger log;
+		private IClientCodeRemover codeRemover;
+		private IConnectionCollection<IClientPeer> connectionCollection;
 
+		public ChatRegisterHandler(ILogger log, IClientCodeRemover codeRemover,
+			IConnectionCollection<IClientPeer> connectionCollection)
+		{
+			this.log = log;
+			this.codeRemover = codeRemover;
+			this.connectionCollection = connectionCollection;
 		}
 
 		public MessageType Type => MessageType.Request; // or async
@@ -26,6 +31,7 @@ namespace Servers.Handlers.ChatServerHandlers
 		public bool HandleMessage(IMessage message, IServerPeer peer)
 		{
 			// register new character in chat server
+			
 
 			return true;
 		}

@@ -33,6 +33,8 @@ namespace Servers.Handlers
 
 			connectionCollection.Disconnect(clientPeer);
 
+			// send notify about disconnect to the sub servers
+
 			log.DebugFormat("Client disconnect. Clients - {0}", connectionCollection.GetPeers<IClientPeer>().Count);
 
 			return true;

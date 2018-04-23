@@ -6,7 +6,7 @@
     public enum MessageParameterCode : byte
     {
         SubCodeParameterCode = 0,
-		PeerIdParameterCode = 1,
+		PeerIdParameterCode,
 
 		TestMessageParameterCode,
 

@@ -1,0 +1,165 @@
+24292: 13:17:37.940 - ---
+24292: 13:17:37.940 - Service: "Photon Socket Server" starting
+24292: 13:17:37.940 - Config File: D:\Roman\FWO\PhotonSDK\deploy\bin_Win64\PhotonServer.config
+24292: 13:17:37.945 - Will produce at most: 10 crash dumps
+24292: 13:17:37.946 - Action: run as exe
+24292: 13:17:37.946 - Server Starting...
+24292: 13:17:37.946 -    Tick count: 688612843 (wraps in: 41.7402 days)
+24292: 13:17:37.946 - Tick count 64: 688612843
+24292: 13:17:37.946 - Photon Version: 4.0.28.2962
+24292: 13:17:37.946 - PID: 20516
+24292: 13:17:37.947 - Config File: D:\Roman\FWO\PhotonSDK\deploy\bin_Win64\PhotonServer.config
+24292: 13:17:37.947 - Will NOT log unimportant exceptions
+24292: 13:17:37.953 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+24292: 13:17:37.953 - Shutdown timeout enabled: 30000ms
+24292: 13:17:37.953 - Starting I/O thread pool with 2 threads
+24292: 13:17:37.954 - Using Standard allocator
+24292: 13:17:37.954 - Max message size: 512000
+24292: 13:17:37.954 - Starting business logic thread pool with the following settings
+24292: 13:17:37.954 - InitialThreads: 4 threads
+24292: 13:17:37.954 - MinThreads: 4 threads
+24292: 13:17:37.954 - Thread pool is fixed size
+24292: 13:17:37.954 - Starting ENet thread pool with the following settings
+24292: 13:17:37.954 - InitialThreads: 2 threads
+24292: 13:17:37.954 - MinThreads: 2 threads
+24292: 13:17:37.954 - Thread pool is fixed size
+24292: 13:17:37.954 - OnlyDispatchTimers: False
+24292: 13:17:37.954 - S2S: flow control: Max pending writes: 50
+24292: 13:17:37.954 - S2S: flow control: Max queued buffers: 200
+24292: 13:17:37.954 - S2S: flow control: Max pending writes MUX: 500
+24292: 13:17:37.954 - S2S: flow control: Max queued buffers MUX: 2000
+24292: 13:17:37.954 - S2S: MaxInboundMessageSize: 512000
+24292: 13:17:37.954 - S2S: MaxOutboundMessageSize: 512000
+24292: 13:17:37.954 - S2S: No inactivity timeout
+24292: 13:17:37.969 - WebSocket S2S: MaxInboundMessageSize: 512000
+24292: 13:17:37.969 - WebSocket S2S: MaxOutboundMessageSize: 512000
+24292: 13:17:37.969 - WebSocket S2S: No inactivity timeout
+24292: 13:17:37.969 - Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+24292: 13:17:37.969 - Per peer bandwidth limit
+24292: 13:17:37.969 - Transmit Rate Limit: 256 KB/Sec
+24292: 13:17:37.969 - Limit period: 200ms
+24292: 13:17:37.969 - Limit per period: 52428 bytes
+24292: 13:17:37.969 - Max queued data for transmission per peer: 512000 bytes
+24292: 13:17:37.969 - Minimum retransmit timeout: 200
+24292: 13:17:37.969 - No Maximum retransmit timeout
+24292: 13:17:37.969 - Minimum ENet timeout: 5000ms
+24292: 13:17:37.969 - Maximum ENet timeout: 30000ms
+24292: 13:17:37.969 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+24292: 13:17:37.969 - No RTT ACK adjustment timeout
+24292: 13:17:37.969 - Outbound ENet: MaxInboundMessageSize: 512000
+24292: 13:17:37.969 - Outbound ENet: MaxOutboundMessageSize: 512000
+24292: 13:17:38.002 - GetRuntime - About to load CLR - versions available:
+24292: 13:17:38.002 - v2.0.50727
+24292: 13:17:38.002 - v4.0.30319
+24292: 13:17:38.002 - Configuration requests: "v2.0.50727"
+24292: 13:17:38.002 - About to load version: "v2.0.50727"
+24292: 13:17:38.304 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+24292: 13:17:38.304 - CLRBaseDirectory set to "D:\Roman\FWO\PhotonSDK\deploy"
+24292: 13:17:38.304 - Optimising event broadcast for 20 or more peers
+24292: 13:17:38.305 - Start: About to load CLR - versions available:
+24292: 13:17:38.305 - v2.0.50727
+24292: 13:17:38.305 - v4.0.30319
+24292: 13:17:38.305 - No preference in configuration file, will load latest.
+24292: 13:17:38.305 - About to load version: "v4.0.30319"
+24292: 13:17:38.308 - Loaded version: "v4.0.30319"
+24292: 13:17:38.816 - Photon host runtime loaded
+24292: 13:17:41.551 - License is valid.
+24292: 13:17:41.551 - Licensed for 100 concurrent connections.
+24292: 13:17:41.551 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+24292: 13:17:41.551 - ENet: Per peer bandwidth limit
+24292: 13:17:41.551 - ENet: Transmit Rate Limit: 256 KB/Sec
+24292: 13:17:41.551 - ENet: Limit period: 200ms
+24292: 13:17:41.551 - ENet: Limit per period: 52428 bytes
+24292: 13:17:41.551 - ENet: Max queued data for transmission per peer: 512000 bytes
+24292: 13:17:41.551 - ENet: Minimum retransmit timeout: 200
+24292: 13:17:41.551 - No Maximum retransmit timeout
+24292: 13:17:41.551 - ENet: Minimum timeout: 5000ms
+24292: 13:17:41.551 - ENet: Maximum timeout: 30000ms
+24292: 13:17:41.551 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+24292: 13:17:41.551 - No RTT ACK adjustment timeout
+24292: 13:17:41.552 - About to load application: ProxyServer from MGF.Photon
+24292: 13:17:41.552 - Auto restart is enabled for application, existing connections will be terminated during restart
+24292: 13:17:41.552 - Application will restart 1000ms after the last change detected
+24292: 13:17:41.552 - Application will restart if files matching the following are changed: "dll;config"
+24292: 13:17:41.552 - Application will NOT restart if files matching the following are changed: "log4net.config"
+24292: 13:17:42.000 - Taking reference on default app domain
+24292: 13:17:42.375 - Application: "ProxyServer" started in app domain: 2
+24292: 13:17:42.375 - About to load application: LoginServer from MGF.Photon
+24292: 13:17:42.375 - Auto restart is enabled for application, existing connections will be terminated during restart
+24292: 13:17:42.375 - Application will restart 1000ms after the last change detected
+24292: 13:17:42.375 - Application will restart if files matching the following are changed: "dll;config"
+24292: 13:17:42.375 - Application will NOT restart if files matching the following are changed: "log4net.config"
+24292: 13:17:42.671 - Taking reference on default app domain
+24292: 13:17:42.857 - Application: "LoginServer" started in app domain: 3
+24292: 13:17:42.857 - About to load application: ChatServer from MGF.Photon
+24292: 13:17:42.857 - Auto restart is enabled for application, existing connections will be terminated during restart
+24292: 13:17:42.857 - Application will restart 1000ms after the last change detected
+24292: 13:17:42.857 - Application will restart if files matching the following are changed: "dll;config"
+24292: 13:17:42.857 - Application will NOT restart if files matching the following are changed: "log4net.config"
+24292: 13:17:43.101 - Taking reference on default app domain
+24292: 13:17:43.340 - Application: "ChatServer" started in app domain: 4
+24292: 13:17:43.341 - About to load application: GameServer from MGF.Photon
+24292: 13:17:43.341 - Auto restart is enabled for application, existing connections will be terminated during restart
+24292: 13:17:43.341 - Application will restart 1000ms after the last change detected
+24292: 13:17:43.341 - Application will restart if files matching the following are changed: "dll;config"
+24292: 13:17:43.341 - Application will NOT restart if files matching the following are changed: "log4net.config"
+24292: 13:17:43.637 - Taking reference on default app domain
+24292: 13:17:43.874 - Application: "GameServer" started in app domain: 5
+24292: 13:17:43.874 - Adding TCP listener on: 0.0.0.0: 4530 with a listen backlog of: 150
+24292: 13:17:43.874 - TCP inactivity timeout: 10000ms
+24292: 13:17:43.874 - TCP disconnect timeout: 120000ms
+24292: 13:17:43.874 - MaxInboundMessageSize: 512000
+24292: 13:17:43.874 - MaxOutboundMessageSize: 512000
+24292: 13:17:43.874 - Forcing all applications ids to: "ProxyServer"
+24292: 13:17:43.875 - Serving policy file requests from: "D:\Roman\FWO\PhotonSDK\deploy\Policy\assets\socket-policy.xml"
+24292: 13:17:43.875 - Adding TCP listener on: 0.0.0.0: 4531 with a listen backlog of: 150
+24292: 13:17:43.875 - TCP inactivity timeout: 10000ms
+24292: 13:17:43.875 - TCP disconnect timeout: 120000ms
+24292: 13:17:43.875 - MaxInboundMessageSize: 512000
+24292: 13:17:43.875 - MaxOutboundMessageSize: 512000
+24292: 13:17:43.875 - Forcing all applications ids to: "LoginServer"
+24292: 13:17:43.875 - Serving policy file requests from: "D:\Roman\FWO\PhotonSDK\deploy\Policy\assets\socket-policy.xml"
+24292: 13:17:43.875 - Adding TCP listener on: 0.0.0.0: 4532 with a listen backlog of: 150
+24292: 13:17:43.875 - TCP inactivity timeout: 10000ms
+24292: 13:17:43.875 - TCP disconnect timeout: 120000ms
+24292: 13:17:43.875 - MaxInboundMessageSize: 512000
+24292: 13:17:43.875 - MaxOutboundMessageSize: 512000
+24292: 13:17:43.875 - Forcing all applications ids to: "ChatServer"
+24292: 13:17:43.876 - Serving policy file requests from: "D:\Roman\FWO\PhotonSDK\deploy\Policy\assets\socket-policy.xml"
+24292: 13:17:43.876 - Adding TCP listener on: 0.0.0.0: 4533 with a listen backlog of: 150
+24292: 13:17:43.876 - TCP inactivity timeout: 10000ms
+24292: 13:17:43.876 - TCP disconnect timeout: 120000ms
+24292: 13:17:43.876 - MaxInboundMessageSize: 512000
+24292: 13:17:43.876 - MaxOutboundMessageSize: 512000
+24292: 13:17:43.876 - Forcing all applications ids to: "GameServer"
+24292: 13:17:43.876 - Serving policy file requests from: "D:\Roman\FWO\PhotonSDK\deploy\Policy\assets\socket-policy.xml"
+24292: 13:17:43.876 - Forcing all applications ids to: "ProxyServer"
+24292: 13:17:43.876 - MaxInboundMessageSize: 512000
+24292: 13:17:43.876 - MaxOutboundMessageSize: 512000
+24292: 13:17:43.876 - UDP address specified as: "0.0.0.0" adding listener to each available IPv4 address
+24292: 13:17:43.877 - Adding UDP listener on: 172.19.240.1: 5055 with a listen backlog of: 500
+24292: 13:17:43.877 - Adding UDP listener on: 10.0.75.1: 5055 with a listen backlog of: 500
+24292: 13:17:43.877 - Adding UDP listener on: 172.17.220.97: 5055 with a listen backlog of: 500
+24292: 13:17:43.877 - Adding UDP listener on: 192.168.1.100: 5055 with a listen backlog of: 500
+24292: 13:17:43.877 - Adding UDP listener on: 127.0.0.1: 5055 with a listen backlog of: 500
+24292: 13:17:43.877 - Adding WebSocket TCP listener on: 0.0.0.0: 9090 with a listen backlog of: 150
+24292: 13:17:43.877 - Nagle disabled
+24292: 13:17:43.877 - TCP inactivity timeout: 10000ms
+24292: 13:17:43.877 - MaxInboundMessageSize: 512000
+24292: 13:17:43.877 - MaxOutboundMessageSize: 512000
+24292: 13:17:43.877 - Forcing all applications ids to: "ProxyServer"
+24292: 13:17:43.877 - Will accept ANY sub-protocols from the client
+24292: 13:17:43.877 - No automatic WebSocket ping
+24292: 13:17:43.878 - Adding Policy File listener on: 0.0.0.0: 843 with a listen backlog of: 150 and serving Policy File: "D:\Roman\FWO\PhotonSDK\deploy\Policy\assets\socket-policy.xml"
+24292: 13:17:43.878 - TCP inactivity timeout: 10000ms
+24292: 13:17:43.878 - Adding Policy File listener on: 0.0.0.0: 943 with a listen backlog of: 150 and serving Policy File: "D:\Roman\FWO\PhotonSDK\deploy\Policy\assets\socket-policy-silverlight.xml"
+24292: 13:17:43.878 - TCP inactivity timeout: 10000ms
+24292: 13:17:43.946 - Service is running...
+21844: 15:01:01.242 - CTCPWebSocketServer::ReadCompleted - Exception - CRequestHeaders::ValidateBasicRequestHeaders() - Handshake headers do not include header: "upgrade" with value: "WebSocket".
+"accept" - "*/*" - 61 63 63 65 70 74 00  - accept. - 
+"host" - "95.165.128.83:9090" - 68 6F 73 74 00  - host. - 
+"user-agent" - "curl/7.15.5 (i686-redhat-linux-gnu) libcurl/7.15.5 OpenSSL/0.9.8b zlib/1.2.3 libidn/0.6.5" - 75 73 65 72 2D 61 67 65 6E 74 00  - user-agent. - 
+User-Agent: curl/7.15.5 (i686-redhat-linux-gnu) libcurl/7.15.5 OpenSSL/0.9.8b zlib/1.2.3 libidn/0.6.5
+Host: 95.165.128.83:9090
+Accept: */*
+

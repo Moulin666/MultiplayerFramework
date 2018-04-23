@@ -3234,3 +3234,11 @@ Exception:System.NullReferenceException: Ссылка на объект не у�
 2018-03-27 14:14:23,600 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 peers
 2018-03-27 14:14:23,600 [1] DEBUG MGF_Photon.PhotonApplication - Disconnecting 0 servers
 2018-03-27 14:14:23,601 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=LoginServer
+2018-04-10 13:17:48,711 [1] INFO  MGF_Photon.PhotonApplication - D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers\LoginServer.config
+2018-04-10 13:17:49,056 [1] DEBUG MGF_Photon.PhotonApplication - Setup
+2018-04-10 13:17:49,115 [1] INFO  MGF_Photon.PhotonApplication - Connecting server
+2018-04-10 13:17:49,144 [1] DEBUG MGF_Photon.PhotonApplication - Prot data from config. Parent 4531, Sibling 0, Allow Clients False
+2018-04-10 13:17:49,151 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=LoginServer; AppPath=D:\Roman\FWO\PhotonSDK\deploy\FortressWarServers, Type=MGF_Photon.PhotonApplication 
+2018-04-10 13:17:59,886 [12] DEBUG MGF_Photon.PhotonApplication - Created server peer
+2018-04-10 13:18:00,243 [12] DEBUG MGF_Photon.PhotonApplication - Handle message.
+2018-04-10 13:18:00,250 [12] DEBUG MGF_Photon.PhotonApplication - Successfull registration
